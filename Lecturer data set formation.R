@@ -31,7 +31,21 @@ lecturer_data$Ending.Time<-hms(hours = as.numeric(substr(lecturer_data$Ending.Ti
 lecturer_data$`Lecturing Hours`<-difftime(lecturer_data$Ending.Time, lecturer_data$Starting.Time, units="hours") %>%
   as.numeric() %>% round(2)
 
+## Making time slot variable
+lecturer_data$`Time Slot`<-paste(lecturer_data$Starting.Time, "-", lecturer_data$Ending.Time)
+
+## lecturer dataset
 
 
+######################################################################################################
+
+## Grouping lecturers
+grouped_data<-lecturer_data %>% group_by(Day,`Lecturer in Charge`, Department, `Time Slot`) %>%
+  summarise(a=length(Course), b= sum(`Lecturing Hours`)) %>%
+  mutate(Course.Number=ifelse(a==1,a,1)) %>%
+  mutate(Lecture.Hours=ifelse(a==1,b,b/a))
+
+lecturer_stat_data<-grouped_data %>% group_by(`Lecturer in Charge`, Department) %>%
+  summarise(`Total Number of Courses`=sum(Course.Number), `Total Lecture Hours`=sum(Lecture.Hours))
 
 
