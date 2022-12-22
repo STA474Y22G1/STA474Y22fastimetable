@@ -1,5 +1,6 @@
 ## Packages
 library(tidyverse)
+library(chron) # to convert data to time
 
 ## Data
 timetable_data<-read.csv("timetable_data.csv", na.strings=c("","NA")) %>% as_tibble()
@@ -16,4 +17,11 @@ lecturer_data$Left_strip<- trimws(lecturer_data$`Lecturer in Charge`, which = c(
 lecturer_data <-subset(lecturer_data, select = -c(`Lecturer in Charge`)) %>%
   rename(`Lecturer in Charge`=Left_strip)
 
+## Converting time slots to time variables
 View(lecturer_data)
+
+lecturer_data[['Starting.Time']] <- strptime(lecturer_data[['Starting.Time']],
+                                 format = "%H:%M")
+
+lecturer_data[['Starting.Time']] <- format(lecturer_data$Starting.Time, format = "%H:%M")
+class(lecturer_data$Starting.Time)
