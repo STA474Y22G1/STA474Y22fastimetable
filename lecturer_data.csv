@@ -1,0 +1,568 @@
+"","X","Department","Physical","Bio","Food","Sports.Science","Day","Starting.Time","Ending.Time","Number.of.Credits","Course.Title","Course.Code","Subject.Code","Course","Academic.Year","Location","Lecture.Type","General","Special","Semester.Half","Lecturer in Charge","Lecturing Hours"
+"1",4,"Forestry and Environmental Science",0,1,0,0,"Wednesday",08:00:00,09:45:00,2,"Wood Science and Forest Based Industries","EMF 216 2.0","EMF","EMF 216 2.0 Wood Science and Forest Based Industries",2,"F1","Lecture",1,0,1,"Prof. Hiran Amarasekera",1.75
+"2",7,"Forestry and Environmental Science",0,1,0,0,"Friday",11:10:00,12:00:00,1,"Principles in Hydrology and Climatology","EMF 222 1.0","EMF","EMF 222 1.0 Principles in Hydrology and Climatology",2,"F1","Lecture",1,0,1,"Dr. Thilak Chandrathilake",0.83
+"3",10,"Forestry and Environmental Science",0,1,0,0,"Friday",13:00:00,14:00:00,1,"Tree Diversity and Systematics","EMF 218 1.0","EMF","EMF 218 1.0 Tree Diversity and Systematics",2,"F1","Lecture",1,0,1,"Snr. Prof. BMP Singhakumara",1
+"4",13,"Forestry and Environmental Science",0,1,0,0,"Thursday",08:00:00,09:45:00,1,"Environmental Chemistry","EMF 102 1.0","EMF","EMF 102 1.0 Environmental Chemistry",1,"F1","Lecture",1,0,1,"Dr. Chaamila Pathirana",1.75
+"5",16,"Forestry and Environmental Science",0,1,0,0,"Thursday",08:00:00,09:45:00,1,"Forest Biology","EMF 108 1.0","EMF","EMF 108 1.0 Forest Biology",1,"F1","Lecture",1,0,2,"Prof. Hiran Amarasekera",1.75
+"6",22,"Forestry and Environmental Science",0,1,0,0,"Tuesday",13:00:00,15:00:00,1,"Principles of Wildlife Ecology","EMF 117 1.0","EMF","EMF 117 1.0 Principles of Wildlife Ecology",1,"F1","Lecture",1,0,1,"Prof. Priyan Perera",2
+"7",25,"Forestry and Environmental Science",0,1,0,0,"Tuesday",13:00:00,15:00:00,1,"General Geology and Soil Science","EMF 114 1.0","EMF","EMF 114 1.0 General Geology and Soil Science",1,"F1","Lecture",1,0,2,"Dr. Daham Jayawardana",2
+"8",28,"Forestry and Environmental Science",0,1,0,0,"Monday",13:00:00,15:00:00,1,"Ecotourism Planning and Management","EMF 330 1.0","EMF","EMF 330 1.0 Ecotourism Planning and Management",3,"F1","Lecture",1,1,1,"Prof. Priyan Perera",2
+"9",31,"Forestry and Environmental Science",0,1,0,0,"Monday",13:00:00,15:00:00,1,"Project Planning and Analysis","EMF 331 1.0","EMF","EMF 331 1.0 Project Planning and Analysis",3,"F1","Lecture",1,1,2,"Prof. Prasanthi Gunawardena",2
+"10",34,"Forestry and Environmental Science",0,1,0,0,"Tuesday",13:00:00,15:00:00,1,"Integrated Resource Management","EMF 370 1.0","EMF","EMF 370 1.0 Integrated Resource Management",3,"F1","Lecture",1,1,1,"Prof. Prasanthi Gunawardena",2
+"11",37,"Forestry and Environmental Science",0,1,0,0,"Tuesday",13:00:00,15:00:00,1,"Forest Management","EMF 307 1.0","EMF","EMF 307 1.0 Forest Management",3,"F2","Lecture",1,1,2,"Prof. Upul Subasinghe",2
+"12",40,"Forestry and Environmental Science",0,1,0,0,"Wednesday",08:00:00,09:45:00,1,"Land Use Planning and Management","EMF 322 1.0","EMF","EMF 322 1.0 Land Use Planning and Management",3,"F3","Lecture",1,1,1,"Prof. Padma Weerakoon",1.75
+"13",41,"Forestry and Environmental Science",0,1,0,0,"Wednesday",08:00:00,09:45:00,1,"Land Use Planning and Management","EMF 322 1.0","EMF","EMF 322 1.0 Land Use Planning and Management",3,"F3","Lecture",1,1,1,"Mr. B.A. Jayananda",1.75
+"14",43,"Forestry and Environmental Science",0,1,0,0,"Thursday",13:00:00,15:00:00,1,"Advanced Resource Economics","EMF 359 1.0","EMF","EMF 359 1.0 Advanced Resource Economics",3,"F1","Lecture",0,1,1,"Prof. Prasanthi Gunawardena",2
+"15",46,"Forestry and Environmental Science",0,1,0,0,"Thursday",13:00:00,15:00:00,1,"Forest Pathology and Entomology","EMF 318 1.0","EMF","EMF 318 1.0 Forest Pathology and Entomology",3,"F1","Lecture",1,1,1,"Dr. Wathsala Udari",2
+"16",49,"Forestry and Environmental Science",0,1,0,0,"Thursday",15:00:00,17:00:00,1,"Agroforestry and Social Forestry","EMF 311 1.0","EMF","EMF 311 1.0 Agroforestry and Social Forestry",3,"F1","Lecture",1,1,1,"Ms. Nileththi Shilpa",2
+"17",52,"Forestry and Environmental Science",0,1,0,0,"Monday",11:10:00,12:00:00,1,"Environmental Microbiology","EMF 353 1.0","EMF","EMF 353 1.0 Environmental Microbiology",3,"SP - Forestry","Lecture",0,1,1,"Snr. Prof. M. M. Pathmalal",0.83
+"18",55,"Forestry and Environmental Science",0,1,0,0,"Tuesday",15:00:00,17:00:00,1,"Research Methodology","EMF 357 1.0","EMF","EMF 357 1.0 Research Methodology",3,"SP - Forestry","Lecture",0,1,1,"Prof. Upul Subasinghe",2
+"19",58,"Forestry and Environmental Science",0,1,0,0,"Wednesday",13:00:00,15:00:00,1,"Urban Forestry","EMF 371 1.0","EMF","EMF 371 1.0 Urban Forestry",3,"F1","Lecture",0,1,1,"Dr. Thilak Chandrathilake",2
+"20",61,"Forestry and Environmental Science",0,1,0,0,"Wednesday",13:00:00,15:00:00,1,"Cleaner Production and Green Technology","EMF 369 1.0","EMF","EMF 369 1.0 Cleaner Production and Green Technology",3,"F1","Lecture",0,1,2,"Dr. Chaamila Pathirana",2
+"21",64,"Forestry and Environmental Science",0,1,0,0,"Thursday",08:00:00,09:45:00,1,"Indigenous Knowledge in Natural Resource Management","EMF 361 1.0","EMF","EMF 361 1.0 Indigenous Knowledge in Natural Resource Management",3,"SP - Forestry","Lecture",0,1,1,"Prof. Danister Perera",1.75
+"22",67,"Forestry and Environmental Science",0,1,0,0,"Thursday",08:00:00,09:45:00,1,"Green Business Development","EMF 362 1.0","EMF","EMF 362 1.0 Green Business Development",3,"SP - Forestry","Lecture",0,1,2,"Snr. Prof. Rohini Samarasinghe",1.75
+"23",70,"Forestry and Environmental Science",0,1,0,0,"Thursday",10:15:00,12:00:00,1,"Advanced Silviculture","EMF 358 1.0","EMF","EMF 358 1.0 Advanced Silviculture",3,"F1","Lecture",0,1,1,"Ms. Nileththi Shilpa",1.75
+"24",73,"Forestry and Environmental Science",0,1,0,0,"Tuesday",13:00:00,15:00:00,1,"Forestry for Rural Development","EMF 459 1.0","EMF","EMF 459 1.0 Forestry for Rural Development",4,"SP - Forestry","Lecture",0,1,1,"Ms. Nileththi Shilpa",2
+"25",76,"Forestry and Environmental Science",0,1,0,0,"Wednesday",10:15:00,12:00:00,1,"Wood Based Composites","EMF 458 1.0","EMF","EMF 458 1.0 Wood Based Composites",4,"SP - Forestry","Lecture",0,1,1,"Prof. Hiran Amarasekera",1.75
+"26",79,"Forestry and Environmental Science",0,1,0,0,"Wednesday",13:00:00,15:00:00,1,"Land Reclamation and Soil Remediation","EMF 472 1.0","EMF","EMF 472 1.0 Land Reclamation and Soil Remediation",4,"SP - Forestry","Lecture",0,1,1,"Dr. Daham Jayawardana",2
+"27",82,"Forestry and Environmental Science",0,1,0,0,"Thursday",10:15:00,12:00:00,2,"Assignment on Forest Management Plan Preparation","EMF 454 2.0","EMF","EMF 454 2.0 Assignment on Forest Management Plan Preparation",4,"SP - Forestry","Lecture",0,1,1,"Prof. Upul Subasinghe",1.75
+"28",85,"Forestry and Environmental Science",0,1,0,0,"Thursday",13:00:00,15:00:00,1,"Energy and Environment","EMF 471 1.0","EMF","EMF 471 1.0 Energy and Environment",4,"SP - Forestry","Lecture",0,1,1,"Dr. Daham Jayawardana",2
+"29",88,"Forestry and Environmental Science",1,0,0,0,"Wednesday",10:15:00,12:00:00,2,"Environmental Economics","ECN 104 2.0","ECN","ECN 104 2.0 Environmental Economics",1,"BLT","Lecture",1,0,1,"Prof. B W R Damayanthi",1.75
+"30",89,"Forestry and Environmental Science",1,0,0,0,"Wednesday",10:15:00,12:00:00,2,"Environmental Economics","ECN 104 2.0","ECN","ECN 104 2.0 Environmental Economics",1,"BLT","Lecture",1,0,1,"Dr. J M M Udugama",1.75
+"31",91,"Forestry and Environmental Science",1,0,0,0,"Thursday",08:00:00,09:45:00,3,"Principles of Macroeconomics","ECN 103 3.0","ECN","ECN 103 3.0 Principles of Macroeconomics",1,"F3","Lecture",1,0,1,"Mr. Anura Jayasinghe",1.75
+"32",94,"Forestry and Environmental Science",1,0,0,0,"Tuesday",10:15:00,12:00:00,3,"Intermediate Macroeconomics","ECN 203 3.0","ECN","ECN 203 3.0 Intermediate Macroeconomics",2,"F1","Lecture",1,0,1,"Prof. B W R Damayanthi",1.75
+"33",97,"Forestry and Environmental Science",1,0,0,0,"Wednesday",08:00:00,09:45:00,3,"Intermediate Macroeconomics","ECN 203 3.1","ECN","ECN 203 3.1 Intermediate Macroeconomics",2,"F2","Lecture",1,0,1,"Prof. B W R Damayanthi",1.75
+"34",100,"Forestry and Environmental Science",1,0,0,0,"Thursday",13:00:00,15:00:00,3,"Advanced Resource Economics","ECN 204 3.0","ECN","ECN 204 3.0 Advanced Resource Economics",2,"F3","Lecture",1,0,1,"Prof. U A D P Gunawardena",2
+"35",103,"Forestry and Environmental Science",1,0,0,0,"Tuesday",08:00:00,09:45:00,2,"Advanced Resource Economics","ECN 303 2.0","ECN","ECN 303 2.0 Advanced Resource Economics",3,"F1","Lecture",1,0,1,"Ms. K D De S Jayasekara",1.75
+"36",106,"Forestry and Environmental Science",1,0,0,0,"Wednesday",15:00:00,17:00:00,2,"Project Planning and Analysis","ECN 304 2.0","ECN","ECN 304 2.0 Project Planning and Analysis",3,"F1","Lecture",1,0,1,"Prof. U A D P Gunawardena",2
+"37",107,"Forestry and Environmental Science",1,0,0,0,"Wednesday",15:00:00,17:00:00,2,"Project Planning and Analysis","ECN 304 2.0","ECN","ECN 304 2.0 Project Planning and Analysis",3,"F1","Lecture",1,0,1,"Dr. Chandarasekara",2
+"38",109,"Forestry and Environmental Science",1,0,0,0,"Friday",08:00:00,08:50:00,1,"Health Economics","ECN 305 1.0","ECN","ECN 305 1.0 Health Economics",3,"F3","Lecture",1,0,1,"Ms. C T Jayaratne",0.83
+"39",112,"Food Science and Tech",0,0,1,0,"Monday",08:00:00,08:50:00,1,"Principles of Organic Chemistry","FST 167 1.0","FST","FST 167 1.0 Principles of Organic Chemistry",1,"S1","Lecture",0,1,1,"Dr. Laksiri Weerasinghe",0.83
+"40",115,"Food Science and Tech",0,0,1,0,"Monday",10:15:00,11:05:00,1,"Introduction To Animal Based Food products","FST 170 1.0","FST","FST 170 1.0 Introduction To Animal Based Food products",1,"NFC5","Lecture",0,1,1,"Prof. I. Wickramasinghe",0.83
+"41",118,"Food Science and Tech",0,1,0,0,"Monday",10:15:00,11:05:00,2,"Introduction To Animal Based Food products","FSC 122 2.0","FSC","FSC 122 2.0 Introduction To Animal Based Food products",1,"NFC5","Lecture",1,0,1,"Prof. I. Wickramasinghe",0.83
+"42",121,"Food Science and Tech",0,0,1,0,"Monday",11:10:00,12:00:00,1,"Introduction To Crop Based Food Products","FST 175 1.0","FST","FST 175 1.0 Introduction To Crop Based Food Products",1,"NFC5","Lecture",0,1,1,"Dr. Madhura Jayasinghe",0.83
+"43",124,"Food Science and Tech",0,1,0,0,"Monday",11:10:00,12:00:00,2,"Introduction To Crop Based Food Products","FSC 122 2.0","FSC","FSC 122 2.0 Introduction To Crop Based Food Products",1,"NFC5","Lecture",1,0,1,"Dr. Madhura Jayasinghe",0.83
+"44",127,"Food Science and Tech",0,0,1,0,"Monday",15:00:00,16:00:00,1,"Chemistry of Living system","FST 163 1.0","FST","FST 163 1.0 Chemistry of Living system",1,"NFC5","Lecture",0,1,1,"Prof. Jagath Wansapala",1
+"45",130,"Food Science and Tech",0,1,0,0,"Monday",15:00:00,16:00:00,1,"Basics of Biochemistry","FSC 131 1.0","FSC","FSC 131 1.0 Basics of Biochemistry",1,"NFC5","Lecture",1,0,1,"Prof. Jagath Wansapala",1
+"46",133,"Food Science and Tech",0,0,1,0,"Tuesday",08:00:00,08:50:00,2,"Introduction to Analytical Chemistry","FST 164 2.0","FST","FST 164 2.0 Introduction to Analytical Chemistry",1,"S1","Lecture",0,1,1,"Dr. Asitha Cooray",0.83
+"47",136,"Food Science and Tech",0,0,1,0,"Tuesday",11:10:00,12:00:00,1,"Principles of Physics II","FST 180 1.0","FST","FST 180 1.0 Principles of Physics II",1,"NFC2","Lecture",0,1,1,"Mr. Chehan Yapa",0.83
+"48",139,"Food Science and Tech",0,0,1,0,"Tuesday",13:00:00,14:00:00,1,"Applied Human Nutrition","FST 169 1.0","FST","FST 169 1.0 Applied Human Nutrition",1,"NFC2","Lecture",0,1,1,"Dr. Madhura Jayasinghe",1
+"49",142,"Food Science and Tech",0,0,1,0,"Tuesday",14:00:00,15:00:00,1,"Organizational Behavior","FST 158 1.0","FST","FST 158 1.0 Organizational Behavior",1,"NFC2","Lecture",0,1,1,"Dr. Dulani Somendrika",1
+"50",148,"Food Science and Tech",0,0,1,0,"Wednesday",10:15:00,12:00:00,2,"Food Microbiology","FST 187 2.0","FST","FST 187 2.0 Food Microbiology",1,"NFC2","Lecture",0,1,1,"Prof. R.A.U.J. Marapana",1.75
+"51",151,"Food Science and Tech",0,1,0,0,"Wednesday",13:00:00,14:00:00,1,"Food Business Management II","FSC 112 1.0","FSC","FSC 112 1.0 Food Business Management II",1,"NFC2","Lecture",1,0,1,"Dr. Piumi Abeysundara",1
+"52",154,"Food Science and Tech",0,0,1,0,"Wednesday",14:00:00,15:00:00,1,"Business Economics","FST 159 1.0","FST","FST 159 1.0 Business Economics",1,"NFC2","Lecture",0,1,1,"VL",1
+"53",160,"Food Science and Tech",0,0,1,0,"Monday",08:55:00,09:45:00,1,"Post Harvest Management of Animal Commodities","FST 267 1.0","FST","FST 267 1.0 Post Harvest Management of Animal Commodities",2,"NFC5","Lecture",0,1,1,"Prof. I. Wickramasinghe",0.83
+"54",163,"Food Science and Tech",0,0,1,0,"Monday",13:00:00,14:00:00,1,"Dietetics I","FST 268 1.0","FST","FST 268 1.0 Dietetics I",2,"NFC5","Lecture",0,1,1,"Dr. Madhura Jayasinghe",1
+"55",169,"Food Science and Tech",0,0,1,0,"Wednesday",08:00:00,09:45:00,2,"Statistics for Food Science I","FST 251 2.0","FST","FST 251 2.0 Statistics for Food Science I",2,"NFC5","Lecture",0,1,1,"Ms. Asha Mallikarachchi",1.75
+"56",172,"Food Science and Tech",0,0,1,0,"Wednesday",10:15:00,11:05:00,1,"Organic Spectros copy","FST 261 1.0","FST","FST 261 1.0 Organic Spectros copy",2,"S1","Lecture",0,1,1,"Dr. Upul Kumarasinghe",0.83
+"57",175,"Food Science and Tech",0,0,1,0,"Wednesday",11:10:00,12:00:00,1,"Electrochemistry","FST 262 1.0","FST","FST 262 1.0 Electrochemistry",2,"S1","Lecture",0,1,1,"Dr. Tharindu Senapathi",0.83
+"58",178,"Food Science and Tech",0,0,1,0,"Wednesday",13:00:00,15:00:00,2,"Unit Operation In Food Processing","FST 280 2.0","FST","FST 280 2.0 Unit Operation In Food Processing",2,"NFC5","Lecture",0,1,1,"VL",2
+"59",181,"Food Science and Tech",0,0,1,0,"Thursday",08:55:00,09:45:00,1,"Bakery Science","FST 292 1.0","FST","FST 292 1.0 Bakery Science",2,"NFC5","Lecture",0,1,1,"Dr. Suraji Senanayake",0.83
+"60",184,"Food Science and Tech",0,1,0,0,"Thursday",10:15:00,11:05:00,1,"Food Business Management II","FSC 211 1.0","FSC","FSC 211 1.0 Food Business Management II",2,"NFC2","Lecture",1,0,1,"Dr. Dulani Somendrika",0.83
+"61",187,"Food Science and Tech",0,0,1,0,"Thursday",11:10:00,12:00:00,1,"Post Harvest Management of Plant Commodities","FST 266 1.0","FST","FST 266 1.0 Post Harvest Management of Plant Commodities",2,"NFC5","Lecture",0,1,1,"Dr. Dulani Somendrika",0.83
+"62",190,"Food Science and Tech",0,1,0,0,"Thursday",11:10:00,12:00:00,1,"Post Harvest Management","FSC 252 1.0","FSC","FSC 252 1.0 Post Harvest Management",2,"NFC5","Lecture",1,0,1,"Dr. Dulani Somendrika",0.83
+"63",193,"Food Science and Tech",0,0,1,0,"Thursday",14:00:00,15:00:00,2,"Chemical Kinetics","FST 264 2.0","FST","FST 264 2.0 Chemical Kinetics",2,"S1","Lecture",0,1,1,"Dr. S Rajapaksha",1
+"64",196,"Food Science and Tech",0,0,1,0,"Thursday",15:00:00,16:00:00,1,"Food Packaging","FST 282 1.0","FST","FST 282 1.0 Food Packaging",2,"NFC5","Lecture",0,1,1,"Dr. Chathuni Jayathilaka",1
+"65",199,"Food Science and Tech",0,0,1,0,"Friday",08:55:00,11:05:00,2,"Food Chemistry","FST 290 2.0","FST","FST 290 2.0 Food Chemistry",2,"NFC5","Lecture",0,1,1,"Prof. Jagath Wansapala",2.17
+"66",202,"Food Science and Tech",0,1,0,0,"Friday",08:55:00,11:05:00,2,"Food Chemistry","FSC 231 2.0","FSC","FSC 231 2.0 Food Chemistry",2,"NFC5","Lecture",1,0,1,"Prof. Jagath Wansapala",2.17
+"67",205,"Food Science and Tech",0,0,1,0,"Friday",13:00:00,14:00:00,1,"Basic Management, Accounting and Finance","FST 298 1.0","FST","FST 298 1.0 Basic Management, Accounting and Finance",2,"NFC5","Lecture",0,1,1,"VL",1
+"68",208,"Food Science and Tech",0,0,1,0,"Monday",08:00:00,09:45:00,2,"Regression Analysis","FST 366 2.0","FST","FST 366 2.0 Regression Analysis",3,"NFC2","Lecture",0,1,1,"Ms. Asha Mallikarachchi",1.75
+"69",211,"Food Science and Tech",0,0,1,0,"Monday",10:15:00,11:05:00,1,"Project Management","FST 367 1.0 ","FST","FST 367 1.0  Project Management",3,"NFC2","Lecture",0,1,1,"Prof. Jagath Jayasinghe",0.83
+"70",214,"Food Science and Tech",0,0,1,0,"Monday",11:10:00,12:00:00,2,"Sustainability and Circular Economy","FST 359 1.0","FST","FST 359 1.0 Sustainability and Circular Economy",3,"NFC2","Lecture",0,1,1,"Dr. Dulani Somendrika",0.83
+"71",217,"Food Science and Tech",0,0,1,0,"Monday",14:00:00,15:00:00,1,"Spices, Root Crops","FST 386 1.0","FST","FST 386 1.0 Spices, Root Crops",3,"NFC5","Lecture",0,1,1,"Dr. Dulani Somendrika",1
+"72",220,"Food Science and Tech",0,0,1,0,"Tuesday",08:55:00,09:45:00,1,"Grain Technology","FST 383 1.0","FST","FST 383 1.0 Grain Technology",3,"NFC5","Lecture",0,1,1,"Dr. Suraji Senanayake",0.83
+"73",223,"Food Science and Tech",0,0,1,0,"Tuesday",10:15:00,11:05:00,1,"Fish & Meat Process Technology","FST 374 1.0","FST","FST 374 1.0 Fish & Meat Process Technology",3,"NFC5","Lecture",0,1,1,"Prof. I. Wickramasinghe",0.83
+"74",226,"Food Science and Tech",0,1,0,0,"Tuesday",10:15:00,11:05:00,1,"Fish & Meat Process Technology","FSC 371 1.0","FSC","FSC 371 1.0 Fish & Meat Process Technology",3,"NFC5","Lecture",1,0,1,"Prof. I. Wickramasinghe",0.83
+"75",229,"Food Science and Tech",0,0,1,0,"Tuesday",11:10:00,12:00:00,1,"Dairy Process Technology","FST 399 1.0","FST","FST 399 1.0 Dairy Process Technology",3,"NFC5","Lecture",0,1,1,"Prof. R.A.U.J. Marapana",0.83
+"76",232,"Food Science and Tech",0,1,0,0,"Tuesday",11:10:00,12:00:00,1,"Dairy Technology","FSC 372 1.0","FSC","FSC 372 1.0 Dairy Technology",3,"NFC5","Lecture",1,0,1,"Prof. R.A.U.J. Marapana",0.83
+"77",235,"Food Science and Tech",0,0,1,0,"Tuesday",13:00:00,14:00:00,1,"Fat and Oil Technology","FST 387 1.0","FST","FST 387 1.0 Fat and Oil Technology",3,"NFC2","Lecture",0,1,1,"Dr. Piumi Abeysundara",1
+"78",238,"Food Science and Tech",0,1,0,0,"Tuesday",14:00:00,15:00:00,1,"Seminar","FSC 395 1.0","FSC","FSC 395 1.0 Seminar",3,"NFC2","Lecture",1,0,1,"Dr. Isuru Wijesekara",1
+"79",244,"Food Science and Tech",0,0,1,0,"Thursday",08:00:00,09:45:00,2,"Emerging Food Technology","FST 368 2.0","FST","FST 368 2.0 Emerging Food Technology",3,"NFC2","Lecture",0,1,1,"Senior Prof. K.K.D.S. Ranaweera",1.75
+"80",247,"Food Science and Tech",0,0,1,0,"Thursday",10:15:00,11:05:00,1,"Fruit & Vegetable Process & Technology","FST 384 1.0","FST","FST 384 1.0 Fruit & Vegetable Process & Technology",3,"NFC5","Lecture",0,1,1,"Prof. R.A.U.J. Marapana",0.83
+"81",250,"Food Science and Tech",0,1,0,0,"Thursday",10:15:00,11:05:00,1,"Fruit & Vegetable Process & Technology","FSC 373 1.0","FSC","FSC 373 1.0 Fruit & Vegetable Process & Technology",3,"NFC5","Lecture",1,0,1,"Prof. R.A.U.J. Marapana",0.83
+"82",253,"Food Science and Tech",0,0,1,0,"Thursday",11:10:00,12:00:00,2,"Social Mobilization ","FST 380 2.0","FST","FST 380 2.0 Social Mobilization ",3,"NFC2","Lecture",0,1,1,"Prof. Jagath Jayasinghe",0.83
+"83",256,"Food Science and Tech",0,0,1,0,"Thursday",13:00:00,14:00:00,1,"Food Biotechnology","FSC 362 1.0","FSC","FSC 362 1.0 Food Biotechnology",3,"NFC5","Lecture",1,0,1,"Senior Prof. K.K.D.S. Ranaweera",1
+"84",259,"Food Science and Tech",0,1,0,0,"Thursday",15:00:00,16:00:00,1,"Food Packaging","FSC 353 1.0","FSC","FSC 353 1.0 Food Packaging",3,"NFC5","Lecture",1,0,1,"Dr. Chathuni Jayathilaka",1
+"85",262,"Food Science and Tech",0,0,1,0,"Friday",11:10:00,12:00:00,1,"Sensory Analysis","FST 362 1.0","FST","FST 362 1.0 Sensory Analysis",3,"NFC5","Lecture",0,1,1,"Dr. Chathuni Jayathilaka",0.83
+"86",265,"Food Science and Tech",0,0,1,0,"Friday",15:00:00,16:00:00,1,"Mechanical Aspects of Food Technology","FST 391 1.0","FST","FST 391 1.0 Mechanical Aspects of Food Technology",3,"NFC5","Lecture",0,1,1,"VL",1
+"87",268,"Food Science and Tech",0,0,1,0,"Friday",08:00:00,08:50:00,1,"Introduction to Multivariate Statistics","FST 452 1.0","FST","FST 452 1.0 Introduction to Multivariate Statistics",4,"NFC2","Lecture",0,1,1,"Ms. Asha Mallikarachchi",0.83
+"88",271,"Food Science and Tech",0,0,1,0,"Friday",08:55:00,09:45:00,1,"Nano Technology in Food System","FST 482 1.0","FST","FST 482 1.0 Nano Technology in Food System",4,"NFC2","Lecture",0,1,1,"VL",0.83
+"89",274,"Food Science and Tech",0,0,1,0,"Friday",10:15:00,12:00:00,1,"Career Skills Development","FST 457 1.0","FST","FST 457 1.0 Career Skills Development",4,"NFC2","Lecture",0,1,1,"VL",1.75
+"90",277,"Food Science and Tech",0,0,1,0,"Friday",13:00:00,14:00:00,1,"Industrial Microbiology","FST 481 1.0","FST","FST 481 1.0 Industrial Microbiology",4,"NFC2","Lecture",0,1,1,"Dr. Piumi Abeysundara",1
+"91",280,"Food Science and Tech",0,0,1,0,"Friday",14:00:00,15:00:00,1,"Strategic Management","FST 458 1.0","FST","FST 458 1.0 Strategic Management",4,"NFC2","Lecture",0,1,1,"Prof. Jagath Jayasinghe",1
+"92",283,"Computer Science ",1,0,0,0,"Monday",08:00:00,09:45:00,2,"Software Engineering II","CSC 112 2.0","CSC","CSC 112 2.0 Software Engineering II",1,"NFC3","Lecture",1,0,1,"Dr. EATA Edirisuriya",1.75
+"93",286,"Computer Science ",1,0,0,0,"Tuesday",08:00:00,09:45:00,1,"Computer Programming - Laboratory","CSC 111 1.0","CSC","CSC 111 1.0 Computer Programming - Laboratory",1,"NFC3","Lecture",1,0,1,"Mr. AMRR Bandara",1.75
+"94",287,"Computer Science ",1,0,0,0,"Tuesday",08:00:00,09:45:00,1,"Computer Programming - Laboratory","CSC 111 1.0","CSC","CSC 111 1.0 Computer Programming - Laboratory",1,"NFC3","Lecture",1,0,1,"Ms. FS Sourjah",1.75
+"95",289,"Computer Science ",1,0,0,0,"Wednesday",10:15:00,12:00:00,2,"Object Oriented Programming","CSC 110 2.0 ","CSC","CSC 110 2.0  Object Oriented Programming",1,"NFC3","Lecture",1,0,1,"Dr. TMKK Jinasena",1.75
+"96",304,"Computer Science ",1,0,0,0,"Monday",10:15:00,12:00:00,2,"Database Management Systems","CSC 209 2.0","CSC","CSC 209 2.0 Database Management Systems",2,"NFC3","Lecture",1,0,1,"Dr. S Tissera",1.75
+"97",307,"Computer Science ",1,0,0,0,"Wednesday",08:00:00,09:45:00,1,"Computer Graphics","CSC 210 1.0","CSC","CSC 210 1.0 Computer Graphics",2,"NFC4","Lecture",1,0,1,"Prof. RGN Meegama",1.75
+"98",310,"Computer Science ",1,0,0,0,"Wednesday",10:15:00,12:00:00,2,"Operating Systems","CSC 208 2.0 ","CSC","CSC 208 2.0  Operating Systems",2,"NFC4","Lecture",1,0,1,"Mr. MDR Perera",1.75
+"99",319,"Computer Science ",1,0,0,0,"Monday",08:00:00,09:45:00,2,"Operations Research","CSC 355 2.0","CSC","CSC 355 2.0 Operations Research",3,"Stat Lab","Lecture",0,1,1,"Mr. DDA Gamini",1.75
+"100",322,"Computer Science ",1,0,0,0,"Monday",13:00:00,15:00:00,1.5,"Net Centric Computing","CSC 315 1.5","CSC","CSC 315 1.5 Net Centric Computing",3,"NFC4","Lecture",1,1,1,"Prof. RGN Meegama",2
+"101",325,"Computer Science ",1,0,0,0,"Tuesday",08:00:00,09:45:00,2,"Software Quality Assurance","CSC 365 2.0","CSC","CSC 365 2.0 Software Quality Assurance",3,"PLT","Lecture",1,1,1,"Dr. EATA Edirisuriya",1.75
+"102",328,"Computer Science ",1,0,0,0,"Tuesday",13:00:00,15:00:00,2,"Swarm Intelligence","CSC 361 2.0","CSC","CSC 361 2.0 Swarm Intelligence",3,"NFC4","Lecture",1,1,1,"Ms. MKA Ariyaratne",2
+"103",331,"Computer Science ",1,0,0,0,"Wednesday",08:00:00,09:45:00,2,"Artificial Intelligence","CSC 316 2.0","CSC","CSC 316 2.0 Artificial Intelligence",3,"NFC3","Lecture",1,1,1,"Mr. DDA Gamini",1.75
+"104",334,"Computer Science ",1,0,0,0,"Wednesday",13:00:00,15:00:00,1.5,"Human Computer Interaction","CSC 317 1.5","CSC","CSC 317 1.5 Human Computer Interaction",3,"NFC3","Lecture",1,1,1,"Dr. PRS De Silva",2
+"105",340,"Computer Science ",1,0,0,0,"Thursday",08:00:00,09:45:00,2,"Theory of Programming Languages","CSC 377 2.0 ","CSC","CSC 377 2.0  Theory of Programming Languages",3,"NFC3","Lecture",0,1,1,"Ms. MKA Ariyaratne",1.75
+"106",343,"Computer Science ",1,0,0,0,"Thursday",10:15:00,12:00:00,2,"Machine Learning II","CSC 375 2.0 ","CSC","CSC 375 2.0  Machine Learning II",3,"LCS2","Lecture",0,1,1,"Prof. TGI Fernando",1.75
+"107",346,"Computer Science ",1,0,0,0,"Thursday",13:00:00,15:00:00,1.5,"Embedded Systems and Internet of Things","CSC 376 1.5","CSC","CSC 376 1.5 Embedded Systems and Internet of Things",3,"LCS2","Lecture",0,1,1,"Mr. MDR Perera",2
+"108",358,"Botany",0,1,0,0,"Tuesday",10:15:00,12:00:00,1,"Classical Genetics","PBT/PBL/MBL 126 1.0","PBT","PBT/PBL/MBL 126 1.0 Classical Genetics",1,"B1","Lecture",1,0,1,"Prof. P.N.Dasanayake",1.75
+"109",361,"Botany",0,1,0,0,"Tuesday",10:15:00,12:00:00,1,"Principles of Ecology","PBT/PBL/MBL 123 1.0","PBT","PBT/PBL/MBL 123 1.0 Principles of Ecology",1,"B1","Lecture",1,0,2,"Dr. M.L.A.M.S. Munasinghe",1.75
+"110",364,"Botany",0,1,0,0,"Wednesday",13:00:00,15:00:00,1,"Plant Development & Propagation","PBT/PBL/MBL 124 1.0","PBT","PBT/PBL/MBL 124 1.0 Plant Development & Propagation",1,"B1","Lecture",1,0,1,"Prof. W.T.P.S.K.Senarath",2
+"111",367,"Botany",0,1,0,0,"Wednesday",13:00:00,15:00:00,1,"Plant Structure & Function","PBT/PBL/MBL 125 1.0","PBT","PBT/PBL/MBL 125 1.0 Plant Structure & Function",1,"B1","Lecture",1,0,2,"Prof. W.T.P.S.K.Senarath",2
+"112",391,"Botany",0,1,0,0,"Wednesday",13:00:00,15:00:00,1,"Microbial Genetics","MBL 223 1.0 ","MBL","MBL 223 1.0  Microbial Genetics",2,"S1","Lecture",1,0,1,"Mrs. C.B.Wijerathna",2
+"113",394,"Botany",0,1,0,0,"Wednesday",13:00:00,15:00:00,2,"Molecular Genetics","
+PBT 223 2.0 ","
+PB","
+PBT 223 2.0  Molecular Genetics",2,"F1","Lecture",1,0,1,"Dr. I. U. Kariyawasam",2
+"114",397,"Botany",0,1,0,0,"Wednesday",13:00:00,15:00:00,1,"Plant Physiology","
+PBL 224 1.0 
+","
+PB","
+PBL 224 1.0 
+ Plant Physiology",2,"SLH - Botany","Lecture",1,0,1,"Dr. R.Wimalasekara",2
+"115",400,"Botany",0,1,0,0,"Wednesday",13:00:00,15:00:00,1,"Fundamentals of Recombinant DNA Technology","PBL 225 1.0 ","PBL","PBL 225 1.0  Fundamentals of Recombinant DNA Technology",2,"SLH - Botany","Lecture",1,0,2,"Prof. P.N.Dasanayake",2
+"116",403,"Botany",0,1,0,0,"Thursday",10:15:00,12:00:00,1,"Phytopathogenic Microorganisms – 1","MBL 228 1.0
+","MBL","MBL 228 1.0
+ Phytopathogenic Microorganisms – 1",2,"B1","Lecture",1,0,1,"Ms. H.T.Mandakini",1.75
+"117",406,"Botany",0,1,0,0,"Thursday",10:15:00,12:00:00,2,"Gene Technology","PBT 224 2.0","PBT","PBT 224 2.0 Gene Technology",2,"B2","Lecture",1,0,1,"Prof. P.N.Dasanayake",1.75
+"118",409,"Botany",0,1,0,0,"Thursday",10:15:00,12:00:00,2,"Genetics","PBL 223 2.0 ","PBL","PBL 223 2.0  Genetics",2,"SLH - Botany","Lecture",1,0,1,"Dr. I. U. Kariyawasam",1.75
+"119",427,"Botany",0,1,0,0,"Monday",08:00:00,09:45:00,2,"Industrial Biotechnology","PBT 325 2.0","PBT","PBT 325 2.0 Industrial Biotechnology",3,"A1","Lecture",1,0,1,"Dr. Kasun Thambugala",1.75
+"120",430,"Botany",0,1,0,0,"Monday",08:00:00,08:50:00,1,"Economic Botany","PBL 321 1.0 ","PBL","PBL 321 1.0  Economic Botany",3,"B2","Lecture",1,0,1,"Mrs. C.B.Wijerathna",0.83
+"121",433,"Botany",0,1,0,0,"Monday",08:55:00,09:45:00,1,"Plant Resources ","PBL 325 1.0 ","PBL","PBL 325 1.0  Plant Resources ",3,"B2","Lecture",1,0,1,"Mrs. C.B.Wijerathna",0.83
+"122",436,"Botany",0,1,0,0,"Monday",14:00:00,16:00:00,1,"Industrial Management ","MBL 326 1.0 ","MBL","MBL 326 1.0  Industrial Management ",3,"B1","Lecture",1,0,1,"Mrs. M.W.Kalyani",2
+"123",439,"Botany",0,1,0,0,"Monday",14:00:00,16:00:00,1,"Food & Dairy Microbiology","MBL 323 1.0 ","MBL","MBL 323 1.0  Food & Dairy Microbiology",3,"B1","Lecture",1,0,2,"Ms. H.T.Mandakini",2
+"124",442,"Botany",0,1,0,0,"Tuesday",15:00:00,16:00:00,1,"Medical Biotechnology","PBT 324.1.0","PBT","PBT 324.1.0 Medical Biotechnology",3,"B1","Lecture",1,0,1,"Mrs. W.A.S.Wijendra",1
+"125",445,"Botany",0,1,0,0,"Tuesday",15:00:00,16:00:00,1,"Applied Microbiology","PBL 326 1.0","PBL","PBL 326 1.0 Applied Microbiology",3,"B3","Lecture",1,0,1,"Ms. H.T.Mandakini",1
+"126",448,"Botany",0,1,0,0,"Tuesday",16:00:00,17:00:00,1,"Bioinformatics & Molecular Modeling","PBT 327 1.0","PBT","PBT 327 1.0 Bioinformatics & Molecular Modeling",3,"B1","Lecture",1,0,1,"Dr. I. U. Kariyawasam",1
+"127",454,"Botany",0,1,0,0,"Thursday",13:00:00,14:00:00,1,"Medical Microbiology","MBL 324 1.0","MBL","MBL 324 1.0 Medical Microbiology",3,"B1","Lecture",1,0,1,"Dr. Janani Kottahachchi",1
+"128",457,"Botany",0,1,0,0,"Thursday",14:00:00,15:00:00,1,"Bioinformatics & Molecular Modeling","MBL 327 1.0","MBL","MBL 327 1.0 Bioinformatics & Molecular Modeling",3,"B1","Lecture",1,0,1,"Dr. I. U. Kariyawasam",1
+"129",475,"Botany",0,1,0,0,"Monday",10:15:00,11:05:00,1,"Plant Synthetic Biology","PBT 393 1.0 ","PBT","PBT 393 1.0  Plant Synthetic Biology",3,"B2","Lecture",0,1,1,"Dr. R.Wimalasekara",0.83
+"130",478,"Botany",0,1,0,0,"Monday",11:10:00,12:00:00,1,"Microbial Biochemistry","MBL 383 1.0","MBL","MBL 383 1.0 Microbial Biochemistry",3,"B2","Lecture",0,1,1,"Dr. R.Wimalasekara",0.83
+"131",481,"Botany",0,1,0,0,"Monday",16:00:00,17:00:00,1,"Advanced Microbial Genetics","PBT 386 1.0","PBT","PBT 386 1.0 Advanced Microbial Genetics",3,"B2","Lecture",0,1,1,"Dr. Anusha Ekanayaka",1
+"132",484,"Botany",0,1,0,0,"Tuesday",13:00:00,15:00:00,2,"Microbes in Pest Management","MBL 382 2.0","MBL","MBL 382 2.0 Microbes in Pest Management",3,"B3","Lecture",0,1,1,"Dr. Wathsala Udari",2
+"133",487,"Botany",0,1,0,0,"Tuesday",17:00:00,17:45:00,1,"Advanced Genetics","PBL 386 1.0","PBL","PBL 386 1.0 Advanced Genetics",3,"B3","Lecture",0,1,1,"Dr. I. U. Kariyawasam",0.75
+"134",490,"Botany",0,1,0,0,"Wednesday",08:00:00,08:50:00,1,"Applications in Nanobiology","PBT 394 1.0","PBT","PBT 394 1.0 Applications in Nanobiology",3,"B3","Lecture",0,1,1,"Mrs. C.B.Wijerathna",0.83
+"135",493,"Botany",0,1,0,0,"Wednesday",08:00:00,08:50:00,1,"Applications in Nanobiology","MBL 394 1.0","MBL","MBL 394 1.0 Applications in Nanobiology",3,"B3","Lecture",0,1,1,"Mrs. C.B.Wijerathna",0.83
+"136",496,"Botany",0,1,0,0,"Wednesday",08:55:00,09:45:00,1,"Marine Biotechnology ","PBT 389 1.0","PBT","PBT 389 1.0 Marine Biotechnology ",3,"B3","Lecture",0,1,1,"Dr. I. U. Kariyawasam",0.83
+"137",499,"Botany",0,1,0,0,"Wednesday",15:00:00,17:00:00,2,"Biostatistics and Computer Applications","PBL 387 2.0","PBL","PBL 387 2.0 Biostatistics and Computer Applications",3,"NFC4","Lecture",0,1,1,"Dr. C. Wickramarachchi",2
+"138",502,"Botany",0,1,0,0,"Wednesday",15:00:00,17:00:00,2,"Biostatistics and Computer Applications","PBT 387 2.0","PBT","PBT 387 2.0 Biostatistics and Computer Applications",3,"NFC4","Lecture",0,1,1,"Dr. C. Wickramarachchi",2
+"139",505,"Botany",0,1,0,0,"Wednesday",15:00:00,17:00:00,2,"Biostatistics and Computer Applications","MBL 387 2.0","MBL","MBL 387 2.0 Biostatistics and Computer Applications",3,"NFC4","Lecture",0,1,1,"Dr. C. Wickramarachchi",2
+"140",508,"Botany",0,1,0,0,"Thursday",08:00:00,09:45:00,2," Advanced Phytotaxonomy","PBL 390 2.0","PBL","PBL 390 2.0  Advanced Phytotaxonomy",3,"B3","Lecture",0,1,1,"Dr. I. U. Kariyawasam",1.75
+"141",511,"Botany",0,1,0,0,"Thursday",08:00:00,09:45:00,2," Advanced Phytotaxonomy","PBT 390 2.0","PBT","PBT 390 2.0  Advanced Phytotaxonomy",3,"B3","Lecture",0,1,1,"Dr. I. U. Kariyawasam",1.75
+"142",514,"Botany",0,1,0,0,"Thursday",10:15:00,12:00:00,1,"Fundamentals of GIS","PBL 384 1.0","PBL","PBL 384 1.0 Fundamentals of GIS",3,"F3","Lecture",0,1,1,"Dr. Daham Jayawardana",1.75
+"143",526,"Botany",0,1,0,0,"Friday",13:00:00,15:00:00,1,"Advanced Mycology","MBL 393 1.0 ","MBL","MBL 393 1.0  Advanced Mycology",3,"B2","Lecture",0,1,1,"Dr. Dimuthu Manamgoda",2
+"144",529,"Botany",0,1,0,0,"Monday",08:00:00,09:45:00,1,"Microbial Enzymes in Biotechnology","MBL 485 1.0","MBL","MBL 485 1.0 Microbial Enzymes in Biotechnology",4,"SLH - Botany","Lecture",0,1,1,"Dr. R.Wimalasekara",1.75
+"145",532,"Botany",0,1,0,0,"Monday",10:15:00,12:00:00,2,"Introduction to Palynology","PBT 484 2.0 ","PBT","PBT 484 2.0  Introduction to Palynology",4,"B3","Lecture",0,1,1,"Dr. R.Wimalasekara",1.75
+"146",535,"Botany",0,1,0,0,"Monday",13:00:00,15:00:00,2,"Advanced Applied Microbiology","PBL 492 2.0","PBL","PBL 492 2.0 Advanced Applied Microbiology",4,"SLH - Botany","Lecture",0,1,1,"Dr. Anusha Ekanayaka",2
+"147",538,"Botany",0,1,0,0,"Monday",15:00:00,16:00:00,1,"Viral Genetics","PBT 495 1.0 ","PBT","PBT 495 1.0  Viral Genetics",4,"B2","Lecture",0,1,1,"Dr. Anusha Ekanayaka",1
+"148",541,"Botany",0,1,0,0,"Monday",16:00:00,17:00:00,1,"Laboratory Management for Microbiologist","MBL 497 1.0","MBL","MBL 497 1.0 Laboratory Management for Microbiologist",4,"B3","Lecture",0,1,1,"Mrs. C.B.Wijerathna",1
+"149",544,"Botany",0,1,0,0,"Tuesday",08:00:00,09:45:00,2,"Molecular Diagnosis of Plant Diseases","PBT 499 2.0","PBT","PBT 499 2.0 Molecular Diagnosis of Plant Diseases",4,"B3","Lecture",0,1,1,"Dr. Dimuthu Manamgoda",1.75
+"150",547,"Botany",0,1,0,0,"Tuesday",08:00:00,09:45:00,2,"Molecular Diagnosis of Plant Diseases","MBL 499 2.0","MBL","MBL 499 2.0 Molecular Diagnosis of Plant Diseases",4,"B3","Lecture",0,1,1,"Dr. Dimuthu Manamgoda",1.75
+"151",550,"Botany",0,1,0,0,"Tuesday",08:00:00,08:50:00,1,"Cell Signaling","PBT 486 1.0","PBT","PBT 486 1.0 Cell Signaling",4,"B3","Lecture",0,1,1,"Dr. R.Wimalasekara",0.83
+"152",553,"Botany",0,1,0,0,"Tuesday",08:55:00,09:45:00,1,"Plant Developmental Genetics ","PBT 490 1.0","PBT","PBT 490 1.0 Plant Developmental Genetics ",4,"B3","Lecture",0,1,1,"Dr. R.Wimalasekara",0.83
+"153",556,"Botany",0,1,0,0,"Tuesday",10:15:00,12:00:00,2,"Environmental Microbiology","MBL 493 2.0","MBL","MBL 493 2.0 Environmental Microbiology",4,"B2","Lecture",0,1,1,"Dr. Anusha Ekanayaka",1.75
+"154",559,"Botany",0,1,0,0,"Saturday",08:55:00,12:00:00,2,"Plant Quarantine","MBL 496 2.0 ","MBL","MBL 496 2.0  Plant Quarantine",4,"B2","Lecture",0,1,1,"Ms. Champika Hewage",3.08
+"155",562,"Botany",0,1,0,0,"Saturday",08:55:00,12:00:00,2,"Plant Quarantine","PBT 496 2.0 ","PBT","PBT 496 2.0  Plant Quarantine",4,"B2","Lecture",0,1,1,"Ms. Champika Hewage",3.08
+"156",565,"Botany",0,1,0,0,"Saturday",13:00:00,15:00:00,2,"Crop Protection ","PBL 480 2.0","PBL","PBL 480 2.0 Crop Protection ",4,"B2","Lecture",0,1,1,"Dr. Wathsala Udari",2
+"157",568,"Botany",0,1,0,0,"Sunday",08:55:00,16:00:00,2,"Advanced Plant Pathology ","MBL 483 2.0","MBL","MBL 483 2.0 Advanced Plant Pathology ",4,"B2","Lecture",0,1,1,"Prof. Renuka Aththanayake",7.08
+"158",571,"Botany",0,1,0,0,"Sunday",08:55:00,16:00:00,2,"Advanced Plant Pathology ","PBL 482 2.0","PBL","PBL 482 2.0 Advanced Plant Pathology ",4,"B2","Lecture",0,1,1,"Prof. Renuka Aththanayake",7.08
+"159",574,"Chemistry",1,1,0,0,"Monday",08:00:00,08:50:00,1,"Organic Chemistry II","CHE 109 
+1.0","CHE","CHE 109 
+1.0 Organic Chemistry II",1,"C1","Lecture",1,0,1,"Prof. C Padumadasa",0.83
+"160",577,"Chemistry",1,1,0,0,"Tuesday",08:00:00,09:45:00,2,"Introduction to Analytical Chemistry","CHE 111 
+2.0 ","CHE","CHE 111 
+2.0  Introduction to Analytical Chemistry",1,"C1","Lecture",1,0,1,"Prof. C D Jayaweera",1.75
+"161",580,"Chemistry",1,1,0,0,"Tuesday",16:00:00,17:00:00,1,"Chemical Thermodynamics","CHE 103 
+1.0 ","CHE","CHE 103 
+1.0  Chemical Thermodynamics",1,"C1","Lecture",1,0,1,"Dr. Tharindu Senapathi",1
+"162",592,"Chemistry",1,1,0,0,"Wednesday",10:15:00,11:05:00,1,"Organic Spectroscopy","CHE 203 
+1.0","CHE","CHE 203 
+1.0 Organic Spectroscopy",2,"C1","Lecture",1,0,1,"Prof. Asiri Perera",0.83
+"163",595,"Chemistry",1,1,0,0,"Wednesday",11:10:00,12:00:00,1,"Electrochemistry ","CHE 204 
+1.0","CHE","CHE 204 
+1.0 Electrochemistry ",2,"C1","Lecture",1,0,1,"Dr. L Palliyaguru",0.83
+"164",598,"Chemistry",1,1,0,0,"Thursday",13:00:00,14:00:00,1,"Chemistry of Coordination Compounds","CHE 202 
+1.0 ","CHE","CHE 202 
+1.0  Chemistry of Coordination Compounds",2,"C1","Lecture",1,0,1,"Dr. Isuri Weerarathne",1
+"165",601,"Chemistry",1,1,0,0,"Thursday",14:00:00,15:00:00,1,"Chemical Kinetics","CHE 206 
+1.0","CHE","CHE 206 
+1.0 Chemical Kinetics",2,"C1","Lecture",1,0,1,"Dr. Imalka Munaweera",1
+"166",607,"Chemistry",1,1,0,0,"Monday",16:00:00,17:00:00,1,"Quality Control and Assurance","CHE 333 
+1.0","CHE","CHE 333 
+1.0 Quality Control and Assurance",3,"C1","Lecture",1,0,1,"Dr. Upul Kumarasinghe",1
+"167",610,"Chemistry",1,1,0,0,"Tuesday",08:00:00,08:50:00,1,"Industrial Organic Chemistry","CHE 345 
+1.0 ","CHE","CHE 345 
+1.0  Industrial Organic Chemistry",3,"S1","Lecture",1,0,1,"Dr. Upul Kumarasinghe",0.83
+"168",613,"Chemistry",1,1,0,0,"Tuesday",17:00:00,17:45:00,1,"Basic Chemical Engineering","CHE 312 
+1.0","CHE","CHE 312 
+1.0 Basic Chemical Engineering",3,"C1","Lecture",1,0,1,"VL",0.75
+"169",616,"Chemistry",1,1,0,0,"Wednesday",08:00:00,08:50:00,1,"Introduction to Molecular Modeling and Designing","CHE 340 
+1.0 ","CHE","CHE 340 
+1.0  Introduction to Molecular Modeling and Designing",3,"C1","Lecture",1,0,1,"Dr. R Jayakody",0.83
+"170",622,"Chemistry",1,1,0,0,"Thursday",08:00:00,08:50:00,1,"Structure and Function of Biomolecules","CHE 330 
+1.0","CHE","CHE 330 
+1.0 Structure and Function of Biomolecules",3,"C1","Lecture",1,0,1,"Prof. P Godakumbura",0.83
+"171",625,"Chemistry",1,1,0,0,"Thursday",08:55:00,09:45:00,1,"Industrial Utilization of Plant Materials","CHE 302 
+1.0","CHE","CHE 302 
+1.0 Industrial Utilization of Plant Materials",3,"C1","Lecture",1,0,1,"Prof. P Godakumbura",0.83
+"172",628,"Chemistry",1,1,0,0,"Monday",08:00:00,09:45:00,2,"Organic Synthesis and Industrial Applications","ICH 363 2.0","ICH","ICH 363 2.0 Organic Synthesis and Industrial Applications",3,"C3","Lecture",0,1,1,"Dr. Upul Kumarasinghe",1.75
+"173",631,"Chemistry",1,1,0,0,"Monday",10:15:00,11:05:00,1,"Spectroscopic Techniques for Identification of Organic Compounds","ICH 365 1.0","ICH","ICH 365 1.0 Spectroscopic Techniques for Identification of Organic Compounds",3,"C3","Lecture",0,1,1,"Prof. C Padumadasa",0.83
+"174",634,"Chemistry",1,1,0,0,"Monday",13:00:00,14:00:00,2,"Chemical Kinetics and Thermodynamics","ICH 373 2.0","ICH","ICH 373 2.0 Chemical Kinetics and Thermodynamics",3,"C3","Lecture",0,1,1,"Dr. L Palliyaguru",1
+"175",635,"Chemistry",1,1,0,0,"Monday",13:00:00,14:00:00,2,"Chemical Kinetics and Thermodynamics","ICH 373 2.0","ICH","ICH 373 2.0 Chemical Kinetics and Thermodynamics",3,"C3","Lecture",0,1,1,"Dr. Tharindu Senapathi",1
+"176",637,"Chemistry",1,1,0,0,"Monday",15:00:00,17:00:00,2,"Food Chemistry and Technology","ICH 369 2.0","ICH","ICH 369 2.0 Food Chemistry and Technology",3,"C3","Lecture",0,1,1,"Prof. P Godakumbura",2
+"177",643,"Chemistry",1,1,0,0,"Wednesday",08:00:00,09:45:00,2,"Molecular Modelling and Computational Chemistry","ICH 370 2.0","ICH","ICH 370 2.0 Molecular Modelling and Computational Chemistry",3,"C3","Lecture",0,1,1,"Dr. R Jayakody",1.75
+"178",646,"Chemistry",1,1,0,0,"Thursday",08:55:00,09:45:00,1,"Spectroscopic Techniques for Identification of Inorganic Complexes","ICH 364 1.0","ICH","ICH 364 1.0 Spectroscopic Techniques for Identification of Inorganic Complexes",3,"C3","Lecture",0,1,1,"Prof. NT Perera",0.83
+"179",649,"Chemistry",1,1,0,0,"Thursday",10:15:00,12:00:00,2,"Microscopic and Scattering Techniques","ICH 367 2.0","ICH","ICH 367 2.0 Microscopic and Scattering Techniques",3,"C4","Lecture",0,1,1,"Dr. L Palliyaguru",1.75
+"180",650,"Chemistry",1,1,0,0,"Thursday",10:15:00,12:00:00,2,"Microscopic and Scattering Techniques","ICH 367 2.0","ICH","ICH 367 2.0 Microscopic and Scattering Techniques",3,"C4","Lecture",0,1,1,"Dr. S Rajapaksha",1.75
+"181",652,"Chemistry",1,1,0,0,"Monday",08:00:00,08:50:00,1,"Alternative Energy Sources and Energy Storage Devices","ICH 457 1.0","ICH","ICH 457 1.0 Alternative Energy Sources and Energy Storage Devices",4,"SCR","Lecture",0,1,1,"Dr. Isuri Weerarathne",0.83
+"182",655,"Chemistry",1,1,0,0,"Monday",10:15:00,12:00:00,2,"Petroleum Chemistry and Petrochemical Industry","ICH 476 2.0","ICH","ICH 476 2.0 Petroleum Chemistry and Petrochemical Industry",4,"SCR","Lecture",0,1,1,"VL",1.75
+"183",658,"Chemistry",1,1,0,0,"Monday",13:00:00,15:00:00,2,"Quality Assurance, Accreditation and Project Management","ICH 484 2.0","ICH","ICH 484 2.0 Quality Assurance, Accreditation and Project Management",4,"SCR","Lecture",0,1,1,"VL",2
+"184",661,"Chemistry",1,1,0,0,"Monday",10:15:00,11:05:00,1,"Advanced Organic Spectroscopy","CHE 358 1.0","CHE","CHE 358 1.0 Advanced Organic Spectroscopy",3,"C3","Lecture",0,1,1,"Prof. C Padumadasa",0.83
+"185",664,"Chemistry",1,1,0,0,"Monday",11:10:00,12:00:00,1,"Advanced Coordination Chemistry","CHE 367 1.0","CHE","CHE 367 1.0 Advanced Coordination Chemistry",3,"C3","Lecture",0,1,1,"Dr. M Kartunaratne",0.83
+"186",667,"Chemistry",1,1,0,0,"Tuesday",08:00:00,08:50:00,1,"Advanced Quantum Chemistry","CHE 362 1.0","CHE","CHE 362 1.0 Advanced Quantum Chemistry",3,"C3","Lecture",0,1,1,"Dr. R Jayakody",0.83
+"187",673,"Chemistry",1,1,0,0,"Wednesday",10:15:00,11:05:00,1,"Natural Product Chemistry","CHE 384 1.0","CHE","CHE 384 1.0 Natural Product Chemistry",3,"C4","Lecture",0,1,1,"Dr. I Fernando",0.83
+"188",676,"Chemistry",1,1,0,0,"Wednesday",11:10:00,12:00:00,1,"Inorganic Reaction Mechanisms","CHE 354 1.0","CHE","CHE 354 1.0 Inorganic Reaction Mechanisms",3,"C4","Lecture",0,1,1,"Dr. Imalka Munaweera",0.83
+"189",679,"Chemistry",1,1,0,0,"Thursday",08:00:00,08:50:00,1,"Structural Chemistry","CHE 353 1.0","CHE","CHE 353 1.0 Structural Chemistry",3,"C3","Lecture",0,1,1,"Dr. M Kartunaratne",0.83
+"190",682,"Chemistry",1,1,0,0,"Thursday",08:55:00,09:45:00,1,"Spectroscopic Methods in Inorganic Chemistry","CHE 352 1.0","CHE","CHE 352 1.0 Spectroscopic Methods in Inorganic Chemistry",3,"C3","Lecture",0,1,1,"Prof. NT Perera",0.83
+"191",685,"Chemistry",1,1,0,0,"Thursday",10:15:00,11:05:00,1,"Asymmetric Organic Synthesis ","CHE 385 1.0","CHE","CHE 385 1.0 Asymmetric Organic Synthesis ",3,"C3","Lecture",0,1,1,"Dr. Upul Kumarasinghe",0.83
+"192",688,"Chemistry",1,1,0,0,"Thursday",11:10:00,12:00:00,1,"Biochemistry","CHE 371 1.0","CHE","CHE 371 1.0 Biochemistry",3,"C3","Lecture",0,1,1,"Prof. P Godakumbura",0.83
+"193",691,"Chemistry",1,1,0,0,"Thursday",13:00:00,14:00:00,1,"Advanced Chemical Kinetics","CHE 361 1.0","CHE","CHE 361 1.0 Advanced Chemical Kinetics",3,"C3","Lecture",0,1,1,"Dr. Tharindu Senapathi",1
+"194",694,"Chemistry",1,1,0,0,"Friday",10:15:00,11:05:00,1,"Molecular Photochemistry","CHE 369 1.0","CHE","CHE 369 1.0 Molecular Photochemistry",3,"C3","Lecture",0,1,1,"Dr. S Rajapaksha",0.83
+"195",697,"Chemistry",1,1,0,0,"Friday",11:10:00,12:00:00,1,"Diffraction Methods in Chemistry","CHE 365 1.0","CHE","CHE 365 1.0 Diffraction Methods in Chemistry",3,"C3","Lecture",0,1,1,"Prof. N Kottegoda",0.83
+"196",700,"Chemistry",1,1,0,0,"Monday",10:15:00,11:05:00,1,"Solid State Chemistry","CHE 476 1.0","CHE","CHE 476 1.0 Solid State Chemistry",4,"C4","Lecture",0,1,1,"Prof. N Kottegoda",0.83
+"197",703,"Chemistry",1,1,0,0,"Monday",11:10:00,12:00:00,1,"Polymer Chemistry ","CHE 456 1.0","CHE","CHE 456 1.0 Polymer Chemistry ",4,"C4","Lecture",0,1,1,"Prof. Thilini Gunasekara",0.83
+"198",706,"Chemistry",1,1,0,0,"Monday",13:00:00,14:00:00,1,"New Trends in Organic Synthesis","CHE 401 1.0","CHE","CHE 401 1.0 New Trends in Organic Synthesis",4,"C4","Lecture",0,1,1,"Dr. Laksiri Weerasinghe",1
+"199",709,"Chemistry",1,1,0,0,"Monday",14:00:00,15:00:00,1,"Advanced Surface Chemistry","CHE 458 1.0","CHE","CHE 458 1.0 Advanced Surface Chemistry",4,"C4","Lecture",0,1,1,"Dr. L Palliyaguru",1
+"200",712,"Chemistry",1,1,0,0,"Monday",16:00:00,17:00:00,1,"Quality Control and Assurance","CHE 485 1.0","CHE","CHE 485 1.0 Quality Control and Assurance",4,"C1","Lecture",0,1,1,"Dr. Ushantha Jayalath",1
+"201",715,"Chemistry",1,1,0,0,"Tuesday",08:00:00,08:50:00,1,"Polymer Technology","CHE 464 1.0","CHE","CHE 464 1.0 Polymer Technology",4,"C4","Lecture",0,1,1,"Dr. Chandima Narangoda",0.83
+"202",718,"Chemistry",1,1,0,0,"Tuesday",10:15:00,11:05:00,1,"Chemistry of Plant products and their Applications in Industry","CHE 466 1.0","CHE","CHE 466 1.0 Chemistry of Plant products and their Applications in Industry",4,"C4","Lecture",0,1,1,"Prof. P Godakumbura",0.83
+"203",721,"Chemistry",1,1,0,0,"Tuesday",11:10:00,12:00:00,1,"Basic Chemical Engineering","CHE 461 1.0","CHE","CHE 461 1.0 Basic Chemical Engineering",4,"C4","Lecture",0,1,1,"VL",0.83
+"204",724,"Chemistry",1,1,0,0,"Tuesday",13:00:00,14:00:00,1,"Medicinal Chemistry","CHE 454 1.0","CHE","CHE 454 1.0 Medicinal Chemistry",4,"C4","Lecture",0,1,1,"Dr. Upul Kumarasinghe",1
+"205",727,"Chemistry",1,1,0,0,"Wednesday",08:55:00,09:45:00,1,"Supramolecular Chemistry","CHE 491 1.0","CHE","CHE 491 1.0 Supramolecular Chemistry",4,"C4","Lecture",0,1,1,"Dr. I Fernando",0.83
+"206",730,"Chemistry",1,1,0,0,"Wednesday",11:10:00,12:00:00,1,"Atmospheric Chemistry","CHE 498 1.0","CHE","CHE 498 1.0 Atmospheric Chemistry",4,"C4","Lecture",0,1,1,"Prof. C D Jayaweera",0.83
+"207",733,"Chemistry",1,1,0,0,"Wednesday",13:00:00,14:00:00,1,"Molecular Spectroscopy","CHE 457 1.0","CHE","CHE 457 1.0 Molecular Spectroscopy",4,"C4","Lecture",0,1,1,"Prof. N Kottegoda",1
+"208",736,"Polymer Science",1,1,0,0,"Monday",08:55:00,11:05:00,3,"Polymeric Materials","PSC 104 3.0","PSC","PSC 104 3.0 Polymeric Materials",1,"C2","Lecture",1,0,1,"Prof. Laleen Karunanayake",2.17
+"209",737,"Polymer Science",1,1,0,0,"Monday",08:55:00,11:05:00,3,"Polymeric Materials","PSC 104 3.0","PSC","PSC 104 3.0 Polymeric Materials",1,"C2","Lecture",1,0,1,"Dr. Dammika Weerathunga",2.17
+"210",742,"Polymer Science",1,1,0,0,"Monday",10:15:00,11:05:00,1,"Polymer Blends and Composite","PST 301 1.0","PST","PST 301 1.0 Polymer Blends and Composite",3,"C2","Lecture",1,0,1,"Dr. Thusitha Etampawala",0.83
+"211",745,"Polymer Science",1,1,0,0,"Monday",11:10:00,12:00:00,1,"Introduction to Engineering Materials","PST 313 1.0","PST","PST 313 1.0 Introduction to Engineering Materials",3,"C2","Lecture",1,0,1,"Dr. Sulashi Samarasinghe",0.83
+"212",748,"Polymer Science",1,1,0,0,"Tuesday",13:00:00,14:00:00,3,"Polymeric Materials","PSC 104 3.0","PSC","PSC 104 3.0 Polymeric Materials",1,"C1","Lecture",1,0,1,"Prof. Laleen Karunanayake",1
+"213",749,"Polymer Science",1,1,0,0,"Tuesday",13:00:00,14:00:00,3,"Polymeric Materials","PSC 104 3.0","PSC","PSC 104 3.0 Polymeric Materials",1,"C1","Lecture",1,0,1,"Dr. Dammika Weerathunga",1
+"214",754,"Polymer Science",1,1,0,0,"Tuesday",08:55:00,09:45:00,1,"Polymer Kinetics","PSC 205 1.0","PSC","PSC 205 1.0 Polymer Kinetics",2,"C2","Lecture",1,0,1,"Dr. Madhubhashini Maddumaarachchi",0.83
+"215",757,"Polymer Science",1,1,0,0,"Tuesday",13:00:00,15:00:00,2,"Polymer Characterization","PSC 202 2.0","PSC","PSC 202 2.0 Polymer Characterization",2,"C2","Lecture",1,0,1,"Prof. Thilini Gunasekara",2
+"216",766,"Polymer Science",1,1,0,0,"Tuesday",13:00:00,15:00:00,2,"Polymers in Textile Industry","PSC 318 2.0","PSC","PSC 318 2.0 Polymers in Textile Industry",3,"C3","Lecture",1,0,1,"Dr. Sulashi Samarasinghe",2
+"217",772,"Polymer Science",1,1,0,0,"Wednesday",10:15:00,12:00:00,2,"Polymer Degradation","PST 103 2.0","PST","PST 103 2.0 Polymer Degradation",1,"C2","Lecture",1,0,1,"Prof. Thilini Gunasekara",1.75
+"218",787,"Polymer Science",1,1,0,0,"Thursday",08:00:00,09:45:00,2,"Polymer Processing and Product Testing","PSC 206 2.0","PSC","PSC 206 2.0 Polymer Processing and Product Testing",2,"C2","Lecture",1,0,1,"Prof. Shantha Walpalage",1.75
+"219",788,"Polymer Science",1,1,0,0,"Thursday",08:00:00,09:45:00,2,"Polymer Processing and Product Testing","PSC 206 2.0","PSC","PSC 206 2.0 Polymer Processing and Product Testing",2,"C2","Lecture",1,0,1,"Dr. Dammika Weerathunga",1.75
+"220",790,"Polymer Science",1,1,0,0,"Thursday",10:15:00,12:00:00,2,"Introduction to Waste Water Treatment processes in Polymer Industry","PST 314 2.0","PST","PST 314 2.0 Introduction to Waste Water Treatment processes in Polymer Industry",3,"C2","Lecture",1,0,1,"Dr. Dammika Weerathunga",1.75
+"221",793,"Polymer Science",1,1,0,0,"Thursday",13:00:00,14:00:00,1,"Environment and Polymer Industry","PST 315 1.0","PST","PST 315 1.0 Environment and Polymer Industry",3,"NFC6","Lecture",1,0,1,"Prof. S.D.M. Chinthaka",1
+"222",811,"Polymer Science",1,1,0,0,"Tuesday",08:55:00,11:05:00,2,"Polymer Industry and Its Environment Impact","PCH 364 2.0","PCH","PCH 364 2.0 Polymer Industry and Its Environment Impact",3,"NFC6","Lecture",0,1,1,"Prof. S.D.M. Chinthaka",2.17
+"223",814,"Polymer Science",1,1,0,0,"Tuesday",11:10:00,12:00:00,2,"Advanced Concepts in Thermodynamics and Statistical Thermodynamics","PCH 371 2.0","PCH","PCH 371 2.0 Advanced Concepts in Thermodynamics and Statistical Thermodynamics",3,"NFC6","Lecture",0,1,1,"Dr. Thusitha Etampawala",0.83
+"224",817,"Polymer Science",1,1,0,0,"Tuesday",13:00:00,15:00:00,2,"Polymers in Textile Industry","PCH 369 2.0","PCH","PCH 369 2.0 Polymers in Textile Industry",3,"C3","Lecture",0,1,1,"Dr. Sulashi Samarasinghe",2
+"225",820,"Polymer Science",1,1,0,0,"Tuesday",15:00:00,16:00:00,2,"Organic Synthesis","PCH 370 2.0","PCH","PCH 370 2.0 Organic Synthesis",3,"C2","Lecture",0,1,1,"Dr. Sampath Gunathilaka",1
+"226",823,"Polymer Science",1,1,0,0,"Wednesday",08:00:00,08:50:00,1,"Molecular Modeling and Computational Chemistry","PCH 365 1.0","PCH","PCH 365 1.0 Molecular Modeling and Computational Chemistry",3,"Online","Lecture",0,1,1,"Dr. Ranga Jayakody",0.83
+"227",832,"Polymer Science",1,1,0,0,"Wednesday",16:00:00,17:00:00,2,"Organic Synthesis","PCH 370 2.0","PCH","PCH 370 2.0 Organic Synthesis",3,"C2","Lecture",0,1,1,"Dr. Sampath Gunathilaka",1
+"228",835,"Polymer Science",1,1,0,0,"Thursday",08:00:00,08:50:00,2,"Advanced Concepts in Thermodynamics and Statistical Thermodynamics","PCH 371 2.0","PCH","PCH 371 2.0 Advanced Concepts in Thermodynamics and Statistical Thermodynamics",3,"NFC6","Lecture",0,1,1,"Dr. Thusitha Etampawala",0.83
+"229",838,"Polymer Science",1,1,0,0,"Thursday",10:15:00,12:00:00,2,"Advanced Organic and Inorganic Spectroscopy","PCH 360 2.0","PCH","PCH 360 2.0 Advanced Organic and Inorganic Spectroscopy",3,"NFC6","Lecture",0,1,1,"Dr. Narangoda",1.75
+"230",841,"Polymer Science",1,1,0,0,"Thursday",14:00:00,15:00:00,1,"Degradable Polymer Technology","PCH 356 1.0","PCH","PCH 356 1.0 Degradable Polymer Technology",3,"C2","Lecture",0,1,1,"Prof. Thilini Gunasekara",1
+"231",847,"Polymer Science",1,1,0,0,"Thursday",10:15:00,11:05:00,1,"Analysis of Macromolecules","PCH 465 1.0","PCH","PCH 465 1.0 Analysis of Macromolecules",4,"C3","Lecture",0,1,1,"Dr. Madhubhashini Maddumaarachchi",0.83
+"232",850,"Polymer Science",1,1,0,0,"Thursday",13:00:00,14:00:00,1,"Advanced Inorganic Polymers","PCH 462 1.0","PCH","PCH 462 1.0 Advanced Inorganic Polymers",4,"C2","Lecture",0,1,1,"Dr. Sampath Gunathilaka",1
+"233",853,"Polymer Science",1,1,0,0,"Friday",10:15:00,12:00:00,2,"Advanced Polymer Materials","PCH 458 2.0","PCH","PCH 458 2.0 Advanced Polymer Materials",4,"C2","Lecture",0,1,1,"Dr. Sampath Gunathilaka",1.75
+"234",856,"Polymer Science",1,1,0,0,"Friday",13:00:00,14:00:00,1,"Finite Element Analysis","PCH 456 1.0","PCH","PCH 456 1.0 Finite Element Analysis",4,"C2","Lecture",0,1,1,"Prof. Shantha Walpalage",1
+"235",859,"Sports Science",0,0,0,1,"Monday",08:00:00,09:45:00,2,"Basic Biochemistry","SSM 106 2.0","SSM","SSM 106 2.0 Basic Biochemistry",1,"NFC6","Lecture",0,1,1,"Dr. S. Weerasinghe",1.75
+"236",865,"Sports Science",0,0,0,1,"Monday",13:00:00,15:00:00,2,"Sports Biomechanics","SSM 108 2.0","SSM","SSM 108 2.0 Sports Biomechanics",1,"NFC6","Lecture",0,1,1,"Mr. K.P. Manawadu",2
+"237",866,"Sports Science",0,0,0,1,"Monday",13:00:00,15:00:00,2,"Sports Biomechanics","SSM 108 2.0","SSM","SSM 108 2.0 Sports Biomechanics",1,"NFC6","Lecture",0,1,1,"Mr. K.P.I. Silva",2
+"238",868,"Sports Science",0,0,0,1,"Monday",15:00:00,17:00:00,2,"Aerobics for Health Promotion","SSM 192 2.0","SSM","SSM 192 2.0 Aerobics for Health Promotion",1,"NFC6","Lecture",0,1,1,"Ms. Kalani Harshala",2
+"239",869,"Sports Science",0,0,0,1,"Monday",15:00:00,17:00:00,2,"Aerobics for Health Promotion","SSM 192 2.0","SSM","SSM 192 2.0 Aerobics for Health Promotion",1,"NFC6","Lecture",0,1,1,"Mr. D.S.L. Perera",2
+"240",871,"Sports Science",0,0,0,1,"Monday",08:00:00,11:05:00,2,"FMSA of Coordination Sports Hockey","SSM 293 2.0","SSM","SSM 293 2.0 FMSA of Coordination Sports Hockey",2,"O","Lecture",0,1,1,"Dr. S.K. Fernando",3.08
+"241",874,"Sports Science",0,0,0,1,"Monday",14:00:00,17:00:00,2,"FMSA of Coordination Sports Cricket","SSM 293 2.0","SSM","SSM 293 2.0 FMSA of Coordination Sports Cricket",2,"O","Lecture",0,1,1,"Mr. L.H.M.P. De Silva",3
+"242",877,"Sports Science",0,0,0,1,"Monday",10:15:00,12:00:00,2,"Operations Research in Sports","SSM 367 2.0","SSM","SSM 367 2.0 Operations Research in Sports",3,"NFC6","Lecture",0,1,1,"Dr. H.P.N. Perera",1.75
+"243",880,"Sports Science",0,0,0,1,"Monday",13:00:00,15:00:00,2,"Financial Management","SSM 364 2.0","SSM","SSM 364 2.0 Financial Management",3,"B2","Lecture",0,1,1,"Ms. M.H. Kumaragamage",2
+"244",886,"Sports Science",0,0,0,1,"Tuesday",15:00:00,16:00:00,1,"Sports Sociology","SSM 155 1.0","SSM","SSM 155 1.0 Sports Sociology",1,"NFC6","Lecture",0,1,1,"Dr. S.K. Fernando",1
+"245",892,"Sports Science",0,0,0,1,"Tuesday",08:00:00,09:45:00,2,"Financial Accounting","SSM 260 2.0","SSM","SSM 260 2.0 Financial Accounting",2,"NFC6","Lecture",0,1,1,"Dr. H.P.N. Perera",1.75
+"246",895,"Sports Science",0,0,0,1,"Tuesday",10:15:00,12:00:00,2,"Applied Sports and Ex. Psychol.","SSM 254 2.0","SSM","SSM 254 2.0 Applied Sports and Ex. Psychol.",2,"NFC6","Lecture",0,1,1,"Mrs. A.M.G.C.P. Adikari",1.75
+"247",898,"Sports Science",0,0,0,1,"Tuesday",13:00:00,16:00:00,2,"Mixed Martial ArtsTaekwondo","SSM 294 2.0","SSM","SSM 294 2.0 Mixed Martial ArtsTaekwondo",2,"O","Lecture",0,1,1,"Miss. Shalini Bandara Dissanayake",3
+"248",904,"Sports Science",0,0,0,1,"Tuesday",13:00:00,15:00:00,2,"Sports for Special Population","SSM 388 2.0","SSM","SSM 388 2.0 Sports for Special Population",3,"NFC6","Lecture",0,1,1,"Mr. D.S.L. Perera",2
+"249",905,"Sports Science",0,0,0,1,"Tuesday",13:00:00,15:00:00,2,"Sports for Special Population","SSM 388 2.0","SSM","SSM 388 2.0 Sports for Special Population",3,"NFC6","Lecture",0,1,1,"Dr. M.A.S. Udayanga",2
+"250",907,"Sports Science",0,0,0,1,"Wednesday",10:15:00,12:00:00,1,"Introduction to Mathematical Software","SSM 111 1.0 ","SSM","SSM 111 1.0  Introduction to Mathematical Software",1,"M1","Lecture",0,1,1,"Dr. M.T.M. Perera",1.75
+"251",908,"Sports Science",0,0,0,1,"Wednesday",10:15:00,12:00:00,1,"Introduction to Mathematical Software","SSM 111 1.0 ","SSM","SSM 111 1.0  Introduction to Mathematical Software",1,"M1","Lecture",0,1,1,"Mr. Chameera Ginige",1.75
+"252",910,"Sports Science",0,0,0,1,"Wednesday",13:00:00,16:00:00,1,"FMSA Gymnastics","SSM 191 1.0","SSM","SSM 191 1.0 FMSA Gymnastics",1,"O","Lecture",0,1,1,"Ms. Chalanima Kariyawasam",3
+"253",913,"Sports Science",0,0,0,1,"Wednesday",08:00:00,09:45:00,2,"Exercise andSports Physiology","SSM 225 2.0","SSM","SSM 225 2.0 Exercise andSports Physiology",2,"NFC6","Lecture",0,1,1,"Mrs. A.M.G.C.P. Adikari",1.75
+"254",914,"Sports Science",0,0,0,1,"Wednesday",08:00:00,09:45:00,2,"Exercise andSports Physiology","SSM 225 2.0","SSM","SSM 225 2.0 Exercise andSports Physiology",2,"NFC6","Lecture",0,1,1,"Dr. M.A.S. Udayanga",1.75
+"255",916,"Sports Science",0,0,0,1,"Wednesday",10:15:00,12:00:00,2,"Mixed Martial Arts Wrestling","SSM 294 2.0 ","SSM","SSM 294 2.0  Mixed Martial Arts Wrestling",2,"O","Lecture",0,1,1,"Mr. Hansaka Kapukotuwa",1.75
+"256",917,"Sports Science",0,0,0,1,"Wednesday",10:15:00,12:00:00,2,"Mixed Martial Arts Wrestling","SSM 294 2.0 ","SSM","SSM 294 2.0  Mixed Martial Arts Wrestling",2,"O","Lecture",0,1,1,"Mrs. Sandakan Tharaka",1.75
+"257",919,"Sports Science",0,0,0,1,"Wednesday",13:00:00,14:00:00,2,"Mixed Martial Arts Wrestling","SSM 294 2.0 ","SSM","SSM 294 2.0  Mixed Martial Arts Wrestling",2,"O","Lecture",0,1,1,"Mr. Hansaka Kapukotuwa",1
+"258",920,"Sports Science",0,0,0,1,"Wednesday",13:00:00,14:00:00,2,"Mixed Martial Arts Wrestling","SSM 294 2.0 ","SSM","SSM 294 2.0  Mixed Martial Arts Wrestling",2,"O","Lecture",0,1,1,"Mrs. Sandakan Tharaka",1
+"259",922,"Sports Science",0,0,0,1,"Wednesday",14:00:00,15:00:00,1,"LTAD","SSM 272 1.0 ","SSM","SSM 272 1.0  LTAD",2,"NFC6","Lecture",0,1,1,"Dr. M.A.S. Udayanga",1
+"260",925,"Sports Science",0,0,0,1,"Wednesday",08:00:00,09:45:00,2,"Dietetics","SSM 375 2.0","SSM","SSM 375 2.0 Dietetics",3,"NFC6","Lecture",0,1,1,"Dr. S. Weerasinghe",1.75
+"261",928,"Sports Science",0,0,0,1,"Wednesday",10:15:00,12:00:00,2,"Sport Org. Behaviour","SSM 366 2.0","SSM","SSM 366 2.0 Sport Org. Behaviour",3,"NFC6","Lecture",0,1,1,"Mr. A.L.K.R. Fernando",1.75
+"262",929,"Sports Science",0,0,0,1,"Wednesday",10:15:00,12:00:00,2,"Sport Org. Behaviour","SSM 366 2.0","SSM","SSM 366 2.0 Sport Org. Behaviour",3,"NFC6","Lecture",0,1,1,"Ms. M.H. Kumaragamage",1.75
+"263",931,"Sports Science",0,0,0,1,"Wednesday",13:00:00,15:00:00,2,"Analytic Methods in Sports","SSM 374 2.0","SSM","SSM 374 2.0 Analytic Methods in Sports",3,"NFC6","Lecture",0,1,1,"Dr. R. Silva",2
+"264",934,"Sports Science",0,0,0,1,"Wednesday",15:00:00,17:00:00,1,"Advanced Training Methods in Selected Sports","SSM 390 1.0","SSM","SSM 390 1.0 Advanced Training Methods in Selected Sports",3,"NFC6","Lecture",0,1,1,"Mr. K.P. Manawadu",2
+"265",935,"Sports Science",0,0,0,1,"Wednesday",15:00:00,17:00:00,1,"Advanced Training Methods in Selected Sports","SSM 390 1.0","SSM","SSM 390 1.0 Advanced Training Methods in Selected Sports",3,"NFC6","Lecture",0,1,1,"Mr. L.H.M.P. De Silva",2
+"266",937,"Sports Science",0,0,0,1,"Thursday",08:00:00,12:00:00,1,"FMSA of Athletics II","SSM 189 1.0","SSM","SSM 189 1.0 FMSA of Athletics II",1,"O","Lecture",0,1,1,"Mr. L.H.M.P. De Silva",4
+"267",940,"Sports Science",0,0,0,1,"Thursday",13:00:00,15:00:00,3,"FMSA of Ball Games Basketball","SSM 190 3.0","SSM","SSM 190 3.0 FMSA of Ball Games Basketball",1,"O","Lecture",0,1,1,"Mr. K.P.I. Silva",2
+"268",943,"Sports Science",0,0,0,1,"Thursday",08:00:00,09:45:00,2,"Analytic Methods in Sports","SSM 203 2.0","SSM","SSM 203 2.0 Analytic Methods in Sports",2,"NFC6","Lecture",0,1,1,"Dr. R. Silva",1.75
+"269",944,"Sports Science",0,0,0,1,"Thursday",08:00:00,09:45:00,2,"Analytic Methods in Sports","SSM 203 2.0","SSM","SSM 203 2.0 Analytic Methods in Sports",2,"NFC6","Lecture",0,1,1,"Mr. K.P.I. Silva",1.75
+"270",946,"Sports Science",0,0,0,1,"Thursday",10:15:00,12:00:00,2,"Strength and Conditioning","SSM 271 2.0","SSM","SSM 271 2.0 Strength and Conditioning",2,"NFC6","Lecture",0,1,1,"Mr. K.P. Manawadu",1.75
+"271",949,"Sports Science",0,0,0,1,"Thursday",13:00:00,15:00:00,0,"Professional Skills Development II","SSM 216 0.0","SSM","SSM 216 0.0 Professional Skills Development II",2,"O","Lecture",0,1,1,"Ms. L.Y.K. Mendis",2
+"272",952,"Sports Science",0,0,0,1,"Thursday",08:00:00,12:00:00,2,"Practicum in Sports and Physical Education","SSM 352 2.0","SSM","SSM 352 2.0 Practicum in Sports and Physical Education",3,"O","Lecture",0,1,1,"Mr. D.S.L. Perera",4
+"273",955,"Sports Science",0,0,0,1,"Thursday",13:00:00,14:00:00,2,"Practicum in Sports and Physical Education","SSM 352 2.0","SSM","SSM 352 2.0 Practicum in Sports and Physical Education",3,"NFC6","Lecture",0,1,1,"Mr. D.S.L. Perera",1
+"274",961,"Sports Science",0,0,0,1,"Friday",08:00:00,11:05:00,3,"FMSA of Ball Games Football","SSM 190 3.0","SSM","SSM 190 3.0 FMSA of Ball Games Football",1,"O","Lecture",0,1,1,"Mrs. Sandakan Tharaka",3.08
+"275",964,"Sports Science",0,0,0,1,"Friday",13:00:00,15:00:00,3,"FMSA of Ball Games Netball","SSM 190 3.0","SSM","SSM 190 3.0 FMSA of Ball Games Netball",1,"O","Lecture",0,1,1,"Mrs. Sandakan Tharaka",2
+"276",967,"Sports Science",0,0,0,1,"Friday",08:00:00,11:05:00,2,"Mixed Martial ArtsBoxing","SSM 294 2.0","SSM","SSM 294 2.0 Mixed Martial ArtsBoxing",2,"O","Lecture",0,1,1,"Mr. Gihan Maduwantha",3.08
+"277",968,"Sports Science",0,0,0,1,"Friday",08:00:00,11:05:00,2,"Mixed Martial ArtsBoxing","SSM 294 2.0","SSM","SSM 294 2.0 Mixed Martial ArtsBoxing",2,"O","Lecture",0,1,1,"Mr. Chameera Ginige",3.08
+"278",970,"Sports Science",0,0,0,1,"Friday",14:00:00,17:00:00,2,"FMSA of Coordination Sports Baseball","SSM 293 2.0","SSM","SSM 293 2.0 FMSA of Coordination Sports Baseball",2,"O","Lecture",0,1,1,"Mr. Vihanga De Silva",3
+"279",971,"Sports Science",0,0,0,1,"Friday",14:00:00,17:00:00,2,"FMSA of Coordination Sports Baseball","SSM 293 2.0","SSM","SSM 293 2.0 FMSA of Coordination Sports Baseball",2,"O","Lecture",0,1,1,"Mr. L.H.M.P. De Silva",3
+"280",973,"Sports Science",0,0,0,1,"Friday",08:00:00,09:45:00,2,"Practicum in Sports and Physical Education","SSM 352 2.0","SSM","SSM 352 2.0 Practicum in Sports and Physical Education",3,"O","Lecture",0,1,1,"Mr. D.S.L. Perera",1.75
+"281",976,"Sports Science",0,0,0,1,"Friday",10:15:00,12:00:00,2,"Sport Ent. and Business Dev.","SSM 365 2.0","SSM","SSM 365 2.0 Sport Ent. and Business Dev.",3,"NFC6","Lecture",0,1,1,"Mr. A.L.K.R. Fernando",1.75
+"282",979,"Sports Science",0,0,0,1,"Friday",13:00:00,15:00:00,2,"Practicum in Sports and Physical Education","SSM 352 2.0","SSM","SSM 352 2.0 Practicum in Sports and Physical Education",3,"B2","Lecture",0,1,1,"Mr. D.S.L. Perera",2
+"283",982,"Sports Science",0,0,0,1,"Friday",08:00:00,09:45:00,2,"Sp. Event Management","SSM 463 2.0","SSM","SSM 463 2.0 Sp. Event Management",4,"NFC6","Lecture",0,1,1,"Mr. A.L.K.R. Fernando",1.75
+"284",983,"Sports Science",0,0,0,1,"Friday",08:00:00,09:45:00,2,"Sp. Event Management","SSM 463 2.0","SSM","SSM 463 2.0 Sp. Event Management",4,"NFC6","Lecture",0,1,1,"Ms. M.H. Kumaragamage",1.75
+"285",985,"Sports Science",0,0,0,1,"Friday",10:15:00,12:00:00,2,"Dietetics","SSM 403 2.0","SSM","SSM 403 2.0 Dietetics",4,"NFC6","Lecture",0,1,1,"Dr. S. Weerasinghe",1.75
+"286",988,"Sports Science",0,0,0,1,"Friday",13:00:00,14:00:00,2,"Coaching Ed.","SSM 481 2.0","SSM","SSM 481 2.0 Coaching Ed.",4,"NFC6","Lecture",0,1,1,"Mrs. A.M.G.C.P. Adikari",1
+"287",991,"Sports Science",0,0,0,1,"Saturday",08:00:00,12:00:00,3,"FMSA of Ball Games Volleyball","SSM 190 3.0 ","SSM","SSM 190 3.0  FMSA of Ball Games Volleyball",1,"O","Lecture",0,1,1,"Mr. Udayantha Shaminda",4
+"288",992,"Sports Science",0,0,0,1,"Saturday",08:00:00,12:00:00,3,"FMSA of Ball Games Volleyball","SSM 190 3.0 ","SSM","SSM 190 3.0  FMSA of Ball Games Volleyball",1,"O","Lecture",0,1,1,"Mr. L.H.M.P. De Silva",4
+"289",994,"Sports Science",0,0,0,1,"Saturday",13:00:00,17:00:00,1,"Introduction to IT","SSM 110 1.0 ","SSM","SSM 110 1.0  Introduction to IT",1,"O","Lecture",0,1,1,"Mr. P.H.A.B. Shantha",4
+"290",995,"Sports Science",0,0,0,1,"Saturday",13:00:00,17:00:00,1,"Introduction to IT","SSM 110 1.0 ","SSM","SSM 110 1.0  Introduction to IT",1,"O","Lecture",0,1,1,"Mr. Chameera Ginige",4
+"291",997,"Genetics and Molecular Biology Unit",0,1,0,0,"Monday",10:15:00,12:00:00,2,"Techniques in Molecular Biology and Genetic Engineering","GMB 105 2.0","GMB","GMB 105 2.0 Techniques in Molecular Biology and Genetic Engineering",1,"B3","Lecture",1,0,1,"Dr. Kasun Thambugala",1.75
+"292",998,"Genetics and Molecular Biology Unit",0,1,0,0,"Monday",10:15:00,12:00:00,2,"Techniques in Molecular Biology and Genetic Engineering","GMB 105 2.0","GMB","GMB 105 2.0 Techniques in Molecular Biology and Genetic Engineering",1,"B3","Lecture",1,0,1,"Dr. Dilakshini Dayananda",1.75
+"293",1000,"Genetics and Molecular Biology Unit",0,1,0,0,"Tuesday",10:15:00,12:00:00,2,"Fundamentals of Molecular genetics","GMB 103 2.0","GMB","GMB 103 2.0 Fundamentals of Molecular genetics",1,"B3","Lecture",1,0,1,"Dr. Hiruni Harischandra",1.75
+"294",1006,"Genetics and Molecular Biology Unit",0,1,0,0,"Monday",10:15:00,11:05:00,1,"Genomics and Proteomics","GMB 203 1.0","GMB","GMB 203 1.0 Genomics and Proteomics",2,"F2","Lecture",1,0,1,"Dr. Samawansha Thennakoon",0.83
+"295",1009,"Genetics and Molecular Biology Unit",0,1,0,0,"Monday",11:10:00,12:00:00,1,"Gene Expression and Regulation","GMB 205 1.0","GMB","GMB 205 1.0 Gene Expression and Regulation",2,"F2","Lecture",1,0,1,"Dr. Pamoda Jayathunga",0.83
+"296",1012,"Genetics and Molecular Biology Unit",0,1,0,0,"Wednesday",08:00:00,09:45:00,2,"Microbes and Microbial Genetics","GMB 204 2.0","GMB","GMB 204 2.0 Microbes and Microbial Genetics",2,"B3","Lecture",1,0,1,"Dr. Kasun Thambugala",1.75
+"297",1018,"Genetics and Molecular Biology Unit",0,1,0,0,"Monday",08:00:00,08:50:00,2,"Immunology","GMB 302 2.0","GMB","GMB 302 2.0 Immunology",3,NA,"Lecture",1,0,1,"Dr. Varuni Gunathilake",0.83
+"298",1021,"Genetics and Molecular Biology Unit",0,1,0,0,"Monday",08:55:00,12:00:00,1,"Human Genetics and Counseling","GMB 318 1.0","GMB","GMB 318 1.0 Human Genetics and Counseling",3,"A1","Lecture",1,0,1,"Dr. Gayani Galhena",3.08
+"299",1024,"Genetics and Molecular Biology Unit",0,1,0,0,"Monday",13:00:00,15:00:00,1,"Advanced  Laboratory  Techniques","GMB 337 1.0","GMB","GMB 337 1.0 Advanced  Laboratory  Techniques",3,"C2","Lecture",0,1,1,"Dr. Pamoda Jayathunga",2
+"300",1030,"Genetics and Molecular Biology Unit",0,1,0,0,"Tuesday",15:00:00,17:00:00,2,"Research Methodology","GMB 320 2.0","GMB","GMB 320 2.0 Research Methodology",3,"B3","Lecture",0,1,1,"Prof. Upul Subasinghe",2
+"301",1033,"Genetics and Molecular Biology Unit",0,1,0,0,"Wednesday",08:00:00,09:45:00,1,"Molecular Modeling and Computer Biochemistry","GMB 321 1.0","GMB","GMB 321 1.0 Molecular Modeling and Computer Biochemistry",3,"A1","Lecture",1,0,1,"Dr. Ranga Jayakody",1.75
+"302",1036,"Genetics and Molecular Biology Unit",0,1,0,0,"Wednesday",10:15:00,12:00:00,2,"Protein Engineering","GMB 323 2.0","GMB","GMB 323 2.0 Protein Engineering",3,"B3","Lecture",1,0,1,"Dr. Pamoda Jayathunga",1.75
+"303",1039,"Genetics and Molecular Biology Unit",0,1,0,0,"Thursday",08:00:00,09:45:00,1,"Epigenetics","GMB 342 1.0","GMB","GMB 342 1.0 Epigenetics",3,NA,"Lecture",0,1,1,"Dr. Chanika Jayasinghe",1.75
+"304",1042,"Genetics and Molecular Biology Unit",0,1,0,0,"Thursday",13:00:00,14:00:00,2,"RNA Biology","GMB 322 2.0","GMB","GMB 322 2.0 RNA Biology",3,"F2","Lecture",1,0,1,"Dr. Dilantha Gunawardena",1
+"305",1043,"Genetics and Molecular Biology Unit",0,1,0,0,"Thursday",13:00:00,14:00:00,2,"RNA Biology","GMB 322 2.0","GMB","GMB 322 2.0 RNA Biology",3,"F2","Lecture",1,0,1,"Dr. Dilakshini Dayananda",1
+"306",1045,"Genetics and Molecular Biology Unit",0,1,0,0,"Friday",13:00:00,15:00:00,2,"Molecular Entomology","GMB 326 2.0","GMB","GMB 326 2.0 Molecular Entomology",3,"B3","Lecture",1,0,1,"Prof. Nissanka de Silva",2
+"307",1048,"Genetics and Molecular Biology Unit",0,1,0,0,"Monday",08:00:00,08:50:00,2,"Molecular Immunology","GMB 404 2.0 ","GMB","GMB 404 2.0  Molecular Immunology",4,NA,"Lecture",0,1,1,"Dr. Varuni Gunathilake",0.83
+"308",1051,"Genetics and Molecular Biology Unit",0,1,0,0,"Monday",13:00:00,16:00:00,2,"Molecular Evolution","GMB 416 2.0","GMB","GMB 416 2.0 Molecular Evolution",4,"B3","Lecture",0,1,1,"Dr. Sachini Fernando",3
+"309",1054,"Genetics and Molecular Biology Unit",0,1,0,0,"Tuesday",10:15:00,12:00:00,2,"Systems Biology","GMB 417 2.0","GMB","GMB 417 2.0 Systems Biology",4,"A1","Lecture",0,1,1,"Dr. Samawansha Thennakoon",1.75
+"310",1057,"Genetics and Molecular Biology Unit",0,1,0,0,"Tuesday",13:00:00,15:00:00,2,"Neurobiology","GMB 408 2.0","GMB","GMB 408 2.0 Neurobiology",4,"B2","Lecture",0,1,1,"Mr. WHMDNB Wijekoon",2
+"311",1058,"Genetics and Molecular Biology Unit",0,1,0,0,"Tuesday",13:00:00,15:00:00,2,"Neurobiology","GMB 408 2.0","GMB","GMB 408 2.0 Neurobiology",4,"B2","Lecture",0,1,1,"Mr. Buddika Lakmal Gonawala",2
+"312",1060,"Genetics and Molecular Biology Unit",0,1,0,0,"Saturday",08:55:00,11:05:00,2,"Molecular Basis of Diseases","GMB 414 2.0 ","GMB","GMB 414 2.0  Molecular Basis of Diseases",4,"B3","Lecture",0,1,1,"Prof. Dinithi Peiris",2.17
+"313",1063,"Computer Science ",1,0,0,0,"Monday",10:15:00,12:00:00,2,"Software Engineering II","ICT 131 2.0","ICT","ICT 131 2.0 Software Engineering II",1,"NFC6","Lecture",1,0,1,"Ms. MKA Ariyaratne",1.75
+"314",1066,"Computer Science ",1,0,0,0,"Tuesday",08:00:00,09:45:00,1,"Computer Programming - Laboratory II","ICT 130 1.0","ICT","ICT 130 1.0 Computer Programming - Laboratory II",1,"BLC","Lecture",1,0,1,"Dr. S Tissera",1.75
+"315",1067,"Computer Science ",1,0,0,0,"Tuesday",08:00:00,09:45:00,1,"Computer Programming - Laboratory II","ICT 130 1.0","ICT","ICT 130 1.0 Computer Programming - Laboratory II",1,"BLC","Lecture",1,0,1,"Ms. FS Sourjah",1.75
+"316",1075,"Computer Science ",1,0,0,0,"Thursday",13:00:00,15:00:00,2,"Object Oriented Programming","ICT 129 2.0","ICT","ICT 129 2.0 Object Oriented Programming",1,"NFC3","Lecture",1,0,1,"Dr. S Tissera",2
+"317",1081,"Computer Science ",1,0,0,0,"Tuesday",15:00:00,17:00:00,1.5,"Visual Computing","ICT 231 1.5 ","ICT","ICT 231 1.5  Visual Computing",2,"NFC4","Lecture",1,0,1,"Mr. AMRR Bandara",2
+"318",1084,"Computer Science ",1,0,0,0,"Wednesday",08:00:00,09:45:00,1.5,"Computer Networks and System Administration","ICT 230 1.5 ","ICT","ICT 230 1.5  Computer Networks and System Administration",2,"PLT","Lecture",1,0,1,"Mr. AMRR Bandara",1.75
+"319",1087,"Computer Science ",1,0,0,0,"Friday",10:15:00,12:00:00,2,"User Interface Design and Implementation","ICT 229 2.0","ICT","ICT 229 2.0 User Interface Design and Implementation",2,"NFC3","Lecture",1,0,1,"Dr. PRS De Silva",1.75
+"320",1090,"Computer Science ",1,0,0,0,"Monday",14:00:00,16:00:00,2,"Software Architecture and Design","ICT 330 2.0","ICT","ICT 330 2.0 Software Architecture and Design",3,"NFC3","Lecture",1,0,1,"Dr. EATA Edirisuriya",2
+"321",1093,"Computer Science ",1,0,0,0,"Tuesday",10:15:00,12:00:00,1.5,"Data Mining and Data Warehousing","ICT 333 1.5","ICT","ICT 333 1.5 Data Mining and Data Warehousing",3,"NFC3","Lecture",1,0,1,"Dr. TMKK Jinasena",1.75
+"322",1096,"Computer Science ",1,0,0,0,"Thursday",10:15:00,12:00:00,1.5,"Software Quality Assurance","ICT 331 1.5","ICT","ICT 331 1.5 Software Quality Assurance",3,"NFC3","Lecture",1,0,1,"Ms. FS Sourjah",1.75
+"323",1099,"Computer Science ",1,0,0,0,"Thursday",13:00:00,15:00:00,1.5,"Human Computer Interaction","ICT 332 1.5","ICT","ICT 332 1.5 Human Computer Interaction",3,"LCS2","Lecture",1,0,1,"Dr. PRS De Silva",2
+"324",1102,"Mathematics",1,1,0,0,"Monday ",10:15:00,12:00:00,2,"Principles of Macro Economics","MAN 126 2.0","MAN","MAN 126 2.0 Principles of Macro Economics",1,"C1","Lecture",1,0,1,"Dr. Kamal Gnanaweera",1.75
+"325",1105,"Mathematics",1,1,0,0,"Thursday",13:00:00,15:00:00,2,"Introduction to Entrepreneurship","MAN 129 2.0","MAN","MAN 129 2.0 Introduction to Entrepreneurship",1,"PLT","Lecture",1,0,1,"Dr. Kamal Gnanaweera",2
+"326",1108,"Mathematics",1,1,0,0,"Friday",08:00:00,08:50:00,1,"Introduction to Statistics","MAN 128 1.0","MAN","MAN 128 1.0 Introduction to Statistics",1,"PLT","Lecture",1,0,1,"Mr. Chammika De Mel",0.83
+"327",1111,"Mathematics",1,1,0,0,"Monday ",10:15:00,12:00:00,2,"Organizational Behaviour","MAN 226 2.0","MAN","MAN 226 2.0 Organizational Behaviour",2,"PLT","Lecture",1,0,1,"Dr. Anuradha Iddagoda",1.75
+"328",1117,"Mathematics",1,1,0,0,"Friday",10:15:00,12:00:00,2,"Statistical Quality Control and Industrial Statistics","MAN 227 2.0","MAN","MAN 227 2.0 Statistical Quality Control and Industrial Statistics",2,"A1","Lecture",1,0,1,"Dr. Anoma Edirimanna",1.75
+"329",1120,"Mathematics",1,1,0,0,"Tuesday",10:15:00,12:00:00,2,"Micro Computers and their Applications","MAN 327 2.0","MAN","MAN 327 2.0 Micro Computers and their Applications",3,"C1","Lecture",1,0,1,"Dr. Mahesh Fernando",1.75
+"330",1123,"Mathematics",1,1,0,0,"Wednesday",13:00:00,14:00:00,1,"Strategic Management","MAN 329 1.0","MAN","MAN 329 1.0 Strategic Management",3,"PLT","Lecture",1,0,1,"Dr. Anuradha Iddagoda",1
+"331",1126,"Mathematics",1,1,0,0,"Wednesday",15:00:00,16:00:00,1,"Production Control","MAN 326 1.0","MAN","MAN 326 1.0 Production Control",3,"PLT","Lecture",1,0,1,"Ms. Chathurika Jayasuriya",1
+"332",1129,"Mathematics",1,1,0,0,"Thursday",10:15:00,12:00:00,2,"Research Methodology","MAN 328 2.0","MAN","MAN 328 2.0 Research Methodology",3,"C1","Lecture",1,0,1,"Dr. Kamal Gnanaweera",1.75
+"333",1132,"Statistics",1,0,0,0,"Monday",10:15:00,12:00:00,2,"Probability and Distribution Theory II","STA 123 2.0","STA","STA 123 2.0 Probability and Distribution Theory II",1,"NFC4","Lecture",1,0,1,"Prof. B.M.S.G. Banneheka",1.75
+"334",1135,"Statistics",1,0,0,0,"Monday",15:00:00,17:00:00,2,"Data Analysis I","STA 124 2.0","STA","STA 124 2.0 Data Analysis I",1,"Stat Lab","Lecture",1,0,1,"Dr. K.M.P. Perera",2
+"335",1138,"Statistics",1,0,0,0,"Tuesday",13:00:00,15:00:00,2,"Data Analysis I","STA 124 2.0","STA","STA 124 2.0 Data Analysis I",1,"LCS1","Lecture",1,0,1,"Dr. K.M.P. Perera",2
+"336",1141,"Statistics",1,0,0,0,"Thursday",08:00:00,09:45:00,2,"Data Analysis I","STA 124 2.0","STA","STA 124 2.0 Data Analysis I",1,"Stat Lab","Lecture",1,0,1,"Dr. K.M.P. Perera",1.75
+"337",1144,"Statistics",1,0,0,0,"Friday",08:00:00,09:45:00,1,"Statistical Communication","STA 125 1.0 ","STA","STA 125 1.0  Statistical Communication",1,"NFC4","Lecture",1,0,1,"Dr. H.A. Pathberiya",1.75
+"338",1147,"Statistics",1,0,0,0,"Tuesday",08:00:00,09:45:00,2,"Regression Analysis","STA 224 2.0","STA","STA 224 2.0 Regression Analysis",2,"NFC4","Lecture",1,0,1,"Dr. N. Withanage",1.75
+"339",1150,"Statistics",1,0,0,0,"Tuesday",15:00:00,17:00:00,1,"Data Analysis II","STA 226 1.0","STA","STA 226 1.0 Data Analysis II",2,"LCS1","Lecture",1,0,1,"Mrs. K.A.D.B.S. Karunasena",2
+"340",1153,"Statistics",1,0,0,0,"Wednesday",08:00:00,09:45:00,1,"Data Analysis II","STA 226 1.0","STA","STA 226 1.0 Data Analysis II",2,"LCS1","Lecture",1,0,1,"Mrs. K.A.D.B.S. Karunasena",1.75
+"341",1156,"Statistics",1,0,0,0,"Friday",10:15:00,12:00:00,2,"Design and Analysis of Experiments","STA 225 2.0","STA","STA 225 2.0 Design and Analysis of Experiments",2,"NFC4","Lecture",1,0,1,"Dr. P. Liyanaarachchi",1.75
+"342",1159,"Statistics",1,0,0,0,"Monday",08:00:00,09:45:00,2,"Data analysis and Preparation of Results","STA 330 2.0","STA","STA 330 2.0 Data analysis and Preparation of Results",3,"LCS1","Lecture",1,1,1,"Dr. C. Wickramarachchi",1.75
+"343",1162,"Statistics",1,0,0,0,"Monday",16:00:00,17:45:00,2,"Data analysis and Preparation of Results","STA 330 2.0","STA","STA 330 2.0 Data analysis and Preparation of Results",3,"LCS1","Lecture",1,1,1,"Dr. C. Wickramarachchi",1.75
+"344",1165,"Statistics",1,0,0,0,"Monday",10:15:00,12:00:00,2,"Actuarial Statistics","STA 323 2.0","STA","STA 323 2.0 Actuarial Statistics",3,"Stat Lab","Lecture",0,1,1,"Dr. N. Devpura",1.75
+"345",1168,"Statistics",1,0,0,0,"Monday",13:00:00,15:00:00,2,"Statistical Data Mining","STA 476 2.0","STA","STA 476 2.0 Statistical Data Mining",3,"Stat Lab","Lecture",0,1,1,"Dr. C. Wickramarachchi",2
+"346",1171,"Statistics",1,0,0,0,"Tuesday",10:15:00,12:00:00,2,"Compilation of Official Statistics","STA 332 2.0 ","STA","STA 332 2.0  Compilation of Official Statistics",3,"Online","Lecture",1,1,1,"Dr. P. Hapuarachchi",1.75
+"347",1174,"Statistics",1,0,0,0,"Tuesday",13:00:00,15:00:00,2,"Stochastic Processes","STA 331 2.0","STA","STA 331 2.0 Stochastic Processes",3,"Stat Lab","Lecture",0,1,1,"Dr. T. Talagala",2
+"348",1177,"Statistics",1,0,0,0,"Wednesday",08:00:00,09:45:00,1,"Decision Theory","STA 313 1.0","STA","STA 313 1.0 Decision Theory",3,"NFC4","Lecture",1,0,1,"Dr. R. Lokupitiya",1.75
+"349",1180,"Statistics",1,0,0,0,"Wednesday",10:15:00,12:00:00,2,"Multivariate Statistics II","STA 327 2.0","STA","STA 327 2.0 Multivariate Statistics II",3,"Stat Lab","Lecture",0,1,1,"Dr. R. Lokupitiya",1.75
+"350",1183,"Statistics",1,0,0,0,"Wednesday",13:00:00,15:00:00,2,"Generalized Linear and Non Linear Models","STA 471 2.0","STA","STA 471 2.0 Generalized Linear and Non Linear Models",3,"Stat Lab","Lecture",0,1,1,"Dr. N. Withanage",2
+"351",1186,"Statistics",1,0,0,0,"Thursday",08:00:00,09:45:00,2,"Advanced Statistical Inference","STA 329 2.0","STA","STA 329 2.0 Advanced Statistical Inference",3,"Stat Lab2","Lecture",0,1,1,"Prof. B.M.S.G. Banneheka",1.75
+"352",1189,"Statistics",1,0,0,0,"Thursday",10:15:00,12:00:00,2,"Statistical Quality Assurance","STA 321 2.0","STA","STA 321 2.0 Statistical Quality Assurance",3,"Stat Lab2","Lecture",1,1,1,"Dr. R. Silva",1.75
+"353",1192,"Statistics",1,0,0,0,"Thursday",13:00:00,15:00:00,2,"Medical Statistics","STA 322 2.0","STA","STA 322 2.0 Medical Statistics",3,"NFC4","Lecture",1,1,1,"Dr. C. Jayasinghe",2
+"354",1195,"Statistics",1,0,0,0,"Friday",10:15:00,12:00:00,2,"Essential Skills in Statistics","STA 315 2.0","STA","STA 315 2.0 Essential Skills in Statistics",3,"NFC4","Lecture",1,1,1,"Mr. P. Dias",1.75
+"355",1198,"Statistics",1,0,0,0,"Tuesday",10:15:00,12:00:00,2,"Bayesian Inference","STA 472 2.0","STA","STA 472 2.0 Bayesian Inference",4,"Stat Lab","Lecture",0,1,1,"Dr. R. Silva",1.75
+"356",1201,"Statistics",1,0,0,0,"Wednesday",10:15:00,12:00:00,2,"Survival Analysis","STA 486 2.0","STA","STA 486 2.0 Survival Analysis",4,"Stat Lab","Lecture",0,1,1,"Dr. C. Jayasinghe",1.75
+"357",1204,"Statistics",1,0,0,0,"Thursday",08:00:00,09:45:00,2,"Spatial Statistics","STA 477 2.0","STA","STA 477 2.0 Spatial Statistics",4,"Stat Lab","Lecture",0,1,1,"Dr. R. Lokupitiya",1.75
+"358",1207,"Statistics",1,0,0,0,"Thursday",10:15:00,12:00:00,2,"Econometric Models","STA 475 2.0","STA","STA 475 2.0 Econometric Models",4,"Stat Lab2","Lecture",0,1,1,"Dr. N. Devpura",1.75
+"359",1210,"Statistics",1,0,0,0,"Friday",13:00:00,15:00:00,2,"Statistical Consultancy","STA 474 2.0","STA","STA 474 2.0 Statistical Consultancy",4,"Stat Lab","Lecture",0,1,1,"Dr. T. Talagala",2
+"360",1213,"Statistics",1,0,0,0,"Friday",10:15:00,12:00:00,2,"Advanced Time Series Analysis","STA 478 2.0","STA","STA 478 2.0 Advanced Time Series Analysis",4,"Stat Lab","Lecture",0,1,1,"Dr. H.A. Pathberiya",1.75
+"361",1216,"Statistics",1,0,0,0,"Tuesday",13:00:00,15:00:00,2,"Seminar","STA 481 2.0","STA","STA 481 2.0 Seminar",4,"Stat Lab2","Lecture",0,1,1,"Dr. R. Silva",2
+"362",1219,"Statistics",1,1,0,0,"Wednesday",16:00:00,17:45:00,2,"Introductory Statistics","STA 349 2.0 ","STA","STA 349 2.0  Introductory Statistics",3,"NFC4","Lecture",1,1,1,"Dr. C. Wickramarachchi",1.75
+"363",1228,"Zoology",0,1,0,0,"Tuesday",13:00:00,14:00:00,1,"Ecology","ZOO 121 1.0","ZOO","ZOO 121 1.0 Ecology",1,"A1","Lecture",1,0,1,"Prof. R. R. M. K. P. Ranatunga",1
+"364",1231,"Zoology",0,1,0,0,"Tuesday",14:00:00,15:00:00,1,"Insect Biology","ZOO 130 1.0","ZOO","ZOO 130 1.0 Insect Biology",1,"A1","Lecture",1,0,1,"Dr. A. G. W. U. Perera",1
+"365",1234,"Zoology",0,1,0,0,"Wednesday",11:10:00,12:00:00,1,"Comparative Functional Anatomy","ZOO 124 1.0","ZOO","ZOO 124 1.0 Comparative Functional Anatomy",1,"A1","Lecture",1,0,1,"Dr. K. N. M. Wijayathilaka",0.83
+"366",1237,"Zoology",0,1,0,0,"Thursday",10:15:00,11:05:00,1,"Fundamentals of Environmental Science","ZOO 129 1.0","ZOO","ZOO 129 1.0 Fundamentals of Environmental Science",1,"A1","Lecture",1,0,1,"Snr. Prof. M. M. Pathmalal",0.83
+"367",1249,"Zoology",0,1,0,0,"Thursday",08:00:00,08:50:00,1,"Biodiversity & Conservation","ZOO 224 1.0","ZOO","ZOO 224 1.0 Biodiversity & Conservation",2,"A1","Lecture",1,0,1,"Prof. W. A. D. Mahaulpatha",0.83
+"368",1250,"Zoology",0,1,0,0,"Thursday",08:00:00,08:50:00,1,"Biodiversity & Conservation","ZOO 224 1.0","ZOO","ZOO 224 1.0 Biodiversity & Conservation",2,"A1","Lecture",1,0,1,"Dr. E. G. D. P. Jayasekara",0.83
+"369",1252,"Zoology",0,1,0,0,"Thursday",08:55:00,09:45:00,1,"Developmental Zoology","ZOO 228 1.0","ZOO","ZOO 228 1.0 Developmental Zoology",2,"A1","Lecture",1,0,1,"Prof. L. D. C. Peiris",0.83
+"370",1255,"Zoology",0,1,0,0,"Friday",10:15:00,12:00:00,2,"Genetics and Molecular Biology","ZOO 231 2.0","ZOO","ZOO 231 2.0 Genetics and Molecular Biology",2,"A1","Lecture",1,0,1,"Dr. H. S. D. Fernando",1.75
+"371",1258,"Zoology",0,1,0,0,"Monday",08:00:00,08:50:00,1,"Integrated Watershed Management","ZOO 347 1.0","ZOO","ZOO 347 1.0 Integrated Watershed Management",3,"A1","Lecture",1,1,1,"Dr. S. A. M. A. I. K. Senanayake",0.83
+"372",1261,"Zoology",0,1,0,0,"Monday",08:55:00,09:45:00,1,"Environmental Physiology","ZOO 332 1.0","ZOO","ZOO 332 1.0 Environmental Physiology",3,"A1","Lecture",1,1,1,"Dr. F. S. Idroos",0.83
+"373",1264,"Zoology",0,1,0,0,"Monday",10:15:00,11:05:00,1,"Wildlife Management","ZOO 345 1.0","ZOO","ZOO 345 1.0 Wildlife Management",3,"A1","Lecture",1,1,1,"Prof. W. A. D. Mahaulpatha",0.83
+"374",1267,"Zoology",0,1,0,0,"Monday",11:10:00,12:00:00,1,"Fundamentals of Microbial Ecology","ZOO 344 1.0","ZOO","ZOO 344 1.0 Fundamentals of Microbial Ecology",3,"A1","Lecture",1,1,1,"Snr. Prof. M. M. Pathmalal",0.83
+"375",1270,"Zoology",0,1,0,0,"Monday",15:00:00,16:00:00,1,"Fundamentals of Immunology","ZOO 343 1.0","ZOO","ZOO 343 1.0 Fundamentals of Immunology",3,"A1","Lecture",1,1,1,"Dr. K. V. K. Gunathilake",1
+"376",1273,"Zoology",0,1,0,0,"Tuesday",08:55:00,09:45:00,1,"Toxicology of Insecticides","ZOO 346 1.0","ZOO","ZOO 346 1.0 Toxicology of Insecticides",3,"A1","Lecture",1,1,1,"Dr. A. G. W. U. Perera",0.83
+"377",1276,"Zoology",0,1,0,0,"Tuesday",13:00:00,15:00:00,2,"Nutrition","ZOO 327 2.0","ZOO","ZOO 327 2.0 Nutrition",3,"NFC3","Lecture",1,1,1,"Dr. K. V. K. Gunathilake",2
+"378",1285,"Zoology",0,1,0,0,"Friday",13:00:00,15:00:00,2,"Molecular Systematics","ZOO 426 2.0","ZOO","ZOO 426 2.0 Molecular Systematics",4,"SLH - Botany","Lecture",0,1,1,"Snr. Prof. B. G. D. N. K. De Silva",2
+"379",1288,"Zoology",0,1,0,0,NA,NA,NA,2,"Applications of Microbial Ecology","ZOO 427 2.0","ZOO","ZOO 427 2.0 Applications of Microbial Ecology",4,"SLH - Botany","Lecture",0,1,1,"Snr. Prof. M. M. Pathmalal",NA
+"380",1291,"Zoology",0,1,0,0,"Thursday",10:15:00,12:00:00,2,"Tetrapod Biology","ZOO 428 2.0","ZOO","ZOO 428 2.0 Tetrapod Biology",4,"SLH - Botany","Lecture",0,1,1,"Prof. W. A. D. Mahaulpatha",1.75
+"381",1294,"Zoology",0,1,0,0,"Saturday",08:55:00,12:00:00,2,"Molecular Principles of Human Diseases ","ZOO 414 2.0","ZOO","ZOO 414 2.0 Molecular Principles of Human Diseases ",4,"SLH - Botany","Lecture",0,1,1,"Prof. L. D. C. Peiris",3.08
+"382",1297,"Zoology",0,1,0,0,"Tuesday",10:15:00,12:00:00,2,"Bio Intensive Integrated Pest Management","ZOO 425 2.0","ZOO","ZOO 425 2.0 Bio Intensive Integrated Pest Management",4,"SLH - Botany","Lecture",0,1,1,"Dr. A. G. W. U. Perera",1.75
+"383",1300,"Zoology",0,1,0,0,NA,NA,NA,2,"Mosquito Biology","ZOO 429 2.0","ZOO","ZOO 429 2.0 Mosquito Biology",4,"SLH - Botany","Lecture",0,1,1,"Dr. H. S. D. Fernando",NA
+"384",1303,"Zoology",0,1,0,0,"Monday",14:00:00,15:00:00,1,"Water Chemistry","ARM 110 1.0","ARM","ARM 110 1.0 Water Chemistry",1,"A1","Lecture",1,0,1,"Prof. S.D.M. Chinthaka",1
+"385",1306,"Zoology",0,1,0,0,"Tuesday",11:10:00,12:00:00,1,"Aquatic Invertebrates","ARM 109 1.0","ARM","ARM 109 1.0 Aquatic Invertebrates",1,"A1","Lecture",1,0,1,"Dr. K. N. M. Wijayathilaka",0.83
+"386",1309,"Zoology",0,1,0,0,"Wednesday",08:00:00,08:50:00,1,"Aquatic Vegetation","ARM 108 1.0","ARM","ARM 108 1.0 Aquatic Vegetation",1,"A1","Lecture",1,0,1,"Dr. I. U. Kariyawasam",0.83
+"387",1312,"Zoology",0,1,0,0,"Wednesday",08:55:00,09:45:00,1,"Ecology of Plankton & Benthos","ARM 107 1.0","ARM","ARM 107 1.0 Ecology of Plankton & Benthos",1,"A1","Lecture",1,0,1,"Dr. F. S. Idroos",0.83
+"388",1318,"Zoology",0,1,0,0,"Monday",08:00:00,08:50:00,1,"Inland Fisheries","ARM 206 1.0","ARM","ARM 206 1.0 Inland Fisheries",2,"M1","Lecture",1,0,1,"Prof. D. C. T. Dissanayake",0.83
+"389",1319,"Zoology",0,1,0,0,"Monday",08:00:00,08:50:00,1,"Inland Fisheries","ARM 206 1.0","ARM","ARM 206 1.0 Inland Fisheries",2,"M1","Lecture",1,0,1,"Dr. F. S. Idroos",0.83
+"390",1324,"Zoology",0,1,0,0,"Wednesday",13:00:00,15:00:00,2,"Culture Methods of Finfish & Shellfish","ARM 205 2.0","ARM","ARM 205 2.0 Culture Methods of Finfish & Shellfish",2,"A1","Lecture",1,0,1,"Dr. S. A. M. A. I. K. Senanayake",2
+"391",1327,"Zoology",0,1,0,0,"Friday",08:55:00,09:45:00,1,"Fish Genetics","ARM 207 1.0","ARM","ARM 207 1.0 Fish Genetics",2,"B3","Lecture",1,0,1,"Dr. K. V. K. Gunathilake",0.83
+"392",1330,"Zoology",0,1,0,0,"Monday",08:00:00,08:50:00,1,"Integrated Watershed Management","ARM 311 1.0","ARM","ARM 311 1.0 Integrated Watershed Management",3,"A1","Lecture",1,1,1,"Dr. S. A. M. A. I. K. Senanayake",0.83
+"393",1333,"Zoology",0,1,0,0,"Monday",08:55:00,09:45:00,1,"Ecophysiology","ARM 310 1.0","ARM","ARM 310 1.0 Ecophysiology",3,"A1","Lecture",1,1,1,"Dr. F. S. Idroos",0.83
+"394",1336,"Zoology",0,1,0,0,"Monday",14:00:00,15:00:00,1,"Aquatic Vertebrate Conservation","ARM 312 1.0","ARM","ARM 312 1.0 Aquatic Vertebrate Conservation",3,"F2","Lecture",1,1,1,"Prof. W. A. D. Mahaulpatha",1
+"395",1339,"Zoology",0,1,0,0,"Tuesday",13:00:00,15:00:00,2,"Nutrition","ARM 304 2.0","ARM","ARM 304 2.0 Nutrition",3,"NFC3","Lecture",1,1,1,"Dr. K. V. K. Gunathilake",2
+"396",1342,"Zoology",0,1,0,0,"Thursday",10:15:00,12:00:00,2,"Marine and Coastal Ecology","ARM 309 2.0","ARM","ARM 309 2.0 Marine and Coastal Ecology",3,"F2","Lecture",1,1,1,"Prof. R. R. M. K. P. Ranatunga",1.75
+"397",1348,"Zoology",0,1,0,0,"Tuesday",13:00:00,14:00:00,1,"Principles of Ecology","BIO 111 1.0","BIO","BIO 111 1.0 Principles of Ecology",1,"A1","Lecture",1,0,1,"Prof. R. R. M. K. P. Ranatunga",1
+"398",1354,"Zoology",0,1,0,0,"Wednesday",13:00:00,15:00:00,2,"Plant Form and Function","BIO 104 2.0 ","BIO","BIO 104 2.0  Plant Form and Function",1,"A1","Lecture",1,0,1,"Prof. W.T.P.S.K.Senarath",2
+"399",1357,"Zoology",0,1,0,0,"Wednesday",16:00:00,17:45:00,1,"Biological Statistics","BIO 110 1.0","BIO","BIO 110 1.0 Biological Statistics",1,"NFC4","Lecture",1,0,1,"Dr. C. Wickramarachchi",1.75
+"400",1363,"Zoology",0,1,0,0,"Tuesday",14:00:00,15:00:00,1,"Entomology","BIO 212 1.0","BIO","BIO 212 1.0 Entomology",2,"A1","Lecture",1,0,1,"Dr. A. G. W. U. Perera",1
+"401",1366,"Zoology",0,1,0,0,"Thursday",08:55:00,09:45:00,1,"Developmental Biology","BIO 211 1.0","BIO","BIO 211 1.0 Developmental Biology",2,"A1","Lecture",1,0,1,"Prof. L. D. C. Peiris",0.83
+"402",1369,"Zoology",0,1,0,0,"Thursday",10:15:00,12:00:00,1,"Environmental Science","BIO 209 1.0","BIO","BIO 209 1.0 Environmental Science",2,"A1","Lecture",1,0,1,"Snr. Prof. M. M. Pathmalal",1.75
+"403",1372,"Zoology",0,1,0,0,"Friday",10:15:00,12:00:00,2,"Genetics and Molecular Biology","BIO 207 2.0","BIO","BIO 207 2.0 Genetics and Molecular Biology",2,"A1","Lecture",1,0,1,"Dr. H. S. D. Fernando",1.75
+"404",1375,"Zoology",0,1,0,0,"Friday",13:00:00,14:00:00,1,"Host Microbial Interactions","BIO 210 1.0","BIO","BIO 210 1.0 Host Microbial Interactions",2,"NFC3","Lecture",1,0,1,"Ms. H.T. Mandakini",1
+"405",1378,"Zoology",0,1,0,0,"Monday",11:10:00,12:00:00,1,"Microbial Ecology","BIO 354 1.0","BIO","BIO 354 1.0 Microbial Ecology",3,"A1","Lecture",1,1,1,"Snr. Prof. M. M. Pathmalal",0.83
+"406",1381,"Zoology",0,1,0,0,"Monday",15:00:00,16:00:00,1,"Immunology","BIO 355 1.0","BIO","BIO 355 1.0 Immunology",3,"A1","Lecture",1,1,1,"Dr. K. V. K. Gunathilake",1
+"407",1384,"Zoology",0,1,0,0,"Tuesday",13:00:00,15:00:00,2,"Nutrition","BIO 308 2.0","BIO","BIO 308 2.0 Nutrition",3,"NFC3","Lecture",1,1,1,"Dr. K. V. K. Gunathilake",2
+"408",1387,"Zoology",0,1,0,0,"Tuesday",16:00:00,17:00:00,1,"Bioinformatics","BIO 345 1.0","BIO","BIO 345 1.0 Bioinformatics",3,"BLT","Lecture",1,1,1,"Dr. I. U. Kariyawasam",1
+"409",1390,"Zoology",0,1,0,0,"Thursday",10:15:00,11:05:00,1,"Bioinformatics","BIO 345 1.0","BIO","BIO 345 1.0 Bioinformatics",3,"BLT","Lecture",1,1,1,"Dr. I. U. Kariyawasam",0.83
+"410",1399,"Zoology",0,1,0,0,"Monday",08:00:00,09:45:00,1,"Microbial Enzymes in Biotechnology ","BIO 428 1.0","BIO","BIO 428 1.0 Microbial Enzymes in Biotechnology ",4,"SLH - Botany","Lecture",0,1,1,"Dr. R. Wimalasekara",1.75
+"411",1402,"Zoology",0,1,0,0,"Monday",13:00:00,15:00:00,2,"Advanced Applied Microbiology","BIO 429 2.0","BIO","BIO 429 2.0 Advanced Applied Microbiology",4,"SLH - Botany","Lecture",0,1,1,"Dr. Anusha Ekanayaka",2
+"412",1405,"Mathematics ",1,0,0,0,"Monday ",13:00:00,14:00:00,1,"Vector Calculus","MAT 123 1.0","MAT","MAT 123 1.0 Vector Calculus",1,"S1","Lecture ",1,0,1,"Mr. G. J. K. Silva",1
+"413",1408,"Mathematics ",1,0,0,0,"Wednesday ",08:00:00,09:45:00,2,"Linear Algebra I","MAT 121 2.0","MAT","MAT 121 2.0 Linear Algebra I",1,"S1","Lecture ",1,0,1,"Dr. Menaka Liyanage",1.75
+"414",1414,"Mathematics ",1,0,0,0,"Thursday ",10:15:00,12:00:00,2,"Calculus","MAT 122 2.0 ","MAT","MAT 122 2.0  Calculus",1,"S1","Lecture ",1,0,1,"Dr. R. N. P. De Silva",1.75
+"415",1417,"Mathematics ",1,0,0,0,"Monday ",08:00:00,09:45:00,2,"Partial Differential Equations","MAT 222 2.0","MAT","MAT 222 2.0 Partial Differential Equations",2,"S1","Lecture ",1,0,1,"Dr. P.G.T.Harshani",1.75
+"416",1423,"Mathematics ",1,0,0,0,"Thursday ",08:00:00,09:45:00,2,"Functions of Several Variables","MAT 221 2.0","MAT","MAT 221 2.0 Functions of Several Variables",2,"S1","Lecture ",1,0,1,"Dr. R. P. K. De Silva",1.75
+"417",1424,"Mathematics ",1,0,0,0,"Thursday ",08:00:00,09:45:00,2,"Functions of Several Variables","MAT 221 2.0","MAT","MAT 221 2.0 Functions of Several Variables",2,"S1","Lecture ",1,0,1,"Dr. Prabath Silva",1.75
+"418",1426,"Mathematics ",1,0,0,0,"Friday ",08:00:00,08:50:00,1,"Basics of Number Theory","MAT 223 1.0","MAT","MAT 223 1.0 Basics of Number Theory",2,"S1","Lecture ",1,0,1,"Dr. Jayantha Senadeera",0.83
+"419",1432,"Mathematics ",1,0,0,0,"Monday ",10:15:00,12:00:00,2,"Differential Geometry","MAT 322 2.0","MAT","MAT 322 2.0 Differential Geometry",3,"S1","Lecture ",1,0,1,"Dr. Thanuja Paragoda",1.75
+"420",1435,"Mathematics ",1,0,0,0,"Friday ",08:00:00,09:45:00,2,"Abstract Algebra","MAT 321 2.0","MAT","MAT 321 2.0 Abstract Algebra",3,"S1","Lecture ",1,0,1,"Dr. J. K. Rathnayake",1.75
+"421",1438,"Mathematics ",1,0,0,0,"Friday ",13:00:00,15:00:00,1,"Optimization","MAT 323 1.0","MAT","MAT 323 1.0 Optimization",3,"S1","Lecture ",1,0,1,"Dr. N. C. Ganegoda",2
+"422",1444,"Mathematics ",1,0,0,0,"Monday ",08:00:00,09:45:00,3,"Graph Theory","MAT 353 3.0","MAT","MAT 353 3.0 Graph Theory",3,"M2","Lecture ",0,1,1,"Dr. G. H. J. Lanel",1.75
+"423",1447,"Mathematics ",1,0,0,0,"Tuesday ",08:55:00,12:00:00,2,"Seminar and Report Writing","MAT 380 2.0","MAT","MAT 380 2.0 Seminar and Report Writing",3,"M1","Lecture ",0,1,1,"Prof. K. B. M. Fonseka",3.08
+"424",1450,"Mathematics ",1,0,0,0,"Tuesday ",13:00:00,16:00:00,3,"Complex Variables","MAT 377 3.0","MAT","MAT 377 3.0 Complex Variables",3,"M1","Lecture ",0,1,1,"Dr. B.V.N.C. Vidanage",3
+"425",1453,"Mathematics ",1,0,0,0,"Wednesday ",08:00:00,09:45:00,3,"Graph Theory","MAT 353 3.0","MAT","MAT 353 3.0 Graph Theory",3,"M2","lecture ",0,1,1,"Dr. G. H. J. Lanel",1.75
+"426",1456,"Mathematics ",1,0,0,0,"Wednesday ",10:15:00,12:00:00,2,"Topology","MAT 382 2.0","MAT","MAT 382 2.0 Topology",3,"M2","Lecture ",0,1,1,"Mr. G. J. K. Silva",1.75
+"427",1459,"Mathematics ",1,0,0,0,"Friday ",08:00:00,11:05:00,3,"Ring Theory","MAT 375 3.0","MAT","MAT 375 3.0 Ring Theory",3,"M1","Lecture ",0,1,1,"Dr. L. M. Liyanage",3.08
+"428",1462,"Mathematics ",1,0,0,0,"Friday ",13:00:00,16:00:00,2,"Seminar and Report Writing","MAT 380 2.0","MAT","MAT 380 2.0 Seminar and Report Writing",3,"M1","Lecture ",0,1,1,"Prof. K. B. M. Fonseka",3
+"429",1465,"Mathematics ",1,0,0,0,"Monday",10:15:00,12:00:00,3,"Fields and Galois Theory","MAT 451 3.0","MAT","MAT 451 3.0 Fields and Galois Theory",4,"M2","Lecture ",0,1,1,"Mr. K. K. W. A. Sarath Kumara",1.75
+"430",1468,"Mathematics ",1,0,0,0,"Monday ",13:00:00,15:00:00,2,"Differential Geometry and Manifolds","MAT 484 2.0","MAT","MAT 484 2.0 Differential Geometry and Manifolds",4,"M1","Lecture ",0,1,1,"Dr. Prabath Silva",2
+"431",1471,"Mathematics ",1,0,0,0,"Tuesday ",10:15:00,12:00:00,2,"Combinatorics","MAT 483 2.0","MAT","MAT 483 2.0 Combinatorics",4,"SRL - Mathematics","Lecture ",0,1,1,"Dr. Jayantha Senadeera",1.75
+"432",1474,"Mathematics ",1,0,0,0,"Tuesday ",13:00:00,15:00:00,3,"Functional Analysis","MAT 476 3.0","MAT","MAT 476 3.0 Functional Analysis",4,"SRL - Mathematics","Lecture ",0,1,1,"Dr. Prabath Silva",2
+"433",1477,"Mathematics ",1,0,0,0,"Wednesday ",08:00:00,09:45:00,2,"Univalent Functions and Conformal Mappings","MAT 485 2.0","MAT","MAT 485 2.0 Univalent Functions and Conformal Mappings",4,"SRL - Mathematics","Lecture ",0,1,1,"Dr. B.V.N.C. Vidanage",1.75
+"434",1480,"Mathematics ",1,0,0,0,"Wednesday ",10:15:00,12:00:00,2,"Computational Mathematics","MAT 454 2.0","MAT","MAT 454 2.0 Computational Mathematics",4,"SRL - Mathematics","Lecture ",0,1,1,"Dr. G. H. J. Lanel",1.75
+"435",1483,"Mathematics ",1,0,0,0,"Thursday ",10:15:00,12:00:00,3,"Fields and Galois Theory","MAT 451 3.0","MAT","MAT 451 3.0 Fields and Galois Theory",4,"M2","Lecture ",0,1,1,"Mr. K. K. W. A. Sarath Kumara",1.75
+"436",1486,"Mathematics ",1,0,0,0,"Thursday ",13:00:00,15:00:00,3,"Functional Analysis","MAT 476 3.0","MAT","MAT 476 3.0 Functional Analysis",4,"SRL - Mathematics","Lecture ",0,1,1,"Dr. Prabath Silva",2
+"437",1489,"Mathematics ",1,0,0,0,"Friday ",10:15:00,12:00:00,2,"Category Theory","MAT 478 2.0","MAT","MAT 478 2.0 Category Theory",4,"SRL - Mathematics","Lecture ",0,1,1,"Dr. J. K. Rathnayake",1.75
+"438",1492,"Mathematics ",1,0,0,0,"Tuesday ",10:15:00,12:00:00,2,"Classical Mechanics","AMT 121 2.0","AMT","AMT 121 2.0 Classical Mechanics",1,"C2","Lecture ",1,0,1,"Mrs. D. S. Rodrigo",1.75
+"439",1495,"Mathematics ",1,0,0,0,"Wednsday ",13:00:00,15:00:00,2,"Computational Mathematics","AMT 122 2.0","AMT","AMT 122 2.0 Computational Mathematics",1,"M1","Lecture ",1,0,1,"Dr. R. N. P. De Silva",2
+"440",1498,"Mathematics ",1,0,0,0,"Thursday ",08:55:00,09:45:00,1,"Mathematical Modelling I","AMT 123 1.0","AMT","AMT 123 1.0 Mathematical Modelling I",1,"M1","Lecture ",1,0,1,"Prof. R. P. K. C. M. Ranasinghe",0.83
+"441",1501,"Mathematics ",1,0,0,0,"Monday ",13:00:00,15:00:00,2,"Fluid Dynamics","AMT 222 2.0","AMT","AMT 222 2.0 Fluid Dynamics",2,"M1","Lecture ",1,0,1,"Dr. N. C. Ganegoda",2
+"442",1504,"Mathematics ",1,0,0,0,"Tuesday ",10:15:00,12:00:00,2,"Mathematical Computing","AMT 221 2.0","AMT","AMT 221 2.0 Mathematical Computing",2,"F2","Lecture ",1,0,1,"Ms. T. A. H. Dilpriya",1.75
+"443",1507,"Mathematics ",1,0,0,0,"Friday ",10:15:00,11:05:00,1,"Discrete Mathematics","AMT 223 1.0","AMT","AMT 223 1.0 Discrete Mathematics",2,"B3","Lecture ",1,0,1,"Dr. R. P. K. De Silva",0.83
+"444",1510,"Mathematics ",1,0,0,0,"Wednesday ",10:15:00,12:00:00,2,"Quantum Mechanics","AMT 322 2.0","AMT","AMT 322 2.0 Quantum Mechanics",3,"P1","Lecture ",1,0,1,"Mrs. D. S. Rodrigo",1.75
+"445",1513,"Mathematics ",1,0,0,0,"Thursday ",13:00:00,15:00:00,1,"Operations Research I","AMT 323 1.0","AMT","AMT 323 1.0 Operations Research I",3,"P1","Lecture ",1,0,1,"Dr. M. T. M. Perera",2
+"446",1516,"Mathematics ",1,0,0,0,"Friday",10:15:00,12:00:00,2,"Regression Analysis","AMT 325 2.0","AMT","AMT 325 2.0 Regression Analysis",3,"M2","Lecture ",1,0,1,"Mr. Chammika De Mel",1.75
+"447",1519,"Mathematics ",1,0,0,0,"Tuesday ",08:55:00,12:00:00,2,"Seminar and Report Writing","AMT 355 2.0","AMT","AMT 355 2.0 Seminar and Report Writing",3,"M1","Lecture ",0,1,1,"Prof. K. B. M. Fonseka",3.08
+"448",1522,"Mathematics ",1,0,0,0,"Tuesday ",13:00:00,15:00:00,2,"Data Analysis and Preparation of Reports","AMT 378 2.0","AMT","AMT 378 2.0 Data Analysis and Preparation of Reports",3,"M2","Lecture ",0,1,1,"Mr. Jayasooriya",2
+"449",1525,"Mathematics ",1,0,0,0,"Wednesday ",08:00:00,09:45:00,2,"Statistical Quality Control","AMT 390 2.0","AMT","AMT 390 2.0 Statistical Quality Control",3,"M1","Lecture ",0,1,1,"Dr. M. T. M. Perera",1.75
+"450",1528,"Mathematics ",1,0,0,0,"Wednesday ",10:15:00,12:00:00,2,"Quantum Mechanics","AMT 322 2.0","AMT","AMT 322 2.0 Quantum Mechanics",3,"P1","Lecture ",0,1,1,"Mrs. D. S. Rodrigo",1.75
+"451",1531,"Mathematics ",1,0,0,0,"Wednesday ",13:00:00,15:00:00,2,"Computational Statistics","AMT 377 2.0","AMT","AMT 377 2.0 Computational Statistics",3,"SRL - Mathematics","Lecture ",0,1,1,"Dr. C. Wickramarachchi",2
+"452",1532,"Mathematics ",1,0,0,0,"Wednesday ",13:00:00,15:00:00,2,"Computational Statistics","AMT 377 2.0","AMT","AMT 377 2.0 Computational Statistics",3,"SRL - Mathematics","Lecture ",0,1,1,"Mr. Chammika De Mel",2
+"453",1534,"Mathematics ",1,0,0,0,"Thursday ",10:15:00,12:00:00,2,"Mathematical Modeling II","AMT 321 2.0","AMT","AMT 321 2.0 Mathematical Modeling II",3,"M2","Lecture ",0,1,1,"Prof. R. P. K. C. M. Ranasinghe",1.75
+"454",1537,"Mathematics ",1,0,0,0,"Thursday ",13:00:00,14:00:00,1,"Operations Research I","AMT 323 1.0","AMT","AMT 323 1.0 Operations Research I",3,"P1","Lecture ",0,1,1,"Dr. M. T. M. Perera",1
+"455",1540,"Mathematics ",1,0,0,0,"Thursday ",14:00:00,15:00:00,1,"Production Control","AMT 326 1.0","AMT","AMT 326 1.0 Production Control",3,"M1","Lecture ",0,1,2,"Dr. M. T. M. Perera",1
+"456",1543,"Mathematics ",1,0,0,0,"Friday ",10:15:00,12:00:00,2,"Regression Analysis","AMT 325 2.0","AMT","AMT 325 2.0 Regression Analysis",3,"M2","Lecture ",0,1,1,"Mr. Chammika De Mel",1.75
+"457",1546,"Mathematics ",1,0,0,0,"Friday ",13:00:00,16:00:00,2,"Seminar and Report Writing","AMT 355 2.0","AMT","AMT 355 2.0 Seminar and Report Writing",3,"M1","Lecture ",0,1,1,"Prof. K. B. M. Fonseka",3
+"458",1549,"Physics ",1,1,0,0,"Monday ",14:00:00,16:00:00,2,"Thermodynamics","PHY 108 2.0","PHY","PHY 108 2.0 Thermodynamics",1,"PLT ","Lecture ",1,0,1,"Prof. A.R. Kumarasinghe",2
+"459",1552,"Physics ",1,1,0,0,"Tuesday ",10:15:00,12:00:00,2,"Applied Electricity and Basic Electronics","PHY 107 2.0","PHY","PHY 107 2.0 Applied Electricity and Basic Electronics",1,"S1","Lecture ",1,0,1,"Mr. C.H. Manathunga",1.75
+"460",1555,"Physics ",1,1,0,0,"Tuesday ",13:00:00,16:00:00,2,"Practicals ","PHY 106 2.0","PHY","PHY 106 2.0 Practicals ",1,"P","Practicals",1,0,1,"Prof. P.K.D.D.P. Pitigala",3
+"461",1556,"Physics ",1,1,0,0,"Tuesday ",13:00:00,16:00:00,2,"Practicals ","PHY 106 2.0","PHY","PHY 106 2.0 Practicals ",1,"P","Practicals",1,0,1,"Dr. MLC Attygalle",3
+"462",1558,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,2,"Practicals ","PHY 106 2.0","PHY","PHY 106 2.0 Practicals ",1,"P","Practicals",1,0,1,"Prof. P.K.D.D.P. Pitigala",3
+"463",1559,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,2,"Practicals ","PHY 106 2.0","PHY","PHY 106 2.0 Practicals ",1,"P","Practicals",1,0,1,"Dr. MLC Attygalle",3
+"464",1561,"Physics ",1,1,0,0,"Wednesday ",16:00:00,17:00:00,2,"Mathematics for Bio Science Students","PHY 102 2.0","PHY","PHY 102 2.0 Mathematics for Bio Science Students",1,"L2","Lecture ",1,0,1,"Dr. Gaya Jayakody",1
+"465",1567,"Physics ",1,1,0,0,"Thursday ",16:00:00,17:00:00,2,"Mathematics for Bio Science Students","PHY 102 2.1","PHY","PHY 102 2.1 Mathematics for Bio Science Students",1,"L2","Lecture ",1,0,1,"Dr. Gaya Jayakody",1
+"466",1570,"Physics ",1,1,0,0,"Friday ",08:55:00,12:00:00,2,"Practicals ","PHY 106 2.0","PHY","PHY 106 2.0 Practicals ",1,"P ","Practicals",1,0,1,"Prof. P.K.D.D.P. Pitigala",3.08
+"467",1571,"Physics ",1,1,0,0,"Friday ",08:55:00,12:00:00,2,"Practicals ","PHY 106 2.0","PHY","PHY 106 2.0 Practicals ",1,"P ","Practicals",1,0,1,"Dr. MLC Attygalle",3.08
+"468",1573,"Physics ",1,1,0,0,"Friday ",13:00:00,16:00:00,2,"Practicals ","PHY 106 2.1","PHY","PHY 106 2.1 Practicals ",1,"P ","Practicals",1,0,1,"Prof. P.K.D.D.P. Pitigala",3
+"469",1574,"Physics ",1,1,0,0,"Friday ",13:00:00,16:00:00,2,"Practicals ","PHY 106 2.1","PHY","PHY 106 2.1 Practicals ",1,"P ","Practicals",1,0,1,"Dr. MLC Attygalle",3
+"470",1576,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,1,"Practicals ","PHY 203 1.0","PHY","PHY 203 1.0 Practicals ",2,"P","Practicals",1,0,1,"Dr. D.N. Jayawardane",3
+"471",1577,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,1,"Practicals ","PHY 203 1.0","PHY","PHY 203 1.0 Practicals ",2,"P","Practicals",1,0,1,"Dr. CR Munasinghe",3
+"472",1579,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,1,"Practicals","PHY 204 1.0","PHY","PHY 204 1.0 Practicals",2,"P","Practicals",1,0,1,"Mr. R.A.D.D. Dharmasiri",3
+"473",1580,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,1,"Practicals","PHY 204 1.0","PHY","PHY 204 1.0 Practicals",2,"P","Practicals",1,0,1,"Mr. KS Mannathunga",3
+"474",1585,"Physics ",1,1,0,0,"Tuesday ",10:15:00,11:05:00,1,"Mathematical Physics I","PHY 206 1.0","PHY","PHY 206 1.0 Mathematical Physics I",2,"PLT ","Lecture ",1,0,1,"Prof. N.G.S.S. Gamage",0.83
+"475",1588,"Physics ",1,1,0,0,"Tuesday ",11:10:00,12:00:00,1,"Special Theory of Relativity","PHY 207 1.0","PHY","PHY 207 1.0 Special Theory of Relativity",2,"PLT","Lecture ",1,0,1,"Dr. M.M.P.M. Fernando",0.83
+"476",1591,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,1,"Practicals ","PHY 203 1.0","PHY","PHY 203 1.0 Practicals ",2,"P","Practicals",1,0,1,"Dr. D.N. Jayawardane",3.08
+"477",1592,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,1,"Practicals ","PHY 203 1.0","PHY","PHY 203 1.0 Practicals ",2,"P","Practicals",1,0,1,"Dr. CR Munasinghe",3.08
+"478",1594,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,1,"Practicals ","PHY 204 1.0","PHY","PHY 204 1.0 Practicals ",2,"P","Practicals ",1,0,1,"Mr. R.A.D.D. Dharmasiri",3.08
+"479",1595,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,1,"Practicals ","PHY 204 1.0","PHY","PHY 204 1.0 Practicals ",2,"P","Practicals ",1,0,1,"Mr. KS Mannathunga",3.08
+"480",1597,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,1,"Practicals ","PHY 203 1.0","PHY","PHY 203 1.0 Practicals ",2,"P","Practicals ",1,0,1,"Dr. D.N. Jayawardane",3
+"481",1598,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,1,"Practicals ","PHY 203 1.0","PHY","PHY 203 1.0 Practicals ",2,"P","Practicals ",1,0,1,"Dr. CR Munasinghe",3
+"482",1600,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,1,"Practicals ","PHY 204 1.0","PHY","PHY 204 1.0 Practicals ",2,"P","Practicals",1,0,1,"Mr. R.A.D.D. Dharmasiri",3
+"483",1601,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,1,"Practicals ","PHY 204 1.0","PHY","PHY 204 1.0 Practicals ",2,"P","Practicals",1,0,1,"Mr. KS Mannathunga",3
+"484",1603,"Physics ",1,1,0,0,"Thursday ",10:15:00,11:05:00,1,"Atomic & Nuclear Physics","PHY 208 1.0","PHY","PHY 208 1.0 Atomic & Nuclear Physics",2,"PLT","Lecture ",1,0,1,"Dr. MLC Attygalle",0.83
+"485",1606,"Physics ",1,1,0,0,"Thursday ",11:10:00,12:00:00,1,"Statistical Physics I","PHY 205 1.0","PHY","PHY 205 1.0 Statistical Physics I",2,"PLT ","Lecture ",1,0,1,"Dr. W.W.P. De Silva",0.83
+"486",1609,"Physics ",1,1,0,0,"Friday ",13:00:00,16:00:00,1,"Practicals ","PHY 203 1.0","PHY","PHY 203 1.0 Practicals ",2,"P ","Practicals ",1,0,1,"Dr. D.N. Jayawardane",3
+"487",1610,"Physics ",1,1,0,0,"Friday ",13:00:00,16:00:00,1,"Practicals ","PHY 203 1.0","PHY","PHY 203 1.0 Practicals ",2,"P ","Practicals ",1,0,1,"Dr. CR Munasinghe",3
+"488",1612,"Physics ",1,1,0,0,"Friday ",13:00:00,16:00:00,1,"Practicals ","PHY 204 1.0","PHY","PHY 204 1.0 Practicals ",2,"P ","Practicals ",1,0,1,"Mr. R.A.D.D. Dharmasiri",3
+"489",1613,"Physics ",1,1,0,0,"Friday ",13:00:00,16:00:00,1,"Practicals ","PHY 204 1.0","PHY","PHY 204 1.0 Practicals ",2,"P ","Practicals ",1,0,1,"Mr. KS Mannathunga",3
+"490",1615,"Physics ",1,1,0,0,"Monday ",08:00:00,08:50:00,1,"Introduction to Microprocessors","PHY 309 1.0","PHY","PHY 309 1.0 Introduction to Microprocessors",3,"PLT ","Lecture ",1,1,1,"Mr. R.A.D.D. Dharmasiri",0.83
+"491",1618,"Physics ",1,1,0,0,"Monday ",08:55:00,09:45:00,1,"Space Physics I","PHY 310 1.0","PHY","PHY 310 1.0 Space Physics I",3,"PLT","Lecture ",1,1,1,"Dr. M.M.P.M. Fernando",0.83
+"492",1621,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,1,1,"Prof. A.R. Kumarasinghe",3
+"493",1622,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,1,1,"Dr.W.K.I.L.Wanniarachchi",3
+"494",1623,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,1,1,"Mr.C.H. Manathunga",3
+"495",1624,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,1,"Practicals ","PHY 308 1.0","PHY","PHY 308 1.0 Practicals ",3,"P","Practicals ",1,1,1,"Dr. M.M.P.M. Fernando",3
+"496",1625,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,1,"Practicals ","PHY 308 1.0","PHY","PHY 308 1.0 Practicals ",3,"P","Practicals ",1,1,1,"Dr. S. Kandeepan",3
+"497",1627,"Physics ",1,1,0,0,"Tuesday ",08:55:00,09:45:00,1,"Nanophysics","PHY 318 1.0","PHY","PHY 318 1.0 Nanophysics",3,"PLT ","Lecture ",1,1,1,"Prof. A.R. Kumarasinghe",0.83
+"498",1630,"Physics ",1,1,0,0,"Tuesday ",15:00:00,16:00:00,1,"Astronomy","PHY 314 1.0","PHY","PHY 314 1.0 Astronomy",3,"PLT ","Lecture ",1,1,1,"Dr. CR Munasinghe",1
+"499",1633,"Physics ",1,1,0,0,"Tuesday ",16:00:00,17:00:00,1,"Industrial Physics","PHY 312 1.0","PHY","PHY 312 1.0 Industrial Physics",3,"PLT ","Lecture ",1,1,1,"Dr. D.A.S. Amarasinghe",1
+"500",1636,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Prof. A.R. Kumarasinghe",3.08
+"501",1637,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Dr.W.K.I.L.Wanniarachchi",3.08
+"502",1638,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Mr.C.H. Manathunga",3.08
+"503",1639,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,1,"Practicals ","PHY 308 1.0","PHY","PHY 308 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Dr. M.M.P.M. Fernando",3.08
+"504",1640,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,1,"Practicals ","PHY 308 1.0","PHY","PHY 308 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Dr. S. Kandeepan",3.08
+"505",1642,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Prof. A.R. Kumarasinghe",3
+"506",1643,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Dr.W.K.I.L.Wanniarachchi",3
+"507",1644,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Mr.C.H. Manathunga",3
+"508",1645,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,1,"Practicals ","PHY 308 1.0","PHY","PHY 308 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Dr. M.M.P.M. Fernando",3
+"509",1646,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,1,"Practicals ","PHY 308 1.0","PHY","PHY 308 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Dr. S. Kandeepan",3
+"510",1648,"Physics ",1,1,0,0,"Wednesday ",16:00:00,17:00:00,1,"Introduction to Computer Hardware ","PHY 311 1.0","PHY","PHY 311 1.0 Introduction to Computer Hardware ",3,"UDG Lab ","Lecture ",1,1,1,"Mr. KS Mannathunga",1
+"511",1651,"Physics ",1,1,0,0,"Thursday ",08:55:00,12:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Prof. A.R. Kumarasinghe",3.08
+"512",1652,"Physics ",1,1,0,0,"Thursday ",08:55:00,12:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Dr.W.K.I.L.Wanniarachchi",3.08
+"513",1653,"Physics ",1,1,0,0,"Thursday ",08:55:00,12:00:00,1,"Practicals ","PHY 307 1.0","PHY","PHY 307 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Mr.C.H. Manathunga",3.08
+"514",1654,"Physics ",1,1,0,0,"Thursday ",08:55:00,12:00:00,1,"Practicals ","PHY 308 1.0","PHY","PHY 308 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Dr. M.M.P.M. Fernando",3.08
+"515",1655,"Physics ",1,1,0,0,"Thursday ",08:55:00,12:00:00,1,"Practicals ","PHY 308 1.0","PHY","PHY 308 1.0 Practicals ",3,"P","Practicals ",1,0,1,"Dr. S. Kandeepan",3.08
+"516",1660,"Physics ",1,1,0,0,"Tuesday ",08:00:00,08:50:00,1,"Metrology","PHY 315 1.0","PHY","PHY 315 1.0 Metrology",3,"Activity Room - Physics","Lecture ",0,1,1,"Dr. G.W.C. Wijayasundara",0.83
+"517",1663,"Physics ",1,1,0,0,"Tuesday ",10:15:00,12:00:00,2,"Nuclear Physics","PHY 358 2.0","PHY","PHY 358 2.0 Nuclear Physics",3,"Activity Room - Physics","Lecture ",0,1,1,"Prof. P.K.D.D.P. Pitigala",1.75
+"518",1666,"Physics ",1,1,0,0,"Wednesday ",08:55:00,12:00:00,2,"Geophysics II","PHY 357 2.0","PHY","PHY 357 2.0 Geophysics II",3,"Activity Room - Physics","Lecture ",0,1,1,"Prof. N.G.S.S. Gamage",3.08
+"519",1669,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,4,"Practicals ","PHY 355 4.0","PHY","PHY 355 4.0 Practicals ",3,"P","Practicals",0,1,1,"Prof. N.G.S.S. Gamage",3
+"520",1670,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,4,"Practicals ","PHY 355 4.0","PHY","PHY 355 4.0 Practicals ",3,"P","Practicals",0,1,1,"Dr. W.W.P. De Silva",3
+"521",1672,"Physics ",1,1,0,0,"Thursday ",08:55:00,12:00:00,4,"Practicals ","PHY 355 4.1","PHY","PHY 355 4.1 Practicals ",3,"P","Practicals",0,1,1,"Prof. N.G.S.S. Gamage",3.08
+"522",1673,"Physics ",1,1,0,0,"Thursday ",08:55:00,12:00:00,4,"Practicals ","PHY 355 4.1","PHY","PHY 355 4.1 Practicals ",3,"P","Practicals",0,1,1,"Dr. W.W.P. De Silva",3.08
+"523",1675,"Physics ",1,1,0,0,"Thursday ",08:55:00,12:00:00,4,"Practicals ","PHY 355 4.2","PHY","PHY 355 4.2 Practicals ",3,"P","Practicals",0,1,1,"Prof. N.G.S.S. Gamage",3.08
+"524",1676,"Physics ",1,1,0,0,"Thursday ",08:55:00,12:00:00,4,"Practicals ","PHY 355 4.2","PHY","PHY 355 4.2 Practicals ",3,"P","Practicals",0,1,1,"Dr. W.W.P. De Silva",3.08
+"525",1678,"Physics ",1,1,0,0,"Friday ",08:00:00,12:00:00,2,"Solid State Physics II","PHY 356 2.0","PHY","PHY 356 2.0 Solid State Physics II",3,"Activity Room - Physics","Lecture ",0,1,1,"Dr. D.N. Jayawardane",4
+"526",1681,"Physics ",1,1,0,0,"Friday ",13:00:00,16:00:00,2,"Workshop Training","PHY 360 2.0","PHY","PHY 360 2.0 Workshop Training",3,NA,"Lecture ",0,1,1,"Prof. P.K.D.D.P. Pitigala",3
+"527",1684,"Physics ",1,1,0,0,"Monday ",13:00:00,16:00:00,2,"Seminar 2 Activities","PHY 459 2.0","PHY","PHY 459 2.0 Seminar 2 Activities",4,"Activity Room - Physics","Lecture ",0,1,1,"Dr. W.W.P. De Silva",3
+"528",1687,"Physics ",1,1,0,0,"Tuesday ",08:55:00,12:00:00,3,"Quantum Mechanics II","PHY 456 3.0","PHY","PHY 456 3.0 Quantum Mechanics II",4,"SLH - Physics","Lecture ",0,1,1,"Dr. S. Kandeepan",3.08
+"529",1690,"Physics ",1,1,0,0,"Tuesday ",13:00:00,16:00:00,2,"Space and Atmospheric Physics","PHY 458 2.0","PHY","PHY 458 2.0 Space and Atmospheric Physics",4,"UDG Lab","Lecture ",0,1,1,"Dr. M.M.P.M. Fernando",3
+"530",1693,"Physics ",1,1,0,0,"Wednesday ",13:00:00,16:00:00,2,"Seminar 2 Activities","PHY 459 2.0","PHY","PHY 459 2.0 Seminar 2 Activities",4,"Activity Room - Physics","Lecture ",0,1,1,"Dr. W.W.P. De Silva",3
+"531",1696,"Physics ",1,1,0,0,"Friday ",08:55:00,12:00:00,2,"Particle Physics and Instrumentation","PHY 457 2.0","PHY","PHY 457 2.0 Particle Physics and Instrumentation",4,"SLH - Physics","Lecture ",0,1,1,"Dr. W.W.P. De Silva",3.08
