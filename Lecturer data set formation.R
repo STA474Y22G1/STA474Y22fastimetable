@@ -26,6 +26,11 @@ lecturer_data$Starting.Time<-hms(hours = as.numeric(substr(lecturer_data$Startin
 lecturer_data$Ending.Time<-hms(hours = as.numeric(substr(lecturer_data$Ending.Time, start = 1, stop = 2)),
                                minutes=as.numeric(substr(lecturer_data$Ending.Time, start = 4, stop = 5)))
 
+## Creating lecture duration variable
+
+lecturer_data$`Lecturing Hours`<-difftime(lecturer_data$Ending.Time, lecturer_data$Starting.Time, units="hours") %>%
+  as.numeric() %>% round(2)
+
 
 
 
