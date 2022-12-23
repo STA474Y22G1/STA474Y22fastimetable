@@ -6,11 +6,15 @@ library(hms)
 
 ## Data 
 timetable_cleaned_data<-read.csv("timetable_cleaned_data.csv", na.strings=c("","NA")) %>% as_tibble()
-View(timetable_cleaned_data)
+
 
 ## Data Wrangling
 lecturer_data<-timetable_cleaned_data %>% drop_na(Lecturer.in.Charge)  %>% 
   filter(Lecturer.in.Charge!="All") %>%rename(`Lecturer in Charge`=Lecturer.in.Charge)
+
+
+#exporting data (needed for plot 1)
+write.csv(lecturer_data,"lecturer_data.csv")
 
 View(lecturer_data)
 ######################################################################################
@@ -26,6 +30,8 @@ lecturer_data$Starting.Time<-hms(hours = as.numeric(substr(lecturer_data$Startin
 lecturer_data$Ending.Time<-hms(hours = as.numeric(substr(lecturer_data$Ending.Time, start = 1, stop = 2)),
                                minutes=as.numeric(substr(lecturer_data$Ending.Time, start = 4, stop = 5)))
 
+########################################################################################33
+
 ## Creating lecture duration variable
 
 lecturer_data$`Lecturing Hours`<-difftime(lecturer_data$Ending.Time, lecturer_data$Starting.Time, units="hours") %>%
@@ -35,9 +41,10 @@ lecturer_data$`Lecturing Hours`<-difftime(lecturer_data$Ending.Time, lecturer_da
 lecturer_data$`Time Slot`<-paste(lecturer_data$Starting.Time, "-", lecturer_data$Ending.Time)
 
 ## lecturer dataset
+write.csv(lecturer_data,"lecturer_data.csv")
 
 
-######################################################################################################
+##############################################################################################################
 
 ## Grouping lecturers
 grouped_data<-lecturer_data %>% group_by(Day,`Lecturer in Charge`, Department, `Time Slot`) %>%
@@ -47,5 +54,8 @@ grouped_data<-lecturer_data %>% group_by(Day,`Lecturer in Charge`, Department, `
 
 lecturer_stat_data<-grouped_data %>% group_by(`Lecturer in Charge`, Department) %>%
   summarise(`Total Number of Courses`=sum(Course.Number), `Total Lecture Hours`=sum(Lecture.Hours))
+
+## lecturer statistic dataset (neede for plot 2)
+write.csv(lecturer_stat_data,"lecturer_stat_data.csv")
 
 

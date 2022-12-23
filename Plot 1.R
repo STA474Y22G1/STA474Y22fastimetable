@@ -4,7 +4,7 @@ library(dplyr)
 library(hrbrthemes)
 
 library(tidyverse)
-data <- lecturer_data %>% filter(Department=="Physics") %>% filter(Day=="Monday")
+data <- lecturer_data %>% filter(Department=="Sports Science") %>% filter(Day=="Monday")
 
 data %>%
   ggplot(aes(x = `Lecturer in Charge`)) +
@@ -25,4 +25,6 @@ data %>%
                  size = 1.5, alpha = 0.25) +
   geom_point(aes(y = Starting.Time), colour = "#CB5416") +
   geom_point(aes(y = Ending.Time), colour = "#267266") +
-  coord_flip() 
+  coord_flip()   
+
+
