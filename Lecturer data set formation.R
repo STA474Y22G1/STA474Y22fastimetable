@@ -5,11 +5,18 @@ library(chron)
 library(hms)
 
 ## Data 
-timetable_cleaned_data<-read.csv("timetable_cleaned_data.csv", na.strings=c("","NA")) %>% as_tibble()
+timetable_cleaned_data<-read.csv("timetable_cleaned_data.csv", na.strings=c("","NA"))  %>% as_tibble()
 
+timetable_cleaned_data$StripD<- trimws(timetable_cleaned_data$Day, which = c("both")) 
+
+timetable_cleaned_data<-subset(timetable_cleaned_data, select = -c(Day)) %>%
+  rename(Day=StripD)
+
+unique(timetable_cleaned_data$Day)
+View(timetable_cleaned_data)
 
 ## Data Wrangling
-lecturer_data<-timetable_cleaned_data %>% drop_na(Lecturer.in.Charge)  %>% 
+lecturer_data<-timetable_cleaned_data %>% drop_na(Lecturer.in.Charge)%>% 
   filter(Lecturer.in.Charge!="All") %>%rename(`Lecturer in Charge`=Lecturer.in.Charge)
 
 
@@ -30,7 +37,7 @@ lecturer_data$Starting.Time<-hms(hours = as.numeric(substr(lecturer_data$Startin
 lecturer_data$Ending.Time<-hms(hours = as.numeric(substr(lecturer_data$Ending.Time, start = 1, stop = 2)),
                                minutes=as.numeric(substr(lecturer_data$Ending.Time, start = 4, stop = 5)))
 
-########################################################################################33
+########################################################################################
 
 ## Creating lecture duration variable
 
