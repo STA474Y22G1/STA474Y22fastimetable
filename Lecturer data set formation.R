@@ -5,25 +5,16 @@ library(chron)
 library(hms)
 
 ## Data 
-timetable_cleaned_data<-read.csv("timetable_cleaned_data.csv", na.strings=c("","NA"))  %>% as_tibble()
+timetable_cleaned_data<-read_csv("timetable_cleaned_data.csv")
 
 timetable_cleaned_data$StripD<- trimws(timetable_cleaned_data$Day, which = c("both")) 
 
 timetable_cleaned_data<-subset(timetable_cleaned_data, select = -c(Day)) %>%
   rename(Day=StripD)
 
-unique(timetable_cleaned_data$Day)
-View(timetable_cleaned_data)
-
-## Data Wrangling
 lecturer_data<-timetable_cleaned_data %>% drop_na(Lecturer.in.Charge)%>% 
-  filter(Lecturer.in.Charge!="All") %>%rename(`Lecturer in Charge`=Lecturer.in.Charge)
+  filter(Lecturer.in.Charge!="All") %>%rename(`Lecturer in Charge`=Lecturer.in.Charge) %>% drop_na(Day)
 
-
-#exporting data (needed for plot 1)
-write.csv(lecturer_data,"lecturer_data.csv")
-
-View(lecturer_data)
 ######################################################################################
 
 ## Converting time variables
