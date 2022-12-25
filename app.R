@@ -10,8 +10,8 @@ library(readr)
 
 
 
-#data - Tab4 
-lecturer_data<-read_csv("lecturer_data.csv") 
+#data - Tab4
+lecturer_data<-read_csv("lecturer_data.csv")
 lecturer_stat_data<-read_csv("lecturer_stat_data.csv")
 ###################################################################################################
 
@@ -24,9 +24,9 @@ ui <- dashboardPage(
     )),
   dashboardBody(
     box(width=12,
-        selectInput("Day", label = h4("Select Day (Only for Lecturer Availability)"), 
+        selectInput("Day", label = h4("Select Day (Only for Lecturer Availability)"),
                     choices = c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday")),
-        selectInput("Department", label = h4("Select Department"), 
+        selectInput("Department", label = h4("Select Department"),
                     choices = unique(lecturer_data$Department))),
     fluidRow(
       box(plotlyOutput("plot1", height = 400))
@@ -40,10 +40,16 @@ ui <- dashboardPage(
 
 server <- function(input, output) {
   output$plot1<- renderPlotly({
-    lecturer_data <- lecturer_data %>%  filter(Department==input$Department) %>% filter(Day==input$Day) 
-    fig <- plot_ly(data = lecturer_data, color = I("gray80")) %>% add_segments(x = ~Starting.Time, xend = ~Ending.Time, y = ~`Lecturer in Charge`, yend = ~`Lecturer in Charge`, showlegend = FALSE) %>%
-      add_markers(x = ~Starting.Time, y = ~`Lecturer in Charge`, name = "Starting Time", color = I("pink")) %>%
-      add_markers(x = ~Ending.Time, y = ~`Lecturer in Charge`, name = "Ending Time", color = I("blue")) %>%
+    lecturer_data <- lecturer_data %>% filter(Department==input$Department) %>% filter(Day==input$Day)
+    fig <- plot_ly(data = lecturer_data, color = I("grey38"),text = ~n,
+                   textposition = "auto",
+                   hoverinfo = "text",
+                   hovertext = paste("Course :", lecturer_data$Course,
+                                     "<br> Lecture Time :", lecturer_data$`Time Slot`,
+                                     "<br> Academic Year :" , lecturer_data$Academic.Year)) %>%
+       add_segments(x = ~Starting.Time, xend = ~Ending.Time, y = ~`Lecturer in Charge`, yend = ~`Lecturer in Charge`, showlegend = FALSE) %>%
+      add_markers(x = ~Starting.Time, y = ~`Lecturer in Charge`, name = "Starting Time", color = I("#882255")) %>%
+      add_markers(x = ~Ending.Time, y = ~`Lecturer in Charge`, name = "Ending Time", color = I("#0072B2")) %>%
       layout(
         title = "Lecturer Availability",
         xaxis = list(title = "Lecture Time",categoryorder = "category ascending"),
@@ -60,7 +66,7 @@ server <- function(input, output) {
       layout(legend = list (x =0.06, y= 0.95, title=list(text='Total Number of '))) %>%
       layout(title=list(text="Lecturer Drivers", size=14),
              xaxis = list(title = "Lecturer", tickangle=45, dtick = "M1") ,
-             yaxis = list(title = "Total Count")) 
+             yaxis = list(title = "Total Count"))
   })
 }
 
