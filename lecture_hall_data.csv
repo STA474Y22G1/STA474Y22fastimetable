@@ -1,0 +1,35 @@
+Lecture Hall,Description,Seating Capacity,Proportion
+A1,Zoology Auditorium,200,0.058377116
+B1,Botany Auditorium,120,0.03502627
+B2,Botany Lecture Theatre 1,100,0.029188558
+B3,Botany Lecture Theatre 2,50,0.014594279
+C1,Chemistry Lecture Theatre 1,250,0.072971395
+C2,Chemistry Lecture Theatre 2,150,0.043782837
+C3,Chemistry Lecture Theatre 3,50,0.014594279
+C5,Chemistry Lecture Theatre 5,50,0.014594279
+F1,Forestry Auditorium,50,0.014594279
+F2,Forestry Lecture Theatre 2,250,0.072971395
+F3,Forestry Lecture Theatre 3,30,0.008756567
+M1,Mathematics Lecture Theatre 1,85,0.024810274
+M2,Mathematics Lecture Theatre 2,100,0.029188558
+NFC1,New Faculty Complex (First Floor),40,0.011675423
+NFC2,New Faculty Complex (First Floor),100,0.029188558
+NFC3,New Faculty Complex (Second Floor),140,0.040863981
+NFC4,New Faculty Complex (Third Floor),150,0.043782837
+NFC5,New Faculty Complex (Mini Auditorium),40,0.011675423
+NFC6,New Faculty Complex (Fifth Floor),80,0.023350846
+PLT,Physics Lecture Theatre ,200,0.058377116
+S1,Science Auditorium,600,0.175131349
+Stat Lab,New Faculty Complex (Third Floor) Lab ,40,0.011675423
+Stat Lab2,New Faculty Complex (Third Floor) Lab 2 ,20,0.005837712
+LCS1,New Faculty Complex (Second Floor) Lab 1,100,0.029188558
+LCS2,New Faculty Complex (Second Floor) Lab 2,50,0.014594279
+SLH - Botany,Special Lecture Hall - Botany,30,0.008756567
+SCR,Smart Classroom,30,0.008756567
+BLC,,60,0.017513135
+SP - Forestry,,30,0.008756567
+BLT,Biology Lecture Theatre,60,0.017513135
+UDG Lab,,30,0.008756567
+Activity Room - Physics,Activity Room - Physics,100,0.029188558
+SLH - Physics,Special Lecture Hall - Physics,25,0.00729714
+SRL - Mathematics,Special Lecture Hall - Mathematics,16,0.004670169
