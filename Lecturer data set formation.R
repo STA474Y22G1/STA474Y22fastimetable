@@ -6,27 +6,14 @@ library(hms)
 
 ## Data 
 timetable_cleaned_data<-read_csv("timetable_cleaned_data.csv")
+View(lecturer_data)
 
-timetable_cleaned_data$StripD<- trimws(timetable_cleaned_data$Day, which = c("both")) 
+timetable_cleaned_data$Day<- trimws(timetable_cleaned_data$Day, which = c("both")) 
 
-timetable_cleaned_data<-subset(timetable_cleaned_data, select = -c(Day)) %>%
-  rename(Day=StripD)
-
-lecturer_data<-timetable_cleaned_data %>% drop_na(Lecturer.in.Charge)%>% 
+lecturer_data<-timetable_cleaned_data %>% drop_na(Lecturer.in.Charge)%>% drop_na(Day) %>%
   filter(Lecturer.in.Charge!="All") %>%rename(`Lecturer in Charge`=Lecturer.in.Charge) %>% drop_na(Day)
 
 ######################################################################################
-
-## Converting time variables
-
-# Starting time
-lecturer_data$Starting.Time<-hms(hours = as.numeric(substr(lecturer_data$Starting.Time, start = 1, stop = 2)),
-                                 minutes=as.numeric(substr(lecturer_data$Starting.Time, start = 4, stop = 5)))
-
-
-#Ending time
-lecturer_data$Ending.Time<-hms(hours = as.numeric(substr(lecturer_data$Ending.Time, start = 1, stop = 2)),
-                               minutes=as.numeric(substr(lecturer_data$Ending.Time, start = 4, stop = 5)))
 
 ########################################################################################
 
@@ -37,6 +24,7 @@ lecturer_data$`Lecturing Hours`<-difftime(lecturer_data$Ending.Time, lecturer_da
 
 ## Making time slot variable
 lecturer_data$`Time Slot`<-paste(lecturer_data$Starting.Time, "-", lecturer_data$Ending.Time)
+
 
 ## lecturer dataset
 write.csv(lecturer_data,"lecturer_data.csv")
