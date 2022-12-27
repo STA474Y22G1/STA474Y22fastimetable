@@ -72,7 +72,7 @@ server <- function(input, output) {
                                       "<br> Location :" , data()$Location)) %>%
       layout(
         title = "Lecturer Availability",
-        xaxis = list(title = "Lecture Time",categoryorder = "category ascending", type = 'date',tickformat = "%H:%M ",
+        xaxis = list(title = "Lecture Time",tickangle=45,categoryorder = "category ascending", type = 'date',tickformat = "%H:%M ",
                      rangebreaks=
                        list(bounds=list(18, 8),
                             pattern="hour"),dtick=60*60*1000),
