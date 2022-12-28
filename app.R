@@ -63,8 +63,9 @@ ui <- dashboardPage(
                                          inline = TRUE),
                       
                       # user input for academic year
-                      selectInput("Academic.Year", "Academic Year", choices = c(1,2,3,4))
-                  ),
+                      selectInput("Academic.Year", "Academic Year", choices = c(1,2,3,4)),
+                      
+                 ),
                   
                       # 1st visualization
                       box(plotlyOutput("viz1", height = 300), width = 8) 
@@ -96,7 +97,8 @@ dataSet2 <- reactive({
     plot1 <- dataSet2() %>% ggplot(aes(label1 = Course, 
                                        label2 = Lecturer.in.charge,
                                        label3 = Lecture.Time,
-                                       label4 = Location)) + 
+                                       label4 = Degree.Type,
+                                       label5 = Location)) + 
       geom_linerange(aes(x = Starting.Time, xmin = Starting.Time, 
                          xmax = Ending.Time, y = Day, color = Subject.Code), 
                    linewidth = 2, position = position_dodge(0.5)) +
@@ -108,7 +110,7 @@ dataSet2 <- reactive({
       
     
     # interactive plot
-    ggplotly(plot1, tooltip = c("label1", "label2", "label3", "label4")) 
+    ggplotly(plot1, tooltip = c("label1", "label2", "label3", "label4", "label5")) 
   })
   
 }
