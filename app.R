@@ -6,6 +6,7 @@ library(shiny)
 library(tidyverse)
 library(magrittr)
 library(plotly)
+library(shinyWidgets)
 
 
 ## loading data in github
@@ -38,17 +39,28 @@ Degree.Type <- ifelse(dataSet1$General == 1 & dataSet1$Special == 0, "General",
                              "General & Special"))
 dataSet1 <- dataSet1 %>% mutate(Degree.Type = Degree.Type)
 
+# to remove select all option in pickerInput function 
+my_css <- "
+.bs-select-all {
+  display: none;
+}
+.bs-deselect-all {
+  width: 100%;
+}
+"
 
 ## user interface
 ui <- dashboardPage(
+  
     dashboardHeader(),
+    
     dashboardSidebar(
       sidebarMenu(
         menuItem("Course View", tabName = "course_view",
                            icon = icon(name = "book", lib="glyphicon"))
         )
-      
     ),
+    
     dashboardBody(
       tabItems(
         tabItem(tabName = "course_view",
@@ -58,29 +70,38 @@ ui <- dashboardPage(
                       width = 4,
                       
                       # user input for subject
-                      checkboxGroupInput("Subject.Code", "Subject (You can choose more than one subject)", 
-                                         choices = sort(unique(dataSet1$Subject.Code)), 
-                                         inline = TRUE),
+                      tags$head(tags$style(HTML(my_css))),
+                      
+                      pickerInput(
+                        inputId = "Subject.Code",
+                        label = "Subject", 
+                        choices = sort(unique(dataSet1$Subject.Code)),
+                        options = list(`actions-box` = TRUE, size = 5),
+                        multiple = TRUE
+                      ),
                       
                       # user input for academic year
-                      selectInput("Academic.Year", "Academic Year", choices = c(1,2,3,4)),
-                      
-                 ),
-                  
+                      pickerInput(
+                        inputId = "Academic.Year",
+                        label = "Academic Year", 
+                        choices = c(1,2,3,4))
+                  ),
                       # 1st visualization
-                      box(plotlyOutput("viz1", height = 300), width = 8) 
+                      box(plotlyOutput("viz1", height = 300), width = 8)
+              ),
+           )
         )
-      )
     )
-  )
 )
+
+
 
 
 ## server function
 server <- function(input, output){
   
-  # data set used for 1st visualization
-dataSet2 <- reactive({
+    # data set used for 1st visualization
+    dataSet2 <- reactive({
     
     # message to display when subject not selected
     validate(need(input$Subject.Code != "", "Please Select a Subject and Academic Year"))
