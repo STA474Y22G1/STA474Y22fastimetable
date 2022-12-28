@@ -32,6 +32,12 @@ dataSet1 <- dataSet1 %>% mutate("Time Ended" = format(as.POSIXct(dataSet1$Ending
                                                     format = '%H:%M'))
 dataSet1 <- dataSet1 %>% unite("Lecture.Time", c("Time Started", "Time Ended"), sep = "-")
 
+# creating new column for degree type
+Degree.Type <- ifelse(dataSet1$General == 1 & dataSet1$Special == 0, "General", 
+                      ifelse(dataSet1$General == 0 & dataSet1$Special == 1, "Special",
+                             "General & Special"))
+dataSet1 <- dataSet1 %>% mutate(Degree.Type = Degree.Type)
+
 
 ## user interface
 ui <- dashboardPage(
