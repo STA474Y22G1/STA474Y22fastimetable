@@ -1,35 +1,35 @@
-Lecture Hall,Description,Seating Capacity
-A1,Zoology Auditorium,200
-B1,Botany Auditorium,120
-B2,Botany Lecture Theatre 1,100
-B3,Botany Lecture Theatre 2,50
-C1,Chemistry Lecture Theatre 1,250
-C2,Chemistry Lecture Theatre 2,150
-C3,Chemistry Lecture Theatre 3,50
-C4,Chemistry Lecture Theatre 4,40
-F1,Forestry Auditorium,50
-F2,Forestry Lecture Theatre 2,250
-F3,Forestry Lecture Theatre 3,30
-M1,Mathematics Lecture Theatre 1,85
-M2,Mathematics Lecture Theatre 2,100
-NFC2,New Faculty Complex (First Floor),100
-NFC3,New Faculty Complex (Second Floor),140
-NFC4,New Faculty Complex (Third Floor),150
-NFC5,New Faculty Complex (Mini Auditorium),40
-NFC6,New Faculty Complex (Fifth Floor),80
-PLT,Physics Lecture Theatre ,200
-S1,Science Auditorium,600
-Stat Lab,New Faculty Complex (Third Floor) Lab ,40
-Stat Lab2,New Faculty Complex (Third Floor) Lab 2 ,20
-LCS1,New Faculty Complex (Second Floor) Lab 1,100
-LCS2,New Faculty Complex (Second Floor) Lab 2,50
-SLH - Botany,Special Lecture Hall - Botany,30
-SCR,Smart Classroom,30
-BLC,,60
-SP - Forestry,,30
-BLT,Biology Lecture Theatre,60
-UDG Lab,,30
-Activity Room - Physics,Activity Room - Physics,100
-SLH - Physics,Special Lecture Hall - Physics,25
-SRL - Mathematics,Special Lecture Hall - Mathematics,16
-L2,Unknown physics,40
+Lecture Hall,Description,Seating Capacity,Bussiest Day,,,
+A1,Zoology Auditorium,200,Monday,,,
+B1,Botany Auditorium,120,Tuesday & Thursday,,,
+B2,Botany Lecture Theatre 1,100,Monday,,,
+B3,Botany Lecture Theatre 2,50,Tuesday,,,
+C1,Chemistry Lecture Theatre 1,250,Tuesday,,,
+C2,Chemistry Lecture Theatre 2,150,Tuesday & Thursday,,,
+C3,Chemistry Lecture Theatre 3,50,Monday,,,
+C4,Chemistry Lecture Theatre 4,40,"Monday, Tuesday & Wednesday",,,
+F1,Forestry Auditorium,50,Thursday,,,
+F2,Forestry Lecture Theatre 2,250,Tuesday,,,
+F3,Forestry Lecture Theatre 3,30,Thursday,,,
+M1,Mathematics Lecture Theatre 1,85,"Tuesday, Friday & Wednesday",,,
+M2,Mathematics Lecture Theatre 2,100,Monday & Wednesday,,,
+NFC2,New Faculty Complex (First Floor),100,Friday,,,
+NFC3,New Faculty Complex (Second Floor),140,Monday,,,
+NFC4,New Faculty Complex (Third Floor),150,Wednesday,,,
+NFC5,New Faculty Complex (Mini Auditorium),40,Monday,,,
+NFC6,New Faculty Complex (Fifth Floor),80,Monday & Wednesday,,,
+PLT,Physics Lecture Theatre ,200,Monday,,,
+S1,Science Auditorium,600,Wednesday,,,
+Stat Lab,New Faculty Complex (Third Floor) Lab ,40,Monday,,,
+Stat Lab2,New Faculty Complex (Third Floor) Lab 2 ,20,Thursday,,,
+LCS1,New Faculty Complex (Second Floor) Lab 1,100,Monday & Tuesday,,,
+LCS2,New Faculty Complex (Second Floor) Lab 2,50,Thursday,,,
+SLH - Botany,Special Lecture Hall - Botany,30,Monday,,,
+SCR,Smart Classroom,30,Monday,,,
+BLC,,60,Tuesday,,,
+SP - Forestry,,30,Thursday,,,
+BLT,Biology Lecture Theatre,60,Wednesday,,,
+UDG Lab,,30,Tuesday,,,
+Activity Room - Physics,Activity Room - Physics,100,Wednesday,,,
+SLH - Physics,Special Lecture Hall - Physics,25,Tuesday & Friday,,,
+SRL - Mathematics,Special Lecture Hall - Mathematics,16,Wednesday,,,
+L2,Unknown physics,40,Wednesday & Thursday,,,

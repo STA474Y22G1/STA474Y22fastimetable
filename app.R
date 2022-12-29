@@ -20,10 +20,20 @@ lecture_counts <- timetable_data %>%
   filter(!is.na(Location) & Location != "Online" & Location != "O" & Location != "P" & Location != "T") %>%
   group_by(Location) %>%
   summarise(`Lecture count` = n_distinct(`Course Code`)) %>%
-  rename(`Lecture Hall` = Location)
+  rename(`Lecture Hall` = Location) 
 
 # Combine lecture_counts data set and data_halls data set
 lecture_hall_data <- full_join(lecture_hall_data, lecture_counts, by = "Lecture Hall")
+
+# Bussiest Day/s of the lecture hall
+Bussiest <- availabilty_data %>%
+  group_by(Location, Day) %>% 
+  summarise(count_slots = sum(Availability)) %>% 
+  filter(count_slots == max(count_slots))  %>%
+  mutate(`Bussiest Day` = Day) 
+
+# lecture_hall_data data set was updated using the above data
+
 
 # Creating the color palette
 set.seed(34) # Set random seed
@@ -62,6 +72,11 @@ ui <- dashboardPage(
 
 
 server <- function(input, output, session) {
+  data <- reactive({
+    filter(availabilty_data,
+           Location == input$opt)
+  })
+  
   # Treemap
   output$treemap <- renderPlotly({
     plot_ly(
@@ -85,9 +100,14 @@ server <- function(input, output, session) {
         y = ~Day,
         z = ~Availability,
         colors = colorRamp(c("#d5ebdd", "#a7aba9")), 
-        type = "heatmap", 
-        showscale = FALSE) %>% 
-      layout(yaxis = list(categoryorder="trace")) %>% 
+        type = "heatmap",
+        xgap = 0.5,
+        ygap = 0.5,
+        showscale = FALSE, 
+        hoverinfo = "text",
+        hovertemplate = "<br> Day: %{x} <br> Time Slot: %{y} <extra></extra>") %>% 
+      layout(yaxis = list(categoryorder="trace"),
+             xaxis = list(categoryorder="trace")) %>% 
       layout(title="Lecture Hall Availability", 
              xaxis=list(title="Time Slot"), yaxis=list(title="Day of the Week")) %>%
       layout(hoverlabel = list(bgcolor = "white",
@@ -109,21 +129,11 @@ server <- function(input, output, session) {
   # KPI 2
   # Busiest Days of the Lecture Hall
   output$kpi_2 <- renderValueBox({
-    option_kpi2 <- availabilty_data %>%
-      filter(Location == input$opt) %>%
-      group_by(Day) %>% 
-      summarise(count_slots = sum(Availability)) %>% 
-      filter(count_slots == max(count_slots)) %>%
-      select(Day)
+    option_kpi2 <- lecture_hall_data %>%
+      filter(`Lecture Hall` == input$opt) 
     
-    if(length(option_kpi2$Day == 1)){
-      string_value = option_kpi2$Day
-    }else{
-      string_value = "More than one busy dates" 
-    }
-    
-    valueBox(value = string_value,
-             subtitle = "Busiest Days of the Lecture Hall",
+    valueBox(value = option_kpi2$`Bussiest Day`,
+             subtitle = "Busiest Day/s of the Lecture Hall",
              color = "navy")
   })
   
