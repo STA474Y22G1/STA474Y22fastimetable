@@ -72,7 +72,7 @@ server <- function(input, output) {
                                       "<br> Location :" , data()$Location)) %>%
       layout(
         title = "Lecturer Availability",
-        xaxis = list(title = "Lecture Time",tickangle=45,categoryorder = "category ascending", type = 'date',tickformat = "%H:%M ",
+        xaxis = list(title = "Lecture Time",tickangle=-45,categoryorder = "category ascending", type = 'date',tickformat = "%H:%M ",
                      rangebreaks=
                        list(bounds=list(18, 8),
                             pattern="hour"),dtick=60*60*1000),
@@ -89,7 +89,7 @@ server <- function(input, output) {
       layout(hovermode = "x unified") %>%
       layout(legend = list (x =0.95, y= 0.95, title=list(text='Total Number of '))) %>%
       layout(title=list(text="Lecturer Drivers"),
-             xaxis = list(title = "Lecturer", tickangle=45) ,
+             xaxis = list(title = "Lecturer", tickangle=-45) ,
              yaxis = list(title = "Total Count"))
   })
 }
