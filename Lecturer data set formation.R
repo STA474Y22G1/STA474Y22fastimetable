@@ -20,7 +20,7 @@ lecturer_data<-timetable_cleaned_data %>% drop_na(Lecturer.in.Charge)%>% drop_na
 ## Creating lecture duration variable
 
 lecturer_data$`Lecturing Hours`<-difftime(lecturer_data$Ending.Time, lecturer_data$Starting.Time, units="hours") %>%
-  as.numeric() %>% round(2)
+  as.numeric() %>% round(0)
 
 ## Making time slot variable
 lecturer_data$`Time Slot`<-paste(lecturer_data$Starting.Time, "-", lecturer_data$Ending.Time)
