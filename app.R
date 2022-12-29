@@ -34,10 +34,13 @@ dataSet1 <- dataSet1 %>% mutate("Time Ended" = format(as.POSIXct(dataSet1$Ending
 dataSet1 <- dataSet1 %>% unite("Lecture.Time", c("Time Started", "Time Ended"), sep = "-")
 
 # creating new column for degree type
-Degree.Type <- ifelse(dataSet1$General == 1 & dataSet1$Special == 0, "General", 
-                      ifelse(dataSet1$General == 0 & dataSet1$Special == 1, "Special",
-                             "General & Special"))
-dataSet1 <- dataSet1 %>% mutate(Degree.Type = Degree.Type)
+dataSet1 <- dataSet1 %>% pivot_longer(c("General", "Special"), "Degree.Type", "value") %>%
+            filter(value == 1)
+
+## creating final data set for course view
+courseViewData <- dataSet1 %>% select(-c(Index, Physical, Bio, Food, Sports.Science,
+                                         Number.of.Credits, Course.Title, Course.Code,
+                                         Semester.Half, value))
 
 # to remove select all option in pickerInput function 
 my_css <- "
@@ -65,9 +68,7 @@ ui <- dashboardPage(
       tabItems(
         tabItem(tabName = "course_view",
                 fluidRow(
-                  box(title = "Select Filters",
-                      solidHeader = TRUE,
-                      width = 4,
+                  box(width = 4,
                       
                       # user input for subject
                       tags$head(tags$style(HTML(my_css))),
@@ -76,6 +77,7 @@ ui <- dashboardPage(
                         inputId = "Subject.Code",
                         label = "Subject", 
                         choices = sort(unique(dataSet1$Subject.Code)),
+                        selected = "AMT",
                         options = list(`actions-box` = TRUE, size = 5),
                         multiple = TRUE
                       ),
