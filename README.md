@@ -1,1 +1,0 @@
-# STA474Y22fastimetable
