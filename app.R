@@ -9,7 +9,7 @@ library(randomcoloR)
 # Read data files
 timetable_data <- read_csv("timetable_data.csv")
 lecture_hall_data <- read_csv("lecture_hall_data.csv")
-availabilty_data <- read_csv("DataSet_for_Lecture_Hall_View.csv")
+availabilty_data <- read_csv("hall_availability_data.csv")
 
 # Lecture halls character vector
 lecture_halls_names <- unique(availabilty_data$Location)
