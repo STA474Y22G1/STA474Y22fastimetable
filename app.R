@@ -10,7 +10,7 @@ library(shinyWidgets)
 
 
 ## loading data in github
-mainData <- read_csv("Final_TimeTable_Data.csv")
+mainData <- read_csv("Course_Data.csv")
 
 ## preparing data sets for 1st visualization
 dataSet1 <- mainData
@@ -70,70 +70,93 @@ ui <- dashboardPage(
                 fluidRow(
                   box(width = 4,
                       
-                      # user input for subject
+                      ## user input 1 degree
+                      selectInput(
+                        inputId = "Degree.Type",
+                        label = "Select Degree", 
+                        choices = unique(courseViewData$Degree.Type)),
+                      
+                      ## user input 2 year
+                      selectInput(
+                        inputId = "Academic.Year",
+                        label = "Select Academic Year", 
+                        choices = NULL),
+                      
+                      ## user input 3 subject
                       tags$head(tags$style(HTML(my_css))),
                       
                       pickerInput(
                         inputId = "Subject.Code",
-                        label = "Subject", 
-                        choices = sort(unique(dataSet1$Subject.Code)),
-                        selected = "AMT",
+                        label = "Select Subject", 
+                        choices = NULL,
                         options = list(`actions-box` = TRUE, size = 5),
                         multiple = TRUE
-                      ),
+                      )
                       
-                      # user input for academic year
-                      pickerInput(
-                        inputId = "Academic.Year",
-                        label = "Academic Year", 
-                        choices = c(1,2,3,4))
-                  ),
-                      # 1st visualization
-                      box(plotlyOutput("viz1", height = 300), width = 8)
-              ),
+                    ),
+                  
+                  # 1st visualization
+                  box(plotlyOutput("viz1", height = 300), width = 8)
            )
-        )
-    )
+         )
+      )
+   )
 )
 
 
 
-
 ## server function
-server <- function(input, output){
+server <- function(input, output, session){
   
-    # data set used for 1st visualization
-    dataSet2 <- reactive({
+  # updating filters
+  degree <- reactive({
+    req(input$Degree.Type)
+    filter(courseViewData, Degree.Type == input$Degree.Type)
+  })
+  
+  year <- reactive({
+    req(input$Academic.Year)
+    filter(degree(), Academic.Year == input$Academic.Year)
+  })
+  
+  subject <- reactive({
     
     # message to display when subject not selected
-    validate(need(input$Subject.Code != "", "Please Select a Subject and Academic Year"))
+    validate(need(input$Subject.Code != "", "Please Select a Subject"))
     
-    # filtering data based on user inputs
-    dataSet1 %>% filter(Subject.Code %in% input$Subject.Code) %>%
-                 filter(Academic.Year == input$Academic.Year)
- })
+    req(input$Subject.Code)
+    filter(year(), Subject.Code %in% input$Subject.Code)
+  })
   
-
-    # Visualization 1
+  # observing event to update next filter
+  observeEvent(degree(), {
+    updateSelectInput(session, "Academic.Year", 
+                      choices = sort(unique(degree()$Academic.Year)), selected = 1)
+  })
+  
+  observeEvent(year(), {
+    updatePickerInput(session, "Subject.Code", 
+                      choices = sort(unique(year()$Subject.Code)), selected = c("STA","FST"))
+  })
+  
+  # Visualization 1
   output$viz1 <- renderPlotly({
     
-    plot1 <- dataSet2() %>% ggplot(aes(label1 = Course, 
-                                       label2 = Lecturer.in.charge,
-                                       label3 = Lecture.Time,
-                                       label4 = Degree.Type,
-                                       label5 = Location)) + 
+    plot1 <- subject() %>% ggplot(aes(label1 = Course, 
+                                   label2 = Lecturer.in.charge,
+                                   label3 = Lecture.Time,
+                                   label4 = Location)) + 
       geom_linerange(aes(x = Starting.Time, xmin = Starting.Time, 
                          xmax = Ending.Time, y = Day, color = Subject.Code), 
-                   linewidth = 2, position = position_dodge(0.5)) +
+                     linewidth = 2, position = position_dodge(0.5)) +
       geom_point(aes(Starting.Time, Day, color = Subject.Code), position = position_dodge(0.5)) +
       geom_point(aes(Ending.Time, Day, color = Subject.Code), position = position_dodge(0.5)) +
       scale_x_datetime(name = "Time", date_labels = "%H:%M", date_breaks = "1 hour") +
-      theme(axis.text.x = element_text(angle = 45)) + 
+      theme(axis.text.x = element_text(angle = 45), plot.title = element_text(hjust = 0.5)) + 
       labs(title = "Lecture Hours", color = "Subject") 
-      
     
     # interactive plot
-    ggplotly(plot1, tooltip = c("label1", "label2", "label3", "label4", "label5")) 
+    ggplotly(plot1, tooltip = c("label1", "label2", "label3", "label4")) 
   })
   
 }
