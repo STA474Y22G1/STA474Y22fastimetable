@@ -58,15 +58,19 @@ ui <- dashboardPage(
     dashboardHeader(),
     
     dashboardSidebar(
-      sidebarMenu(
-        menuItem("Course View", tabName = "course_view",
-                           icon = icon(name = "book", lib="glyphicon"))
+        sidebarMenu(
+        menuItem(" Course View", tabName = "course_view",
+                           icon = icon(name = "book", lib="glyphicon"),
+                  menuSubItem(" Lecture View", tabName = "lecture_view",
+                             icon = icon(name = "hand-right", lib="glyphicon")),
+                   menuSubItem(" Course Finder", tabName = "course_finder",
+                    icon = icon(name = "hand-right", lib="glyphicon")))
         )
     ),
     
     dashboardBody(
       tabItems(
-        tabItem(tabName = "course_view",
+        tabItem(tabName = "lecture_view",
                 fluidRow(
                   box(width = 4,
                       
@@ -98,7 +102,8 @@ ui <- dashboardPage(
                   # 1st visualization
                   box(plotlyOutput("viz1", height = 300), width = 8)
            )
-         )
+         ),
+        tabItem(tabName = "course_finder", h2('course finder tab'))
       )
    )
 )
@@ -153,10 +158,12 @@ server <- function(input, output, session){
       geom_point(aes(Ending.Time, Day, color = Subject.Code), position = position_dodge(0.5)) +
       scale_x_datetime(name = "Time", date_labels = "%H:%M", date_breaks = "1 hour") +
       theme(axis.text.x = element_text(angle = 45), plot.title = element_text(hjust = 0.5)) + 
+      theme_bw() +
       labs(title = "Lecture Hours", color = "Subject") 
     
     # interactive plot
-    ggplotly(plot1, tooltip = c("label1", "label2", "label3", "label4")) 
+    ggplotly(plot1, tooltip = c("label1", "label2", "label3", "label4"))
+      
   })
   
 }
