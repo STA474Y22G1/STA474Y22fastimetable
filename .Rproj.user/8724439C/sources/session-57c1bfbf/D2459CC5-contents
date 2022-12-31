@@ -6,3 +6,11 @@ View(course_data)
 course_data %>% filter(Lecture.Type=="Lecture")
 
 
+## Grouping lecturers
+grouped_data<-lecturer_data %>% group_by(Day,`Lecturer in Charge`, Department, `Time Slot`) %>%
+  summarise(a=length(Course), b= sum(`Lecturing Hours`)) %>%
+  mutate(Course.Number=ifelse(a==1,a,1)) %>%
+  mutate(Lecture.Hours=ifelse(a==1,b,b/a))
+
+lecturer_stat_data<-grouped_data %>% group_by(`Lecturer in Charge`, Department) %>%
+  summarise(`Total Number of Courses`=sum(Course.Number), `Total Lecture Hours`=sum(Lecture.Hours))
