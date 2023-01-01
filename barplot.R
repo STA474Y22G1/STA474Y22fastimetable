@@ -12,11 +12,11 @@ View(data)
 unique(data)
 #barplot
 dep <- data %>% filter(Department=="All") 
-fig <- plot_ly(dep, x = ~Day, y = ~Total.Number.of.Lectures, type = 'bar',
+plot_ly(dep, x = ~Day, y = ~Total.Number.of.Lectures, type = 'bar',
                marker = list(color = '#CF1A7A')) %>%
   layout(
     title = "Distribution of Lectures by Day",
     xaxis = list(title = "Day",tickangle=-45,categoryorder = "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday") ,
     yaxis = list(title = "Total Number of Lectures") 
   )
-fig
+
