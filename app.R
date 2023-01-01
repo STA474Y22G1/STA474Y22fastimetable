@@ -9,14 +9,21 @@ library(plotly)
 
 overview_data <- read.csv("overview_data.csv")
 overview_data$Day <- ordered(overview_data$Day, c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))
-data1<-overview_data %>%filter(Department=="Äll")
+
 
 
 ui <- dashboardPage(
   dashboardHeader(title="FAS Timetable"),
-  dashboardSidebar(),
+  dashboardSidebar(
+    sidebarMenu(
+      menuItem("Overview", tabName = "Overview",
+               icon = icon(name = "eye-open", lib="glyphicon")),
+      selectInput("Department", label = h4("Select Department"),
+                  choices = sort(unique(data$Department)))
+  )),
   dashboardBody(
-    box(plotlyOutput("plot1"), width=12, height=400)
+    box(plotlyOutput("plot1", height=300),width=12)
+    
     
     
   )
@@ -24,7 +31,8 @@ ui <- dashboardPage(
 
 server <- function(input, output){
   output$plot1<- renderPlotly({
-    plot_ly(data1, x = ~Day, y = ~Total.Number.of.Lectures, type = 'bar',
+    overview_data<-filter(overview_data,Department==input$Department)
+    plot_ly(overview_data, x = ~Day, y = ~Total.Number.of.Lectures, type = 'bar',
             marker = list(color = '#CF1A7A')) %>%
       layout(
         title = "Distribution of Lectures by Day",
