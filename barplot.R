@@ -1,0 +1,22 @@
+library(readr)
+
+# Library
+library(ggplot2)
+library(dplyr)
+library(hrbrthemes)
+library(plotly)
+library(readr)
+data<-read.csv("overview_data.csv")
+data$Day <- ordered(data$Day, c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))
+View(data)
+unique(data)
+#barplot
+dep <- data %>% filter(Department=="All") 
+plot_ly(dep, x = ~Day, y = ~Total.Number.of.Lectures, type = 'bar',
+               marker = list(color = '#CF1A7A')) %>%
+  layout(
+    title = "Distribution of Lectures by Day",
+    xaxis = list(title = "Day",tickangle=-45,categoryorder = "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday") ,
+    yaxis = list(title = "Total Number of Lectures") 
+  )
+
