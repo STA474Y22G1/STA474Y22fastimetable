@@ -93,7 +93,7 @@ ui <- dashboardPage(
                       
                       pickerInput(
                         inputId = "Subject.Code",
-                        label = "Select Subject", 
+                        label = "Select Subject/s", 
                         choices = NULL,
                         options = list(`actions-box` = TRUE, size = 5),
                         multiple = TRUE
