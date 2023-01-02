@@ -19,7 +19,7 @@ ui <- dashboardPage(
       menuItem("Overview", tabName = "Overview",
                icon = icon(name = "eye-open", lib="glyphicon")),
       selectInput("Department", label = h4("Select Department"),
-                  choices = sort(unique(data$Department)))
+                  choices = sort(unique(overview_data$Department)))
   )),
   dashboardBody(
     box(plotlyOutput("plot1", height=300),width=12)
@@ -31,7 +31,7 @@ ui <- dashboardPage(
 
 server <- function(input, output){
   output$plot1<- renderPlotly({
-    overview_data<-filter(overview_data,Department==input$Department)
+    overview_data<-overview_data %>% filter(Department==input$Department)
     plot_ly(overview_data, x = ~Day, y = ~Total.Number.of.Lectures, type = 'bar',
             marker = list(color = '#CF1A7A')) %>%
       layout(
