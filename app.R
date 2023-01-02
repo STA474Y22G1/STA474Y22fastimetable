@@ -7,8 +7,8 @@ library(plotly)
 
 #data 
 
-overview_data <- read.csv("overview_data.csv")
-overview_data$Day <- ordered(overview_data$Day, c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))
+overview_data1 <- read.csv("overview_data1.csv")
+overview_data1$Day <- ordered(overview_data1$Day, c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))
 
 
 
@@ -19,7 +19,7 @@ ui <- dashboardPage(
       menuItem("Overview", tabName = "Overview",
                icon = icon(name = "eye-open", lib="glyphicon")),
       selectInput("Department", label = h4("Select Department"),
-                  choices = sort(unique(overview_data$Department)))
+                  choices = sort(unique(overview_data1$Department)))
   )),
   dashboardBody(
     box(plotlyOutput("plot1", height=300),width=6)
@@ -31,8 +31,8 @@ ui <- dashboardPage(
 
 server <- function(input, output){
   output$plot1<- renderPlotly({
-    overview_data<-overview_data %>% filter(Department==input$Department)
-    plot_ly(overview_data, x = ~Day, y = ~Total.Number.of.Lectures, type = 'bar',
+    overview_data1<-overview_data1 %>% filter(Department==input$Department)
+    plot_ly(overview_data1, x = ~Day, y = ~Total.Number.of.Lectures, type = 'bar',
             marker = list(color = '#CF1A7A')) %>%
       layout(
         title = "Distribution of Lectures by Day",
