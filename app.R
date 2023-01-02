@@ -22,7 +22,7 @@ ui <- dashboardPage(
                   choices = sort(unique(overview_data$Department)))
   )),
   dashboardBody(
-    box(plotlyOutput("plot1", height=300),width=12)
+    box(plotlyOutput("plot1", height=300),width=6)
     
     
     
