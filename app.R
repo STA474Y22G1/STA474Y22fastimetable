@@ -10,7 +10,13 @@ library(plotly)
 overview_data1 <- read.csv("overview_data1.csv")
 overview_data1$Day <- ordered(overview_data1$Day, c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))
 
-
+overview_kpi_data <- read.csv("Course_Data2.csv")
+df1 <- overview_kpi_data %>%
+  filter(Department == "Statistics") %>%
+  filter(Lecture.Type == "Lecture") %>%
+  group_by(Academic.Year) %>%
+  select(Academic.Year, Course.Code) %>%
+  summarise(Course.Count = n_distinct(Course.Code))
 
 ui <- dashboardPage(
   dashboardHeader(title="FAS Timetable"),
@@ -40,6 +46,11 @@ server <- function(input, output){
         yaxis = list(title = "Total Number of Lectures") 
       )
   })
+  
+  # KPIs
+  overview_kpi_data <- overview_kpi_data %>%
+    filter(Department == input$Department) %>%
+    
 }
 
 shinyApp(ui, server)
