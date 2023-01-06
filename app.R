@@ -74,7 +74,8 @@ ui <- dashboardPage(
       tabItems(
         tabItem(tabName = "course_view",
                 fluidRow(
-                  box(width = 4,
+                  box(width = 3,
+                      height = 270,
                       
                       ## user input 1 degree
                       selectInput(
@@ -102,15 +103,15 @@ ui <- dashboardPage(
                     ),
                   
                   # 1st visualization
-                  box(plotlyOutput("viz1", height = 250), width = 8),
+                  box(plotlyOutput("viz1", height = 250), width = 9, height = 270),
                   
                   # Course finder table
-                  box(dataTableOutput("CourseData", height = 250), width = 12)
+                  box(dataTableOutput("CourseData"), width = 12))
            )
          )
       )
-   )
 )
+
 
 
 
@@ -131,7 +132,7 @@ server <- function(input, output, session){
   subject <- reactive({
     
     # message to display when subject not selected
-    validate(need(input$Subject.Code != "", "Please Select a Subject"))
+    validate(need(input$Subject.Code != "", "Please Select a Subject/s"))
     
     req(input$Subject.Code)
     filter(year(), Subject.Code %in% input$Subject.Code)
@@ -152,8 +153,7 @@ server <- function(input, output, session){
   output$viz1 <- renderPlotly({
     
     plot1 <- subject() %>% ggplot(aes(label1 = Course, 
-                                      label2 = Lecture.Time,
-                                      label3 = Location)) + 
+                                      label2 = Lecture.Time)) + 
       geom_linerange(aes(x = Starting.Time, xmin = Starting.Time, 
                          xmax = Ending.Time, y = Day, color = Subject.Code), 
                      linewidth = 2, position = position_dodge(0.5)) +
@@ -165,7 +165,7 @@ server <- function(input, output, session){
       labs(title = "Lecture Hours", color = "Subject") 
     
     # interactive plot
-    ggplotly(plot1, tooltip = c("label1", "label2", "label3"))
+    ggplotly(plot1, tooltip = c("label1", "label2"))
       
   })
   
@@ -173,25 +173,25 @@ server <- function(input, output, session){
   # Data set for course finder
   course <- reactive({
     subject() %>% filter(Lecture.Type == "Lecture") %>% 
-      select(Department, Stream, Course.Code, Course.Title, 
-             Lecturer.in.charge) %>%
-      distinct(Course.Code, Course.Title, .keep_all = TRUE)
+      select(Department, Stream, Day, Lecture.Time,  Course.Code, Course.Title, 
+             Lecturer.in.charge, Location) 
   })
   
   
   # Course finder table
   output$CourseData <- renderDataTable(course(),
                                        options = list(paging = TRUE,
-                                                      pageLength = 4,
-                                                      dom = 'tip'),
-                                       colnames = c('Course Code' = 'Course.Code',
+                                                      pageLength = 5,
+                                                      dom = 'ftip'),
+                                       colnames = c('Lecture Time' = 'Lecture.Time',
+                                                    'Course Code' = 'Course.Code',
                                                     'Course Title' = 'Course.Title',
                                                     'Lecturer in Charge' = 'Lecturer.in.charge'),
                                        caption = htmltools::tags$caption(
                                          style = 'caption-side: top; text-align: left; font-style: normal; 
                                          color: black; font-family: arial; font-size: 1.8rem;',
                                          htmltools::em('Course Finder'))
-                                       )
+  )
   
   
 }
