@@ -10,13 +10,30 @@ library(plotly)
 overview_data1 <- read.csv("overview_data1.csv")
 overview_data1$Day <- ordered(overview_data1$Day, c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))
 
+# data set for KPIs
 overview_kpi_data <- read.csv("Course_Data2.csv")
-df1 <- overview_kpi_data %>%
-  filter(Department == "Statistics") %>%
+academic_kpi_data <- overview_kpi_data %>%
   filter(Lecture.Type == "Lecture") %>%
-  group_by(Academic.Year) %>%
-  select(Academic.Year, Course.Code) %>%
+  group_by(Department, Academic.Year) %>%
+  select(Department, Academic.Year, Course.Code) %>%
   summarise(Course.Count = n_distinct(Course.Code))
+
+all_kpi <- academic_kpi_data %>% group_by(Academic.Year) %>%
+  summarise(Course.Count = sum(Course.Count)) 
+
+all_department <- data.frame(Department = c("All", "All", "All", "All"),
+                             Academic.Year = c(1,2,3,4))
+
+all_kpi <- left_join(all_department, all_kpi, by = "Academic.Year")
+
+cs_df <- data.frame(Department = "Computer Science", Academic.Year = 4, 
+                    Course.Count = 0)
+
+academic_kpi_data <- bind_rows(academic_kpi_data, cs_df)
+academic_kpi_data <- bind_rows(academic_kpi_data, all_kpi)
+
+
+
 
 ui <- dashboardPage(
   dashboardHeader(title="FAS Timetable"),
@@ -28,7 +45,21 @@ ui <- dashboardPage(
                   choices = sort(unique(overview_data1$Department)))
   )),
   dashboardBody(
-    box(plotlyOutput("plot1", height=300),width=6)
+    fluidRow( 
+      #kp1
+      valueBoxOutput("overview_kpi_1", width=3),
+      
+      #kpi2
+      valueBoxOutput("overview_kpi_2", width=3),
+      
+      #kpi3
+      valueBoxOutput("overview_kpi_3", width=3), 
+      
+      #kpi4
+      valueBoxOutput("overview_kpi_4", width=3), 
+      
+      box(plotlyOutput("plot1", height=450),width=6))
+   
     
     
     
@@ -48,8 +79,49 @@ server <- function(input, output){
   })
   
   # KPIs
-  overview_kpi_data <- overview_kpi_data %>%
-    filter(Department == input$Department) %>%
+  # KPI 1
+  # Number of lectures for 1st year
+  output$overview_kpi_1 <- renderValueBox({
+    option_kpi1 <- academic_kpi_data %>%
+      filter(Department == input$Department & Academic.Year == 1) 
+    
+    valueBox(value = option_kpi1$Course.Count,
+             subtitle = "Number of lectures for 1st year",
+             color = "purple")
+  })
+  
+  # KPI 2
+  # Number of lectures for 2nd year
+  output$overview_kpi_2 <- renderValueBox({
+    option_kpi2 <- academic_kpi_data %>%
+      filter(Department == input$Department & Academic.Year == 2) 
+    
+    valueBox(value = option_kpi2$Course.Count,
+             subtitle = "Number of lectures for 2nd year",
+             color = "purple")
+  })
+  
+  # KPI 3
+  # Number of lectures for 3rd year
+  output$overview_kpi_3 <- renderValueBox({
+    option_kpi3 <- academic_kpi_data %>%
+      filter(Department == input$Department & Academic.Year == 3) 
+    
+    valueBox(value = option_kpi3$Course.Count,
+             subtitle = "Number of lectures for 3rd year",
+             color = "purple")
+  })
+  
+  # KPI 4
+  # Number of lectures for 4th year
+  output$overview_kpi_4 <- renderValueBox({
+    option_kpi4 <- academic_kpi_data %>%
+      filter(Department == input$Department & Academic.Year == 4) 
+    
+    valueBox(value = option_kpi4$Course.Count,
+             subtitle = "Number of lectures for 4th year",
+             color = "purple")
+  })
     
 }
 
