@@ -14,6 +14,9 @@ availabilty_data <- read_csv("hall_availability_data.csv")
 # Lecture halls character vector
 lecture_halls_names <- unique(availabilty_data$Location)
 
+availabilty_data$Day <- ordered(availabilty_data$Day,
+                                c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))
+
 # Dataset for KPIs
 # Number of lectures per week
 lecture_counts <- timetable_data %>% 
@@ -44,9 +47,14 @@ color_palette
 # Shiny app
 ui <- dashboardPage(
   dashboardHeader(title="FAS Timetable 2022"),
-  dashboardSidebar(width=200,
-                   sidebarMenu(h3(HTML("Lecture Halls")))
-  ),
+  dashboardSidebar(
+    width=200,
+    sidebarMenu(
+      menuItem("Lecture Halls", tabName = "Lecture Hall View",
+               icon = icon(name = "home", lib="glyphicon"))
+              # icon = icon(name ="fa-thin fa-landmark", "font-awesome"))
+    )),
+
   dashboardBody(
       # Treemap 
       box(plotlyOutput("treemap", height = 1000)),
@@ -93,25 +101,40 @@ server <- function(input, output, session) {
   
   # Heetmap
   output$heatmap <- renderPlotly({
-   availabilty_data %>%
+   # availabilty_data %>%
+   #    filter(Location == input$opt) %>%
+   #    plot_ly(
+   #      x = ~TimeSlot, 
+   #      y = ~Day,
+   #      z = ~Availability,
+   #      colors = colorRamp(c("#d5ebdd", "#a7aba9")), 
+   #      type = "heatmap",
+   #      xgap = 0.5,
+   #      ygap = 0.5,
+   #      showscale = FALSE, 
+   #      hoverinfo = "text",
+   #      hovertemplate = "<br> Day: %{x} <br> Time Slot: %{y} <extra></extra>") %>% 
+   #    layout(yaxis = list(categoryorder="trace"),
+   #           xaxis = list(categoryorder="trace")) %>% 
+   #    layout(title="Lecture Hall Availability", 
+   #           xaxis=list(title="Time Slot"), yaxis=list(title="Day of the Week")) %>%
+   #    layout(hoverlabel = list(bgcolor = "white",
+   #                             font = list(color = "black"))) 
+
+    
+    x = melt(cor(iris[,1:4]))    
+    p1 <- availabilty_data %>%
       filter(Location == input$opt) %>%
-      plot_ly(
-        x = ~TimeSlot, 
-        y = ~Day,
-        z = ~Availability,
-        colors = colorRamp(c("#d5ebdd", "#a7aba9")), 
-        type = "heatmap",
-        xgap = 0.5,
-        ygap = 0.5,
-        showscale = FALSE, 
-        hoverinfo = "text",
-        hovertemplate = "<br> Day: %{x} <br> Time Slot: %{y} <extra></extra>") %>% 
-      layout(yaxis = list(categoryorder="trace"),
-             xaxis = list(categoryorder="trace")) %>% 
-      layout(title="Lecture Hall Availability", 
-             xaxis=list(title="Time Slot"), yaxis=list(title="Day of the Week")) %>%
-      layout(hoverlabel = list(bgcolor = "white",
-                               font = list(color = "black"))) 
+      mutate(Day = as.factor(Day)) %>%
+      ggplot(aes(TimeSlot, Day, fill = Availability)) +
+      geom_tile() +
+      scale_fill_continuous(breaks = 0:1,labels = c("Vacant", "Occupied")) 
+      
+    
+    ggplotly(p1) %>% layout(title="Lecture Hall Availability", 
+                                      xaxis=list(title="Time Slot"), yaxis=list(title="Day of the Week")) %>%
+                               layout(hoverlabel = list(bgcolor = "white",
+                                                        font = list(color = "black"))) 
 
       }) 
   
@@ -123,7 +146,9 @@ server <- function(input, output, session) {
     
     valueBox(value = option_kpi1$`Lecture count`,
              subtitle = "Number of lectures per week",
-             color = "blue")
+             # color = "blue")
+             color = "teal")
+    # red, yellow, aqua, blue, light-blue, green, navy, teal, olive, lime, orange, fuchsia, purple, maroon, black
   })
   
   # KPI 2
@@ -134,8 +159,9 @@ server <- function(input, output, session) {
     
     valueBox(value = option_kpi2$`Bussiest Day`,
              subtitle = "Busiest Day/s of the Lecture Hall",
-             color = "navy")
-  })
+             color = "olive")
+            
+    })
   
 }
 
