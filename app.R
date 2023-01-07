@@ -120,9 +120,7 @@ server <- function(input, output, session) {
    #           xaxis=list(title="Time Slot"), yaxis=list(title="Day of the Week")) %>%
    #    layout(hoverlabel = list(bgcolor = "white",
    #                             font = list(color = "black"))) 
-
     
-    x = melt(cor(iris[,1:4]))    
     p1 <- availabilty_data %>%
       filter(Location == input$opt) %>%
       mutate(Day = as.factor(Day)) %>%
