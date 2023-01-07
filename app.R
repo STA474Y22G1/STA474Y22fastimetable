@@ -71,9 +71,9 @@ ui <- dashboardPage(
         
       # KPI 2
       valueBoxOutput("kpi_2", width = 6),
-        
+      
       # Heetmap
-      box(plotlyOutput("heatmap", height = 588))  
+      box(plotOutput("heatmap", height = 588))
       )
   )
 )
@@ -100,7 +100,7 @@ server <- function(input, output, session) {
       })
   
   # Heetmap
-  output$heatmap <- renderPlotly({
+  output$heatmap <- renderPlot({
    # availabilty_data %>%
    #    filter(Location == input$opt) %>%
    #    plot_ly(
@@ -121,19 +121,15 @@ server <- function(input, output, session) {
    #    layout(hoverlabel = list(bgcolor = "white",
    #                             font = list(color = "black"))) 
     
-    p1 <- availabilty_data %>%
+   availabilty_data %>%
       filter(Location == input$opt) %>%
       mutate(Day = as.factor(Day)) %>%
       ggplot(aes(TimeSlot, Day, fill = Availability)) +
-      geom_tile() +
-      scale_fill_continuous(breaks = 0:1,labels = c("Vacant", "Occupied")) 
-      
-    
-    ggplotly(p1) %>% layout(title="Lecture Hall Availability", 
-                                      xaxis=list(title="Time Slot"), yaxis=list(title="Day of the Week")) %>%
-                               layout(hoverlabel = list(bgcolor = "white",
-                                                        font = list(color = "black"))) 
-
+      geom_tile(color = "white", lwd = 1.0, linetype = 1) + 
+      coord_fixed() +
+      scale_fill_continuous(breaks = 0:1, labels = c("Vacant", "Occupied")) +
+      coord_fixed() +
+      labs(title = "Lecture Hall Availability")
       }) 
   
   # KPI 1
