@@ -7,33 +7,36 @@ library(randomcoloR)
 
 
 # Read data files
-timetable_data <- read_csv("timetable_data.csv")
+availabilty_data <- read_csv("availability_data.csv")
 lecture_hall_data <- read_csv("lecture_hall_data.csv")
-availabilty_data <- read_csv("hall_availability_data.csv")
 
-# Lecture halls character vector
-lecture_halls_names <- unique(availabilty_data$Location)
-
-availabilty_data$Day <- ordered(availabilty_data$Day,
-                                c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))
-
-# Dataset for KPIs
-# Number of lectures per week
-lecture_counts <- timetable_data %>% 
-  filter(!is.na(Location) & Location != "Online" & Location != "O" & Location != "P" & Location != "T") %>%
-  group_by(Location) %>%
-  summarise(`Lecture count` = n_distinct(`Course Code`)) %>%
-  rename(`Lecture Hall` = Location) 
-
-# Combine lecture_counts data set and data_halls data set
-lecture_hall_data <- full_join(lecture_hall_data, lecture_counts, by = "Lecture Hall")
-
-# Bussiest Day/s of the lecture hall
-Bussiest <- availabilty_data %>%
-  group_by(Location, Day) %>% 
-  summarise(count_slots = sum(Availability)) %>% 
-  filter(count_slots == max(count_slots))  %>%
-  mutate(`Bussiest Day` = Day) 
+# timetable_data <- read_csv("timetable_data.csv")
+# lecture_hall_data <- read_csv("lecture_hall_data.csv")
+# availabilty_data <- read_csv("hall_availability_data.csv")
+# 
+# # Lecture halls character vector
+# lecture_halls_names <- unique(availabilty_data$Location)
+# 
+# availabilty_data$Day <- ordered(availabilty_data$Day,
+#                                 c("Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"))
+# 
+# # Dataset for KPIs
+# # Number of lectures per week
+# lecture_counts <- timetable_data %>% 
+#   filter(!is.na(Location) & Location != "Online" & Location != "O" & Location != "P" & Location != "T") %>%
+#   group_by(Location) %>%
+#   summarise(`Lecture count` = n_distinct(`Course Code`)) %>%
+#   rename(`Lecture Hall` = Location) 
+# 
+# # Combine lecture_counts data set and data_halls data set
+# lecture_hall_data <- full_join(lecture_hall_data, lecture_counts, by = "Lecture Hall")
+# 
+# # Bussiest Day/s of the lecture hall
+# Bussiest <- availabilty_data %>%
+#   group_by(Location, Day) %>% 
+#   summarise(count_slots = sum(Availability)) %>% 
+#   filter(count_slots == max(count_slots))  %>%
+#   mutate(`Bussiest Day` = Day) 
 
 # lecture_hall_data data set was updated using the above data
 
@@ -101,25 +104,6 @@ server <- function(input, output, session) {
   
   # Heetmap
   output$heatmap <- renderPlot({
-   # availabilty_data %>%
-   #    filter(Location == input$opt) %>%
-   #    plot_ly(
-   #      x = ~TimeSlot, 
-   #      y = ~Day,
-   #      z = ~Availability,
-   #      colors = colorRamp(c("#d5ebdd", "#a7aba9")), 
-   #      type = "heatmap",
-   #      xgap = 0.5,
-   #      ygap = 0.5,
-   #      showscale = FALSE, 
-   #      hoverinfo = "text",
-   #      hovertemplate = "<br> Day: %{x} <br> Time Slot: %{y} <extra></extra>") %>% 
-   #    layout(yaxis = list(categoryorder="trace"),
-   #           xaxis = list(categoryorder="trace")) %>% 
-   #    layout(title="Lecture Hall Availability", 
-   #           xaxis=list(title="Time Slot"), yaxis=list(title="Day of the Week")) %>%
-   #    layout(hoverlabel = list(bgcolor = "white",
-   #                             font = list(color = "black"))) 
     
    availabilty_data %>%
       filter(Location == input$opt) %>%
