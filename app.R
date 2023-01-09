@@ -10,10 +10,7 @@ library(shinyWidgets)
 library(DT)
 
 ## loading data in github
-mainData <- read_csv("Course_Data.csv")
-
-## preparing data sets for 1st visualization
-dataSet1 <- mainData
+dataSet1 <- read_csv("Course_Data.csv")
 
 # converting Day as factor variable
 dataSet1$Day <- factor(dataSet1$Day, levels = c("Monday", "Tuesday", "Wednesday",
