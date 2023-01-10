@@ -157,7 +157,7 @@ server <- function(input, output, session){
       geom_point(aes(Starting.Time, Day, color = Subject.Code), position = position_dodge(0.5)) +
       geom_point(aes(Ending.Time, Day, color = Subject.Code), position = position_dodge(0.5)) +
       scale_x_datetime(name = "Time", date_labels = "%H:%M", date_breaks = "1 hour") +
-      theme(axis.text.x = element_text(angle = 45), plot.title = element_text(hjust = 0.5)) + 
+      theme(axis.text.x = element_text(angle = 45), plot.title = element_text(hjust = 0.5)) +
       theme_bw() +
       labs(title = "Lecture Hours", color = "Subject") 
     
